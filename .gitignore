@@ -1,0 +1,17 @@
+# KiCad Library specific ignores
+*.bak                     # Backup files created by KiCad (e.g., .kicad_sym.bak, .kicad_mod.bak)
+*~                        # Editor backup files (often Vim or other editors)
+*-cache.lib               # Legacy KiCad 5 symbol cache (less common in KiCad 6+)
+*.dcm                     # Legacy symbol documentation file (less common in KiCad 6+)
+*.cmp                     # Component association file (legacy)
+fp-info-cache/            # Footprint info cache folder (KiCad 6+ generates this)
+sym-info-cache/           # Symbol info cache folder (KiCad 7+ generates this)
+*.fplib                   # Legacy footprint library index file
+*.dcm.bak                 # Backup of legacy documentation files
+*.lib.bak                 # Backup of legacy symbol library files
+
+# Operating System specific files
+.DS_Store                 # macOS specific file
+Thumbs.db                 # Windows specific file
+ehthumbs.db
+Desktop.ini
