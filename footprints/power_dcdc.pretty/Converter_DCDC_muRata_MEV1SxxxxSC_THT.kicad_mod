@@ -1,0 +1,145 @@
+(footprint "Converter_DCDC_muRata_MEV1SxxxxSC_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "muRata MEV1SxxxxSC, 19.5x6.0x10.0mm, 3.0kVDC Isolated, 1W, single output, SIP package style, https://power.murata.com/data/power/ncl/kdc_mev1.pdf")
+	(tags "muRata MEV1S DCDC-Converter")
+	(property "Reference" "REF**"
+		(at 7.86 -3.72 180)
+		(layer "F.SilkS")
+		(uuid "2a88b91c-ed2e-4d9c-a054-5befb5f432d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_muRata_MEV1SxxxxSC_THT"
+		(at 7.5 8.7 0)
+		(layer "F.Fab")
+		(uuid "b933db4d-84c0-4ae4-bebc-aa31eecdba4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b652fb2-0147-4e4e-9141-b864d9fd5b1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "723dcf80-95ba-43a7-aeba-7f68dab60205")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.93 -1.13)
+		(end 17.57 4.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ab16dd1d-936d-497c-9c3b-579fa7d33f0e")
+	)
+	(fp_rect
+		(start -1.93 -1.13)
+		(end 17.57 4.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8227e2c9-f2b9-415a-80fe-89635a9cfc8a")
+	)
+	(fp_rect
+		(start -1.93 -1.13)
+		(end 17.57 4.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "27f715ee-eb28-4d40-8719-dced9d16ed51")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 2.23 180)
+		(layer "F.Fab")
+		(uuid "6afc7856-6a7d-4da9-824f-66ab9244abbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "005fd7e5-911e-40ce-9862-5161a57edfe8")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbc0b510-d108-414c-9491-11d6ce3427a0")
+	)
+	(pad "5" thru_hole oval
+		(at 10.16 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5750527-da37-4748-bb25-56d311d1ee9c")
+	)
+	(pad "7" thru_hole oval
+		(at 15.24 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "780d0734-12e8-48f2-9f04-92157ad62990")
+	)
+	(embedded_fonts no)
+	(model "${GITHUB_KICAD}/3dmodels/power_dcdc/mps_dcdc_mev1s_5&12&15&24vin_sc_a.step"
+		(offset
+			(xyz 0 0 -4.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
