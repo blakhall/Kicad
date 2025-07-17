@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "FF6MR12W2M1H"
+		(property "Part Number" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "infineon"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
