@@ -3742,31 +3742,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "yeon ho"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "SMW250-06"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
