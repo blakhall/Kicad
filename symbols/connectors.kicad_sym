@@ -2923,7 +2923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors:SMW250-03"
 			(at 0 0 0)
 			(effects
 				(font
