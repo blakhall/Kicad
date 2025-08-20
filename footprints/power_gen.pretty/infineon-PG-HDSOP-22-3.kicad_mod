@@ -6,9 +6,8 @@
 	(descr "Infineon_PG--LHDSO-10-2")
 	(tags "DSO DSO-10 SOIC SOIC-10")
 	(property "Reference" "REF**"
-		(at 0 -3.5 0)
+		(at -8.4 -8.2 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "75fb147a-48da-45c8-b920-163062e296ff")
 		(effects
 			(font

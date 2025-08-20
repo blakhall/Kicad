@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "etc:517-95AB"
 			(at 0.3048 0 0)
 			(effects
 				(font
