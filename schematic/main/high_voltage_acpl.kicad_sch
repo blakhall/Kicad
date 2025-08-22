@@ -7691,7 +7691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b52530ca-0704-4234-b6c9-f7974679c714")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 260.35 49.53 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 		(instances
 			(project "main"
 				(path "/c2b19439-a20b-4150-841d-8b30802ae42a/7c805ff4-e2df-435f-a46c-adda89079e75"
-					(reference "U6")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -8016,6 +8016,72 @@
 			(project "main"
 				(path "/c2b19439-a20b-4150-841d-8b30802ae42a/7c805ff4-e2df-435f-a46c-adda89079e75"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 200.66 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4626752-353a-47da-b6e5-44566f8140b6")
+		(property "Reference" "#PWR0101"
+			(at 200.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A+5V"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2548948d-7a94-4a79-8ebe-acfd74bbb20a")
+		)
+		(instances
+			(project "main"
+				(path "/c2b19439-a20b-4150-841d-8b30802ae42a/7c805ff4-e2df-435f-a46c-adda89079e75"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8555,6 +8621,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-5V")
+		(at 200.66 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ede77d-7b0d-456d-a5eb-a0b68511a80f")
+		(property "Reference" "#PWR0102"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A-5V"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5df0d1dd-e57f-4ac2-9563-5e14be5d3bd4")
+		)
+		(instances
+			(project "main"
+				(path "/c2b19439-a20b-4150-841d-8b30802ae42a/7c805ff4-e2df-435f-a46c-adda89079e75"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator_Analog:ACPL-C79A")
 		(at 99.06 53.34 0)
 		(unit 1)
@@ -8639,6 +8771,121 @@
 				(path "/c2b19439-a20b-4150-841d-8b30802ae42a/7c805ff4-e2df-435f-a46c-adda89079e75"
 					(reference "U5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:OPAMP_2CH")
+		(at 203.2 91.44 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3274b39-9187-4723-ba72-1866b0f359ca")
+		(property "Reference" "U6"
+			(at 201.93 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9362IDGKR"
+			(at 201.93 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manfacturer" ""
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "577944d0-c90e-484a-9cf5-cfa411fc6e41")
+		)
+		(pin "2"
+			(uuid "ff4b6afc-9198-493c-85a9-5e79d789c29f")
+		)
+		(pin "8"
+			(uuid "935e3c08-3c9a-45b9-9d9e-fd3bad2b62b0")
+		)
+		(pin "3"
+			(uuid "43704ba2-1936-4e29-b3ca-4615d3b43045")
+		)
+		(pin "5"
+			(uuid "7942c00d-fb8c-46a5-a761-4b9cd9ae2368")
+		)
+		(pin "7"
+			(uuid "0ffbb2cf-625f-4f71-956f-805aa1545a63")
+		)
+		(pin "4"
+			(uuid "35113ac7-ce08-4f6a-88e8-69a1a9ada416")
+		)
+		(pin "6"
+			(uuid "c5df394a-8ef2-4ead-85e9-77e999ad4cf8")
+		)
+		(instances
+			(project "main"
+				(path "/c2b19439-a20b-4150-841d-8b30802ae42a/7c805ff4-e2df-435f-a46c-adda89079e75"
+					(reference "U6")
+					(unit 3)
 				)
 			)
 		)
