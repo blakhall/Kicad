@@ -2400,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "Package_SON:VSON-8_1.5x2mm_P0.5mm"
 			(at 3.81 -8.89 0)
 			(effects
 				(font
@@ -2410,7 +2410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62843.pdf"
+		(property "Datasheet" ""
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -2419,7 +2419,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600mA Step-Down Converter with DCS-Control, ultra-low Iq, 1.8-5.5 Vin, 0.4-0.8 Vout, SOT-563"
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2460,7 +2487,7 @@
 			)
 		)
 		(symbol "TPS62840-DLC_1_1"
-			(pin power_in line
+			(pin passive line
 				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "VIN"
@@ -2478,8 +2505,26 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -2496,46 +2541,28 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 0 0)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "STOP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "VSET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(name "SW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2550,7 +2577,25 @@
 					)
 				)
 			)
-			(pin input line
+			(pin tri_state line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VOS"
@@ -2560,7 +2605,25 @@
 						)
 					)
 				)
-				(number "6"
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
