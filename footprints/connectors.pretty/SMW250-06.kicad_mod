@@ -132,7 +132,7 @@
 		(uuid "65743b0a-712f-4deb-85ae-3f2f6134f280")
 	)
 	(fp_line
-		(start -0.5 2.7)
+		(start -3 2.7)
 		(end 15.4 2.7)
 		(stroke
 			(width 0.05)
