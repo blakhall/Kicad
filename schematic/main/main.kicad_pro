@@ -669,6 +669,10 @@
     [
       "13a56a51-6857-4f45-b38a-7bb8c41dcda7",
       "power_mcu"
+    ],
+    [
+      "ba361264-03a8-4310-be3e-616e40dae308",
+      "MAX20801"
     ]
   ],
   "text_variables": {}
