@@ -328,7 +328,7 @@
 		(uuid "c9df1e5e-385e-4697-8b51-74393d96f14a")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/connectors/YW396_03.step"
+	(model "${KICAD_GITHUB}/3dmodels/connectors/YW396_03.step"
 		(offset
 			(xyz 10.4 0 0)
 		)

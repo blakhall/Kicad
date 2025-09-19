@@ -222,7 +222,7 @@
 		(uuid "df15ca9a-99cf-4032-b813-f77c8298b1b6")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/connectors/smw250-06_p2-5_l17-4_w5-8_h7.stp"
+	(model "${KICAD_GITHUB}/3dmodels/connectors/smw250-06_p2-5_l17-4_w5-8_h7.stp"
 		(offset
 			(xyz 6.22 0 0)
 		)

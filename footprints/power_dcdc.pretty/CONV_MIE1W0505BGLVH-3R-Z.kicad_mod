@@ -421,7 +421,7 @@
 		(uuid "36f4eb9b-cefd-4140-8f94-c28a488d61e9")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/power_dcdc/MIE1W0505BGLVH-3R-Z.step"
+	(model "${KICAD_GITHUB}/3dmodels/power_dcdc/MIE1W0505BGLVH-3R-Z.step"
 		(offset
 			(xyz 0 0 0)
 		)

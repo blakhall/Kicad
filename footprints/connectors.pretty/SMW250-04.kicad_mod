@@ -206,7 +206,7 @@
 		(uuid "92020bc8-a4aa-4e62-adad-98b6efa97c61")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/connectors/smw250-04_p2-5_l12-4_w5-8_h7.stp"
+	(model "${KICAD_GITHUB}/3dmodels/connectors/smw250-04_p2-5_l12-4_w5-8_h7.stp"
 		(offset
 			(xyz 3.75 0 0)
 		)
