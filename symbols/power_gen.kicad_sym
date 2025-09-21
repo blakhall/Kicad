@@ -999,6 +999,410 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "IPTC007N06NM5ATMA1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "IPTC007N06NM5ATMA1"
+			(at 34.29 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "power_gen:SOP120P1500X235-16N"
+			(at 34.29 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/iptc007n06nm5/"
+			(at 34.29 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 60 V 52A (Ta), 454A (Tc) 3.8W (Ta), 375W (Tc) Surface Mount PG-HDSOP-16-U01"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.35"
+			(at 34.29 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-TC007N06NM5ATMA1"
+			(at 34.29 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPTC007N06NM5ATMA1?qs=T%252BzbugeAwjgeD40rU3P5NA%3D%3D"
+			(at 34.29 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 34.29 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPTC007N06NM5ATMA1"
+			(at 34.29 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "IPTC007N06NM5ATMA1_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 33.02 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "SOURCE_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "SOURCE_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "SOURCE_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "SOURCE_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "SOURCE_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "SOURCE_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "SOURCE_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 0 180)
+				(length 5.08)
+				(name "DRAIN_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -2.54 180)
+				(length 5.08)
+				(name "DRAIN_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -5.08 180)
+				(length 5.08)
+				(name "DRAIN_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -7.62 180)
+				(length 5.08)
+				(name "DRAIN_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -10.16 180)
+				(length 5.08)
+				(name "DRAIN_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -12.7 180)
+				(length 5.08)
+				(name "DRAIN_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -15.24 180)
+				(length 5.08)
+				(name "DRAIN_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -17.78 180)
+				(length 5.08)
+				(name "DRAIN_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MAX20801TPBA+"
 		(exclude_from_sim no)
 		(in_bom yes)

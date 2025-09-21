@@ -1,0 +1,315 @@
+(footprint "SOP120P1500X235-16N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PG-HDSOP-16-U01")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f2daf06b-df55-41d6-9438-8ddb320bd026")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOP120P1500X235-16N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "272efb20-ee71-4137-ac12-04cdcd342b9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e864bf-cb71-41a8-b5c4-6b7fddd33fd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95115690-45c0-43a4-adc2-6a5a13057979")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8 -5.025)
+		(end -5.5 -5.025)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1055ada-4efe-4b8b-9c7e-b018741f25d9")
+	)
+	(fp_line
+		(start -5.15 -4.95)
+		(end 5.15 -4.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f73b91e-fe44-480d-9c4c-6eed8beb934e")
+	)
+	(fp_line
+		(start -5.15 4.95)
+		(end -5.15 -4.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d1e5633-eb08-4989-98e1-1607eafc6d12")
+	)
+	(fp_line
+		(start 5.15 -4.95)
+		(end 5.15 4.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90bff65c-0f79-46aa-8433-c8409ed1bae7")
+	)
+	(fp_line
+		(start 5.15 4.95)
+		(end -5.15 4.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76ef472c-0f51-4833-a544-07a9f7c86df2")
+	)
+	(fp_line
+		(start -8.25 -5.3)
+		(end 8.25 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df92ca60-9dee-4cee-bc18-4a80ee43bf22")
+	)
+	(fp_line
+		(start -8.25 5.3)
+		(end -8.25 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5ef0117-b04f-4d7f-b217-6869dd53b3b9")
+	)
+	(fp_line
+		(start 8.25 -5.3)
+		(end 8.25 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f485b098-3bbe-47c1-879f-ba333e857545")
+	)
+	(fp_line
+		(start 8.25 5.3)
+		(end -8.25 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b345118-cd6e-4107-86f8-2710dbfcbaff")
+	)
+	(fp_line
+		(start -5.075 -4.95)
+		(end 5.075 -4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "367120ec-90ec-483a-b9f5-ecae280c5320")
+	)
+	(fp_line
+		(start -5.075 -3.75)
+		(end -3.875 -4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cc6d21d-97b5-4a2b-bcf3-07616e177c2a")
+	)
+	(fp_line
+		(start -5.075 4.95)
+		(end -5.075 -4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3deba86-3523-4744-8d94-5513c261f9aa")
+	)
+	(fp_line
+		(start 5.075 -4.95)
+		(end 5.075 4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d3a6174-2cd2-4f19-a3a4-55d5ebd32c61")
+	)
+	(fp_line
+		(start 5.075 4.95)
+		(end -5.075 4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dc1f36d-79c5-49c8-b341-be18ec4d75f4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7cb89ac1-754f-432a-be26-ff262ac1e315")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.75 -4.2 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b718d162-2875-4343-a1cf-d09f9a6ae163")
+	)
+	(pad "2" smd rect
+		(at -6.75 -3 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69d20f27-68da-40ec-bf7a-4f6dc2fd971e")
+	)
+	(pad "3" smd rect
+		(at -6.75 -1.8 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dd02575f-898c-4c5f-a24b-41e6ef9a97fe")
+	)
+	(pad "4" smd rect
+		(at -6.75 -0.6 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e53be996-3098-4d60-a440-c6b9f088c0a3")
+	)
+	(pad "5" smd rect
+		(at -6.75 0.6 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cdd9e7f9-ab4b-4e93-bd27-f8d3be8e8cf5")
+	)
+	(pad "6" smd rect
+		(at -6.75 1.8 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0bf7012-a3b5-48ee-bc8b-e727531a5582")
+	)
+	(pad "7" smd rect
+		(at -6.75 3 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96cebe6f-5d09-48f7-9167-7d2278305805")
+	)
+	(pad "8" smd rect
+		(at -6.75 4.2 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a39b3ec7-39d1-4ecb-8586-9740d9cdc19d")
+	)
+	(pad "9" smd rect
+		(at 6.75 4.2 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07235091-695f-4549-8415-da7d0b5259c6")
+	)
+	(pad "10" smd rect
+		(at 6.75 3 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11d9cff7-e6e4-4927-b9ea-8c08be606301")
+	)
+	(pad "11" smd rect
+		(at 6.75 1.8 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "adf0c79a-9104-455c-b82a-8908d9192aa2")
+	)
+	(pad "12" smd rect
+		(at 6.75 0.6 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9996a4cf-c47f-4fff-9c97-84ec544398d7")
+	)
+	(pad "13" smd rect
+		(at 6.75 -0.6 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a89399ca-ab32-4137-a010-9642e6be569c")
+	)
+	(pad "14" smd rect
+		(at 6.75 -1.8 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "177f2f73-2a63-4c54-a44f-178a40ef2362")
+	)
+	(pad "15" smd rect
+		(at 6.75 -3 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42520cfd-9cd4-4187-81c5-041414784d88")
+	)
+	(pad "16" smd rect
+		(at 6.75 -4.2 90)
+		(size 0.95 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "849592d1-f663-4e7a-9298-dac8d7edd9b7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_GITHUB}/3dmodels/power_gen/infineon-pg-hdsop-16-8-3d-12-stp-package-en.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
