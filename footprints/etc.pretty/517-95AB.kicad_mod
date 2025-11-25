@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Heat Sink"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -48,6 +48,30 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Wakefield Thermal Solutions"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8bef62d7-d441-4db6-b5dc-91b548aae79d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Part Number" " 517-95AB"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d19e52fc-abe6-40d2-8c5b-cba64c4db604")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -122,7 +146,7 @@
 		(at -25.4 -24.13)
 		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 3)
 		(uuid "3a47bc4e-6fe6-4deb-b9d2-b6f1edd6df29")
 	)
@@ -130,7 +154,7 @@
 		(at -25.4 24.13)
 		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 3)
 		(uuid "c93b72b8-076c-4b70-baf8-e40db9bdab31")
 	)
@@ -138,7 +162,7 @@
 		(at 25.4 -24.13)
 		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 3)
 		(uuid "3d559843-e3ae-48f9-abe5-663c4807e0de")
 	)
@@ -146,7 +170,7 @@
 		(at 25.4 24.13)
 		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 3)
 		(uuid "bd366f00-5314-4b83-ae40-76fac9c9401c")
 	)

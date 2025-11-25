@@ -1810,7 +1810,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "G-107-0513:SW_G-107-0513"
+		(property "Footprint" "connectors:SW_G-107-0513"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3771,7 +3771,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "GCT"
+		(property "Manufacturer" "GCT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3798,6 +3798,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

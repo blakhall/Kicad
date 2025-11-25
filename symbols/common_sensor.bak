@@ -53,7 +53,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "Allegro MicroSystems"
 			(at 0 0 0)
 			(effects
 				(font

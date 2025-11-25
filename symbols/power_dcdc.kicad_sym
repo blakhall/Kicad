@@ -51,6 +51,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MAX660M/NOPB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ti"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "switched capacitor voltage converter doubler splitter"
 			(at 0 0 0)
 			(effects

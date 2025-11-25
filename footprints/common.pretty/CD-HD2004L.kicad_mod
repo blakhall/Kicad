@@ -1,9 +1,9 @@
-(footprint "CD-HD2004"
+(footprint "CD-HD2004L"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "CD-HD2004")
+	(descr "CD-HD2x(L) Series Surface Mount Schottky Bridge Rectifier Diode")
 	(tags "Bridge Rectifier")
 	(property "Reference" "BR**"
 		(at -0.293 -0.036 0)
@@ -49,6 +49,29 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Bourns"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fab02165-6dd1-4dbb-a453-0026bb311cde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Part Numer" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6fa6a6e9-29a5-4e97-9aa6-7f975b981abd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
