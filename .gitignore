@@ -6,6 +6,7 @@
 *.cmp                     # Component association file (legacy)
 fp-info-cache/            # Footprint info cache folder (KiCad 6+ generates this)
 sym-info-cache/           # Symbol info cache folder (KiCad 7+ generates this)
+.history/
 *.fplib                   # Legacy footprint library index file
 *.dcm.bak                 # Backup of legacy documentation files
 *.lib.bak                 # Backup of legacy symbol library files
