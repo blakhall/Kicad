@@ -28,3 +28,6 @@ sym-info-cache/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Temporary folder
+temp/
