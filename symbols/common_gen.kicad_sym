@@ -1671,6 +1671,30 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Microchip Technology" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "MCP2122T-E/SN" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MCP2122T-E/SN_0_0"
 			(rectangle
 				(start -7.62 -10.16)
