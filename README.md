@@ -62,7 +62,35 @@
 8. **`Cost` (단가) [사내 필수]:**  
    * 부품 단가 기입용 빈 필드 (추후 BOM 연동용). **숨김(Hide)** 처리.
 
-## 4. Git 버전 관리 및 협업 규칙
+
+## 4. PCB 풋프린트 및 3D 모델(STP) 연동 규정 (Footprint & 3D Model Rules)
+
+새로운 라이브러리를 추가하거나 요청할 때는 회로도 심볼뿐만 아니라 **PCB 풋프린트(.kicad_mod)**와 **3D 모델(.step/.wrl)** 파일이 대칭 구조로 유기적으로 연동되어야 합니다.
+
+### ① 저장 경로 대칭성 준수 (Symmetric Directory Structure)
+모든 카테고리는 심볼, 풋프린트, 3D 모델이 동일한 이름의 폴더(카테고리)에 쌍을 이루어 저장되어야 합니다.
+* **심볼:** `symbols/<category>.kicad_sym`
+* **풋프린트:** `footprints/<category>.pretty/<part_name>.kicad_mod`
+* **3D 모델:** `3dmodels/<category>/<part_name>.step` (또는 `.wrl`)
+* *예시 (센서 부품 추가 시):*
+  * 심볼: `symbols/common_sensor.kicad_sym` 내에 추가
+  * 풋프린트: `footprints/common_sensor.pretty/TFBS4650.kicad_mod` 생성
+  * 3D 모델: `3dmodels/common_sensor/TFBS4650.step` 저장
+
+### ② 환경 변수(`${KICAD_GITHUB}`)를 통한 3D 모델 경로 설정
+풋프린트 파일 내부에서 3D 모델을 참조할 때 특정 로컬 컴퓨터의 절대 경로를 기록하면 협업 시 경로 깨짐이 발생합니다. 반드시 환경 변수를 사용하여 상대 경로로 연결합니다.
+* **❌ 잘못된 예 (절대 경로 사용 금지):**  
+  `(model "D:/huni/data/github/Kicad/3dmodels/common_sensor/TFBS4650.step" ...)`
+* **⭕ 올바른 예 (환경 변수 치환):**  
+  `(model "${KICAD_GITHUB}/3dmodels/common_sensor/TFBS4650.step" (at (xyz 0 0 0)) ...)`
+
+### ③ 라이브러리 요청 시 필수 제출 파일
+신규 부품 라이브러리 생성을 요청할 때에는 아래 **3종 파일**을 반드시 패키지로 준비하여 저장소의 지정된 카테고리 경로에 배치해야 합니다:
+1. **심볼 사양 및 S-expression 정의**
+2. **PCB 풋프린트 파일 (`.kicad_mod` 포맷)**
+3. **3D 모델 파일 (`.step` 또는 `.wrl` 포맷)**
+
+## 5. Git 버전 관리 및 협업 규칙
 
 * **자동 생성 백업 파일 (.bak) 추적 제외:**
   * KiCad 저장 시 자동으로 생성되는 `.bak` 및 `.kicad_sym.bak` 파일은 로컬 설계자의 PC에만 임시 복구용으로 남겨두고, Git 변경 이력의 충돌 방지를 위해 `.gitignore`에 등록하여 원격 저장소 업로드를 차단합니다.
