@@ -98,7 +98,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "Allegro MicroSystems" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "ACS72981xLR_0_1"
 			(rectangle
 				(start -7.62 15.24)

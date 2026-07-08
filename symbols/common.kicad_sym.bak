@@ -91,9 +91,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "AZ431LxN_0_1"
 			(polyline
 				(pts
@@ -465,9 +462,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "CD-HD2004_0_1"
 			(polyline
 				(pts
@@ -954,9 +948,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "C_Polarized_Small_0_1"
 			(rectangle
 				(start -1.524 0.6858)
@@ -1135,9 +1126,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "C_Polarized_Small_US_0_1"
 			(polyline
 				(pts
@@ -1318,9 +1306,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "C_Polarized_US_0_1"
 			(polyline
 				(pts
@@ -1710,9 +1695,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "D_0_1"
 			(polyline
 				(pts
@@ -1879,9 +1861,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "D_Schottky_0_1"
 			(polyline
 				(pts
@@ -2047,9 +2026,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "FerriteBead_0_1"
 			(polyline
 				(pts
@@ -2235,7 +2211,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Filter_EMI_CommonMode_0_1"
 			(circle
 				(center -3.048 1.524)
@@ -2635,7 +2610,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Filter_EMI_CommonMode1_0_1"
 			(circle
 				(center -3.048 1.524)
@@ -3015,9 +2989,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Fuse_0_1"
 			(rectangle
 				(start -0.762 -2.54)
@@ -3393,9 +3364,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "LED_0_1"
 			(polyline
 				(pts
@@ -3623,9 +3591,6 @@
 				(justify bottom)
 			)
 		)
-		(property "PartNumber" "LTC2634IMSE-LZ12#PBF" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "LTC2634IMSE-LZ12_TRPBF_0_0"
 			(rectangle
 				(start -15.24 10.16)
@@ -3927,9 +3892,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "L_Ferrite_0_1"
 			(arc
 				(start 0 2.54)
@@ -4252,9 +4214,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "L_Iron_0_1"
 			(arc
 				(start 0 2.54)
@@ -4678,9 +4637,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MCP6L91T-EOT_0_1"
 			(polyline
 				(pts
@@ -4872,9 +4828,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "NC7WZ17P6X_0_1"
 			(rectangle
 				(start -7.62 5.08)
@@ -5384,9 +5337,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Q_NMOS_0_1"
 			(polyline
 				(pts
@@ -5691,9 +5641,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Q_NPN_0_1"
 			(polyline
 				(pts
@@ -5934,7 +5881,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "R_US_0_1"
 			(polyline
 				(pts
@@ -6126,9 +6072,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TL431DBZ_0_1"
 			(polyline
 				(pts
@@ -6539,9 +6482,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TPSI2140QDWQRQ1_0_1"
 			(polyline
 				(pts
@@ -6904,9 +6844,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Thermistor_0_1"
 			(polyline
 				(pts
@@ -7059,9 +6996,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Thermistor_NTC_0_1"
 			(arc
 				(start -3.175 2.413)
@@ -7336,9 +7270,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Thermistor_PTC_0_1"
 			(arc
 				(start -3.175 2.413)

@@ -60,9 +60,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "CE_0_1"
 			(rectangle
 				(start -3.81 2.54)
@@ -179,7 +176,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "FerriteBead_0_1"
 			(arc
 				(start -3.8102 2.54)
@@ -336,9 +332,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Heatsink_0_1"
 			(polyline
 				(pts
@@ -428,9 +421,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Logo_0_1"
 			(rectangle
 				(start -5.08 2.54)
@@ -516,9 +506,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Rohs_0_1"
 			(rectangle
 				(start -5.08 2.54)

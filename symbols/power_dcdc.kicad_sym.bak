@@ -87,8 +87,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "MAX660M/NOPB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MAX660M/NOPB_0_1"
 			(rectangle
 				(start -7.62 5.08)
@@ -319,9 +317,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MEE3S0505SC_0_0"
 			(pin power_in line
 				(at -10.16 2.54 0)
@@ -555,7 +550,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MEV1S0505SC_0_0"
 			(pin power_in line
 				(at -10.16 2.54 0)
@@ -788,9 +782,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MIE1W0505BGLVH-3R-Z_0_0"
 			(rectangle
 				(start -10.16 10.16)

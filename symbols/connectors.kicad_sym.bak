@@ -134,8 +134,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "5227161-2_0_0"
 			(rectangle
 				(start 5.08 -10.16)
@@ -456,9 +454,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x01_1_1"
 			(rectangle
 				(start -1.27 1.27)
@@ -572,9 +567,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x02_1_1"
 			(rectangle
 				(start -1.27 1.27)
@@ -717,9 +709,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x03_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -891,9 +880,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x04_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -1094,9 +1080,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x05_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -1326,9 +1309,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x06_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -1587,9 +1567,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Conn_01x07_1_1"
 			(rectangle
 				(start -1.27 8.89)
@@ -1911,9 +1888,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "G-107-0513_0_0"
 			(polyline
 				(pts
@@ -2233,7 +2207,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "HFBR-1414Z" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "HFBR-14x4Z_0_0"
 			(rectangle
 				(start -7.62 -7.62)
@@ -2876,7 +2849,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "HFBR-2412T" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "HFBR-24x2T_0_0"
 			(polyline
 				(pts
@@ -3621,8 +3593,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" " NPTC051KFXC-RC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "NPTC051KFXC-RC_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -3852,9 +3822,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SMW250-02_1_1"
 			(rectangle
 				(start -1.27 1.27)
@@ -3997,9 +3964,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SMW250-03_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -4171,9 +4135,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SMW250-04_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -4374,9 +4335,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SMW250-05_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -4606,9 +4564,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SMW250-06_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -4867,9 +4822,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SMW250-07_1_1"
 			(rectangle
 				(start -1.27 8.89)
@@ -5148,9 +5100,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "SW_SPDT_312_0_1"
 			(circle
 				(center -2.032 0)
@@ -5369,8 +5318,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "USB4125-GF-A_REVA2_0_0"
 			(rectangle
 				(start -7.62 -25.4)
@@ -5635,9 +5582,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "YW396-03_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -5809,9 +5753,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "conn_01x05x254xsmdxR_1_1"
 			(rectangle
 				(start -1.27 6.35)

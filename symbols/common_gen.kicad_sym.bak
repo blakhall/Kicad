@@ -139,9 +139,6 @@
 				(justify bottom)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "ECMF02-4CMX8_0_0"
 			(rectangle
 				(start -10.16 -12.7)
@@ -409,7 +406,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "LT4322RDDM-PBF_0_1"
 			(polyline
 				(pts
@@ -734,7 +730,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "LT4322RMS8-PBF_0_1"
 			(polyline
 				(pts
@@ -1038,8 +1033,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TCA9509_0_1"
 			(rectangle
 				(start -7.62 5.08)
@@ -1307,7 +1300,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TJA1044TK-3_0_1"
 			(rectangle
 				(start -10.16 7.62)

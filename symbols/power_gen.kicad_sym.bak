@@ -59,7 +59,7 @@
 				)
 			)
 		)
-		(property "Description" "Trans MOSFET N-CH 30V 50A 8-Pin VSON-CLIP EP T/R"
+		(property "Description" "N-MOSFET transistor"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81,9 +81,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "CSD17308Q3_0_1"
 			(polyline
 				(pts
@@ -525,7 +522,6 @@
 				)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "DN2530N8-G_0_1"
 			(polyline
 				(pts
@@ -689,7 +685,7 @@
 				)
 			)
 		)
-		(property "Description" "EasyDUAL module with CoolSiC Trench MOSFET and PressFIT / NTC"
+		(property "Description" "N-MOSFET transistor"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -754,7 +750,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "FF6MR12W2M1H" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "FF6MR12W2M1H_1_1"
 			(polyline
 				(pts
@@ -1377,9 +1372,6 @@
 				(justify left top)
 			)
 		)
-		(property "PartNumber" "IPTC007N06NM5ATMA1" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "Infineon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "IPTC007N06NM5ATMA1_1_1"
 			(rectangle
 				(start 5.08 2.54)
@@ -1806,9 +1798,6 @@
 				(justify left top)
 			)
 		)
-		(property "PartNumber" "MAX20801TPBA+" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "Analog Devices" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MAX20801TPBA+_1_1"
 			(rectangle
 				(start 5.08 2.54)
@@ -2116,7 +2105,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MOSFET_half_bridge_0_1"
 			(polyline
 				(pts
@@ -2612,9 +2600,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Q_NMOS_0_1"
 			(polyline
 				(pts
@@ -2919,9 +2904,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Q_NMOS_1_0_1"
 			(polyline
 				(pts
@@ -3220,9 +3202,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "Relay_SPST-NO_0_0"
 			(polyline
 				(pts
@@ -3574,7 +3553,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TPS62840-DLC_0_1"
 			(rectangle
 				(start -7.62 10.16)
@@ -3853,7 +3831,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TR-1a_5V_0_0"
 			(polyline
 				(pts
@@ -4199,7 +4176,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "IMCQ120R007M2H" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "infineon-pg-hdsop-22-3_0_1"
 			(polyline
 				(pts
@@ -4835,9 +4811,6 @@
 				)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "mosfet_0_1"
 			(polyline
 				(pts

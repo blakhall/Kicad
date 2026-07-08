@@ -15,9 +15,6 @@
     (property "ki_description" "EasyDUAL module with CoolSiC Trench MOSFET and PressFIT / NTC" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (symbol "FF6MR12W2M1H_B11_1_0"
       (polyline
         (pts

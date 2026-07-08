@@ -30,9 +30,6 @@
     (property "Manufacturer_Part_Number" "CSD17308Q3" (at 21.59 -794.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "PartNumber" "CSD17308Q3" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Manufacturer" "Texas Instruments" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (rectangle
       (start 5.08 2.54)
       (end 20.32 -12.7)

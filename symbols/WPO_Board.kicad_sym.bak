@@ -97,7 +97,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "MOSFET_DRV_A1" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "DRV_Board_0_1"
 			(rectangle
 				(start -7.62 10.16)
@@ -360,7 +359,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "DSP_Board" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "DSP_Board_0_1"
 			(rectangle
 				(start -31.75 27.94)
@@ -1479,7 +1477,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "DSP_Board" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "GAPowerBoard_0_1"
 			(rectangle
 				(start -31.75 40.64)
@@ -2252,7 +2249,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "DSP_Board" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "VAControlBoard_0_1"
 			(rectangle
 				(start -31.75 19.05)
@@ -3181,7 +3177,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "DSP_Board" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "VAPowerBoard_0_1"
 			(rectangle
 				(start -22.86 35.56)

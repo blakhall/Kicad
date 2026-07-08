@@ -72,9 +72,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "F280039PZRQ1_0_1"
 			(polyline
 				(pts
@@ -2023,7 +2020,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "F28P550SJ9PDTR_1_1"
 			(polyline
 				(pts
@@ -4626,7 +4622,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "F28P550SJ9PZ_1_1"
 			(polyline
 				(pts
@@ -6725,7 +6720,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "F28P650DH6NMRR_1_1"
 			(polyline
 				(pts
@@ -10066,7 +10060,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "F28P650DH6ZEJR_1_1"
 			(polyline
 				(pts
@@ -14901,8 +14894,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "IS31CG5317_1_0"
 			(polyline
 				(pts
@@ -16830,8 +16821,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "MIMX9352CVVXMAB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "MIMX9352CVVXMAB_1_1"
 			(polyline
 				(pts
@@ -22629,7 +22618,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "TMS302F28P55xSPZ_1_1"
 			(rectangle
 				(start -21.59 39.37)
@@ -24554,9 +24542,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(symbol "XF2800157QPNQ1_0_1"
 			(polyline
 				(pts
