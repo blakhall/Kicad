@@ -1,0 +1,279 @@
+(footprint "Converter_DCDC_Mornsun_XT-1WR3_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "a6c53549-0112-4c2f-b4ef-365287fa6321")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_Mornsun_XT-1WR3_SMD"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "7f89b9a6-7788-4c91-a185-1d48ab15201a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mornsun-power.com"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2d3b4c5-6789-4012-8345-6789abcdef01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mornsun 1W SMD Isolated DC-DC Converter Package (13.20mm x 11.40mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e4d5c6-7890-4123-9456-789abcdef012")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.6 -4.25)
+		(end 6.6 -4.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12345678-0001-0000-0000-000000000001")
+	)
+	(fp_line
+		(start 6.6 -4.25)
+		(end 6.6 4.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12345678-0002-0000-0000-000000000002")
+	)
+	(fp_line
+		(start 6.6 4.25)
+		(end -6.6 4.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12345678-0003-0000-0000-000000000003")
+	)
+	(fp_line
+		(start -6.6 4.25)
+		(end -6.6 -4.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12345678-0004-0000-0000-000000000004")
+	)
+	(fp_arc
+		(start -6.6 -1.27)
+		(mid -5.97 0)
+		(end -6.6 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12345678-0005-0000-0000-000000000005")
+	)
+	(fp_line
+		(start -6.7 -4.37)
+		(end -5.1 -4.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0006-0000-0000-000000000006")
+	)
+	(fp_line
+		(start 5.1 -4.37)
+		(end 6.7 -4.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0007-0000-0000-000000000007")
+	)
+	(fp_line
+		(start -6.7 4.37)
+		(end -5.1 4.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0008-0000-0000-000000000008")
+	)
+	(fp_line
+		(start 5.1 4.37)
+		(end 6.7 4.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0009-0000-0000-000000000009")
+	)
+	(fp_line
+		(start -6.7 -4.37)
+		(end -6.7 -2.0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0010-0000-0000-000000000010")
+	)
+	(fp_line
+		(start -6.7 4.37)
+		(end -6.7 2.0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0011-0000-0000-000000000011")
+	)
+	(fp_line
+		(start 6.7 -4.37)
+		(end 6.7 -2.0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0012-0000-0000-000000000012")
+	)
+	(fp_line
+		(start 6.7 4.37)
+		(end 6.7 2.0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0013-0000-0000-000000000013")
+	)
+	(fp_line
+		(start -3.81 6.5)
+		(end -3.81 5.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12345678-0014-0000-0000-000000000014")
+	)
+	(fp_line
+		(start -7.0 -6.4)
+		(end 7.0 -6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12345678-0015-0000-0000-000000000015")
+	)
+	(fp_line
+		(start 7.0 -6.4)
+		(end 7.0 6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12345678-0016-0000-0000-000000000016")
+	)
+	(fp_line
+		(start 7.0 6.4)
+		(end -7.0 6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12345678-0017-0000-0000-000000000017")
+	)
+	(fp_line
+		(start -7.0 6.4)
+		(end -7.0 -6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12345678-0018-0000-0000-000000000018")
+	)
+	(pad "1" smd rect
+		(at -3.81 5.10)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12345678-0019-0000-0000-000000000019")
+	)
+	(pad "2" smd rect
+		(at -1.27 5.10)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12345678-0020-0000-0000-000000000020")
+	)
+	(pad "4" smd rect
+		(at 3.81 5.10)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12345678-0021-0000-0000-000000000021")
+	)
+	(pad "5" smd rect
+		(at 3.81 -5.10)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12345678-0022-0000-0000-000000000022")
+	)
+	(pad "8" smd rect
+		(at -3.81 -5.10)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12345678-0023-0000-0000-000000000023")
+	)
+	(model "${KICAD_GITHUB}/3dmodels/power_dcdc/Converter_DCDC_Mornsun_XT-1WR3_SMD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+
+
+
+

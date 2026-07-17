@@ -90,6 +90,20 @@
 2. **PCB 풋프린트 파일 (`.kicad_mod` 포맷)**
 3. **3D 모델 파일 (`.step` 또는 `.wrl` 포맷)**
 
+### ④ 3종 파일 및 데이터시트 도면 교차 검증 절차 (Reviewer Cross-Check)
+라이브러리 및 풋프린트 생성 시, 추정치에 의존하지 않고 제조사 **공식 데이터시트 도면(Dimensions & Recommended Layout)**과 **3종 세트 파일** 간의 핀 번호/패드 피치/치수 정합성을 반드시 교차 검증(Cross-Verification)해야 합니다.
+* **검토자(Reviewer) 필수 점검 체크리스트:**
+  * [ ] 회로도 심볼 핀 번호/핀 이름과 풋프린트 `.kicad_mod` 패드 번호 간의 1:1 매핑 일치 여부 (데이터시트 핀맵 임의 추정 금지)
+  * [ ] 풋프린트 추천 레이아웃 패드 크기(Width/Height) 및 피치(Pitch), Y/X축 좌표계 정합성
+  * [ ] 3D STEP CAD 바운딩 박스/좌표계 정량 파싱 분석(`scripts/analyze_step_cad.py`)을 통한 패드 상 물리적 안착(Seating), 1번 핀(Pin 1 Dot) 방향 및 회전 각도(Rotation), PCB 패드 표면(Z=0) 들뜸/파묻힘 없는 XYZ 오프셋(Offset) 완전 밀착 정합성 검증 (정식 CAD STEP만 사용)
+
+
+  * [ ] 풋프린트 내 3D 모델 상대 경로(`${KICAD_GITHUB}`) 연결 및 3종 파일 정상 등록 여부
+  * [ ] 파이썬 검증 스크립트(`core/validator.py`) 실행을 통한 100% PASS 검증 수락 여부
+
+
+
+
 ## 5. Git 버전 관리 및 협업 규칙
 
 * **자동 생성 백업 파일 (.bak) 추적 제외:**

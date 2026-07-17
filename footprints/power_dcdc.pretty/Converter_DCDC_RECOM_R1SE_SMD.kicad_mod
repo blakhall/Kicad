@@ -1,0 +1,226 @@
+(footprint "Converter_DCDC_RECOM_R1SE_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "c4d3b2a1-1234-4567-8901-abcdef012345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_RECOM_R1SE_SMD"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "d5e4f3a2-2345-5678-9012-bcdef0123456")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.recom-power.com"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6f5a4b3-3456-6789-0123-cdef01234567")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RECOM 1W SMD Isolated DC-DC Converter Package R1SE (12.75mm x 10.70mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7a6b5c4-4567-7890-1234-def012345678")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.375 -4.10)
+		(end 6.375 -4.10)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87654321-0001-0000-0000-000000000001")
+	)
+	(fp_line
+		(start 6.375 -4.10)
+		(end 6.375 4.10)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87654321-0002-0000-0000-000000000002")
+	)
+	(fp_line
+		(start 6.375 4.10)
+		(end -6.375 4.10)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87654321-0003-0000-0000-000000000003")
+	)
+	(fp_line
+		(start -6.375 4.10)
+		(end -6.375 -4.10)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87654321-0004-0000-0000-000000000004")
+	)
+	(fp_line
+		(start -6.475 -4.22)
+		(end -5.1 -4.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87654321-0005-0000-0000-000000000005")
+	)
+	(fp_line
+		(start 5.1 -4.22)
+		(end 6.475 -4.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87654321-0006-0000-0000-000000000006")
+	)
+	(fp_line
+		(start -6.475 4.22)
+		(end -5.1 4.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87654321-0007-0000-0000-000000000007")
+	)
+	(fp_line
+		(start 5.1 4.22)
+		(end 6.475 4.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87654321-0008-0000-0000-000000000008")
+	)
+	(fp_line
+		(start -3.81 6.3)
+		(end -3.81 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87654321-0009-0000-0000-000000000009")
+	)
+	(fp_line
+		(start -6.8 -6.2)
+		(end 6.8 -6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87654321-0010-0000-0000-000000000010")
+	)
+	(fp_line
+		(start 6.8 -6.2)
+		(end 6.8 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87654321-0011-0000-0000-000000000011")
+	)
+	(fp_line
+		(start 6.8 6.2)
+		(end -6.8 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87654321-0012-0000-0000-000000000012")
+	)
+	(fp_line
+		(start -6.8 6.2)
+		(end -6.8 -6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87654321-0013-0000-0000-000000000013")
+	)
+	(pad "1" smd rect
+		(at -3.81 5.10)
+		(size 1.4 2.0)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87654321-0014-0000-0000-000000000014")
+	)
+	(pad "2" smd rect
+		(at -1.27 5.10)
+		(size 1.4 2.0)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87654321-0015-0000-0000-000000000015")
+	)
+	(pad "4" smd rect
+		(at 3.81 5.10)
+		(size 1.4 2.0)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87654321-0016-0000-0000-000000000016")
+	)
+	(pad "5" smd rect
+		(at 3.81 -5.10)
+		(size 1.4 2.0)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87654321-0017-0000-0000-000000000017")
+	)
+	(pad "8" smd rect
+		(at -3.81 -5.10)
+		(size 1.4 2.0)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87654321-0018-0000-0000-000000000018")
+	)
+	(model "${KICAD_GITHUB}/3dmodels/power_dcdc/Converter_DCDC_RECOM_R1SE_SMD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
+
+
