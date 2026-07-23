@@ -1,0 +1,124 @@
+(footprint "Choke_PFC_ITG_PFC282820B-900MHF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Power Factor Correction (PFC) Choke, ITG Electronics PFC282820B-900MHF, 27.5x20.0mm body, Height 28.0mm, 4-Lead Through Hole (Pins 2&4 Slot 5.5x1.0mm, Pins 1&3 Round ø1.8mm)")
+	(tags "PFC Choke Inductor ITG PFC282820B ThroughHole")
+	(property "Reference" "L**"
+		(at 0 -12.0 0)
+		(layer "F.SilkS")
+		(uuid "a9b8c7d6-e5f4-4a3b-2c1d-0e9f8a7b6c5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PFC282820B-900MHF"
+		(at 0 12.0 0)
+		(layer "F.SilkS")
+		(uuid "b8c7d6e5-f4a3-4b2c-1d0e-9f8a7b6c5d4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.itg-electronics.com"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7d6e5f4-a3b2-4c1d-0e9f-8a7b6c5d4e3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "90uH 15.5A/28A PFC Choke, Alloy Powder Core, Through Hole 4-Lead"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6e5f4a3-b2c1-4d0e-9f8a-7b6c5d4e3f2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+
+	(fp_rect
+		(start -13.75 -10.0)
+		(end 13.75 10.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e5f4a3b2-c1d0-4e9f-8a7b-6c5d4e3f2a1b")
+	)
+	(fp_circle
+		(center -4.5 5.25)
+		(end -3.7 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f4a3b2c1-d0e9-4f8a-7b6c-5d4e3f2a1b0c")
+	)
+
+	(fp_rect
+		(start -13.87 -10.12)
+		(end 13.87 10.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a3b2c1d0-e9f8-4a7b-6c5d-4e3f2a1b0c9d")
+	)
+	(fp_circle
+		(center -12.5 8.5)
+		(end -12.0 8.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b2c1d0e9-f8a7-4b6c-5d4e-3f2a1b0c9d8e")
+	)
+
+	(fp_rect
+		(start -14.5 -10.75)
+		(end 14.5 10.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c1d0e9f8-a7b6-4c5d-4e3f-2a1b0c9d8e7f")
+	)
+
+	(pad "1" thru_hole circle (at -4.5 5.25) (size 3.2 3.2) (drill 1.8) (layers "*.Cu" "*.Mask") (uuid "p1-0000-0000-0000-000000000001"))
+	(pad "2" thru_hole rect (at 4.5 5.25) (size 6.5 2.2) (drill oval 5.5 1.0) (layers "*.Cu" "*.Mask") (uuid "p2-0000-0000-0000-000000000002"))
+	(pad "3" thru_hole circle (at 4.5 -5.25) (size 3.2 3.2) (drill 1.8) (layers "*.Cu" "*.Mask") (uuid "p3-0000-0000-0000-000000000003"))
+	(pad "4" thru_hole rect (at -4.5 -5.25) (size 6.5 2.2) (drill oval 5.5 1.0) (layers "*.Cu" "*.Mask") (uuid "p4-0000-0000-0000-000000000004"))
+
+	(model "${KICAD_GITHUB}/3dmodels/power_gen/Choke_PFC_ITG_PFC282820B-900MHF.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)
