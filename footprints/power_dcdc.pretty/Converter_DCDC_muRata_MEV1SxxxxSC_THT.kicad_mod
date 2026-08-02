@@ -131,7 +131,7 @@
 		(uuid "780d0734-12e8-48f2-9f04-92157ad62990")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/power_dcdc/mps_dcdc_mev1s_5&12&15&24vin_sc_a.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_dcdc/mps_dcdc_mev1s_5&12&15&24vin_sc_a.step"
 		(offset
 			(xyz 0 0 -4.15)
 		)

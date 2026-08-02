@@ -627,7 +627,7 @@
 		(uuid "5fce82bc-346d-4748-82d0-61f5ecb5a216")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/connectors/USB4125-GF-A_REVA2.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/connectors/USB4125-GF-A_REVA2.step"
 		(offset
 			(xyz 0 0 0)
 		)

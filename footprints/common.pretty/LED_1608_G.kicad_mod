@@ -198,7 +198,7 @@
 		(uuid "56edf004-ecba-4007-a40a-4109c89e0734")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/common/led/led-1608-green.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/common/led/led-1608-green.step"
 		(offset
 			(xyz 0 0 0)
 		)

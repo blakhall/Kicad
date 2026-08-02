@@ -145,7 +145,7 @@
 		(uuid "49ef989a-7757-4fb5-927f-869c20a1c0e3")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/power_gen/KMH_635x100-Body.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_gen/KMH_635x100-Body.step"
 		(offset
 			(xyz 0 0 -109.7)
 		)

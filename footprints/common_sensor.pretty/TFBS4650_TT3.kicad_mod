@@ -144,7 +144,7 @@
 		(uuid "75e928c8-0c01-489d-8801-9aae63b8821f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/common_sensor/TFBS4650.stp"
+	(model "D:/huni/data/github/Kicad/3dmodels/common_sensor/TFBS4650.stp"
 		(offset
 			(xyz -0.475 0 0)
 		)

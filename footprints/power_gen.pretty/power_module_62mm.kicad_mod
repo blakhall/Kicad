@@ -220,7 +220,7 @@
 		(uuid "72e6eb83-975a-4026-ba0d-46e0c8a18002")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/power_gen/power_module_62mm.stp"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_gen/power_module_62mm.stp"
 		(offset
 			(xyz 86.5 3 69.1)
 		)

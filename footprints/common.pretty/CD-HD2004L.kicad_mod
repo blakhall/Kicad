@@ -183,7 +183,7 @@
 		(uuid "85f0b822-5d4b-42c5-8a4c-9aae68c54428")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/common/CD-HD2004.stp"
+	(model "D:/huni/data/github/Kicad/3dmodels/common/CD-HD2004.stp"
 		(offset
 			(xyz 0 0 0)
 		)

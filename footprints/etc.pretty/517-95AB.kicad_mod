@@ -175,7 +175,7 @@
 		(uuid "bd366f00-5314-4b83-ae40-76fac9c9401c")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/etc/517-95AB%20HEATSINK%20BXB50%2C75%2C100%2C150.95-HRZ.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/etc/517-95AB%20HEATSINK%20BXB50%2C75%2C100%2C150.95-HRZ.step"
 		(offset
 			(xyz 1.3 29 62.3)
 		)

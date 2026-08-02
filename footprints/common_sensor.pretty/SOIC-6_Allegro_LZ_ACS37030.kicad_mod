@@ -1,0 +1,213 @@
+(footprint "SOIC-6_Allegro_LZ_ACS37030"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "d3de312f-ec68-4327-9e57-4c28f6508c14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-6_Allegro_LZ_ACS37030"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "282183c6-c146-46b2-b1a3-2da55d9e08b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.allegromicro.com/~/media/Files/Datasheets/ACS37030-32-Datasheet"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7db06167-d426-428e-90de-0af40bf4f83a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Allegro LZ Package SOIC-6 Fused High-Current Sensor (4.89mm x 3.90mm body, fused IP+ / IP- leads)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7c0669b-d353-4f7c-8eb8-30fd2d4136c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.55 -1.8)
+		(end -2.55 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3426f09c-37d6-4e34-a1d9-162a147594ed")
+	)
+	(fp_line
+		(start 2.55 -1.8)
+		(end 2.55 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d977a2d-7eda-4b6e-aa70-922f85c52542")
+	)
+	(fp_circle
+		(center 2.8 -3.2)
+		(end 2.5 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3552b6a2-5f89-4304-95b0-e48b9e9d8926")
+	)
+	(fp_line
+		(start -3.6 -4.2)
+		(end 3.6 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a24724e-55dc-42c0-9b8f-82ec6363c474")
+	)
+	(fp_line
+		(start -3.6 4.2)
+		(end -3.6 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "883e3060-74f9-4dbb-a166-05a0f266bdde")
+	)
+	(fp_line
+		(start 3.6 -4.2)
+		(end 3.6 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce3c6203-d341-4305-993c-940f41da3921")
+	)
+	(fp_line
+		(start 3.6 4.2)
+		(end -3.6 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a697421b-42a8-4ded-b635-6f4a55b038e2")
+	)
+	(fp_line
+		(start -2.445 -1.95)
+		(end 2.445 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c16b551d-b917-4e8b-a056-76c476d5ff97")
+	)
+	(fp_line
+		(start -2.445 1.95)
+		(end -2.445 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "203b2bfa-d057-471b-b665-3a9759482ce9")
+	)
+	(fp_line
+		(start 2.445 -1.95)
+		(end 2.445 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "118a402b-4bdc-483e-a1ba-6d76cd5ce55c")
+	)
+	(fp_line
+		(start 2.445 1.95)
+		(end -2.445 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4e90a81-497c-4914-8f98-dab99b0da6c1")
+	)
+	(pad "1" smd rect
+		(at 1.27 -2.89)
+		(size 1.92 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41c256ca-dcf7-4f49-98d3-e422240a40bf")
+	)
+	(pad "2" smd rect
+		(at -1.27 -2.89)
+		(size 1.92 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03435cc7-4dbd-4ffb-962e-19cbe45cb8c4")
+	)
+	(pad "3" smd rect
+		(at -1.905 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49300b78-d6b2-45bb-925f-16e06152bef2")
+	)
+	(pad "4" smd rect
+		(at -0.635 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5648b73f-0bcd-4f94-b96f-b6c9f14e5f43")
+	)
+	(pad "5" smd rect
+		(at 0.635 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "428a75e3-7133-4e52-9d97-6959430e60fd")
+	)
+	(pad "6" smd rect
+		(at 1.905 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3432ad72-5b2c-4ea4-89f8-815ef00da693")
+	)
+	(embedded_fonts no)
+	(model "D:/huni/data/github/Kicad/3dmodels/common_sensor/ACS37030LLZATR-065B3.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

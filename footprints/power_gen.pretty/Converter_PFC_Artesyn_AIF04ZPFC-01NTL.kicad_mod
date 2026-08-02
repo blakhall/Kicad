@@ -131,7 +131,7 @@
 	(pad "" np_thru_hole circle (at -53.34 25.40) (size 3.5 3.5) (drill 3.5) (layers "*.Cu" "*.Mask") (uuid "mh3-0000-0000-0000-000000000003"))
 	(pad "" np_thru_hole circle (at 53.34 25.40) (size 3.5 3.5) (drill 3.5) (layers "*.Cu" "*.Mask") (uuid "mh4-0000-0000-0000-000000000004"))
 
-	(model "${KICAD_GITHUB}/3dmodels/power_gen/Converter_PFC_Artesyn_AIF04ZPFC-01NTL.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_gen/Converter_PFC_Artesyn_AIF04ZPFC-01NTL.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -1,0 +1,222 @@
+(footprint "SOIC-6-Stretched_DWY_TI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "11223344-0001-0000-0000-000000000001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-6-Stretched_DWY_TI"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "11223344-0002-0000-0000-000000000002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc23313.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11223344-0003-0000-0000-000000000003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Texas Instruments DWY Package SOIC-6 Stretched (7.50mm x 4.68mm body, 11.50mm span, 1.27mm pitch)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11223344-0004-0000-0000-000000000004")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 -2.34)
+		(end 3.75 -2.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11223344-0005-0000-0000-000000000005")
+	)
+	(fp_line
+		(start 3.75 -2.34)
+		(end 3.75 2.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11223344-0006-0000-0000-000000000006")
+	)
+	(fp_line
+		(start 3.75 2.34)
+		(end -3.75 2.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11223344-0007-0000-0000-000000000007")
+	)
+	(fp_line
+		(start -3.75 2.34)
+		(end -3.75 -2.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11223344-0008-0000-0000-000000000008")
+	)
+	(fp_arc
+		(start -3.75 -1.0)
+		(mid -3.00 0)
+		(end -3.75 1.0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11223344-0009-0000-0000-000000000009")
+	)
+	(fp_line
+		(start -3.85 -2.46)
+		(end 3.85 -2.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11223344-0010-0000-0000-000000000010")
+	)
+	(fp_line
+		(start -3.85 2.46)
+		(end 3.85 2.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11223344-0011-0000-0000-000000000011")
+	)
+	(fp_circle
+		(center -4.85 -2.46)
+		(end -4.55 -2.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "11223344-0012-0000-0000-000000000012")
+	)
+	(fp_line
+		(start -6.2 -2.7)
+		(end 6.2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11223344-0013-0000-0000-000000000013")
+	)
+	(fp_line
+		(start 6.2 -2.7)
+		(end 6.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11223344-0014-0000-0000-000000000014")
+	)
+	(fp_line
+		(start 6.2 2.7)
+		(end -6.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11223344-0015-0000-0000-000000000015")
+	)
+	(fp_line
+		(start -6.2 2.7)
+		(end -6.2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11223344-0016-0000-0000-000000000016")
+	)
+	(pad "1" smd rect
+		(at -4.85 -1.27)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11223344-0017-0000-0000-000000000017")
+	)
+	(pad "2" smd rect
+		(at -4.85 0.00)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11223344-0018-0000-0000-000000000018")
+	)
+	(pad "3" smd rect
+		(at -4.85 1.27)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11223344-0019-0000-0000-000000000019")
+	)
+	(pad "4" smd rect
+		(at 4.85 1.27)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11223344-0020-0000-0000-000000000020")
+	)
+	(pad "5" smd rect
+		(at 4.85 0.00)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11223344-0021-0000-0000-000000000021")
+	)
+	(pad "6" smd rect
+		(at 4.85 -1.27)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11223344-0022-0000-0000-000000000022")
+	)
+	(model "D:/huni/data/github/Kicad/3dmodels/so_gen/SOIC-6-Stretched_DWY_TI.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

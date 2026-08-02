@@ -116,7 +116,7 @@
 	(pad "3" thru_hole circle (at 4.5 -5.25) (size 3.2 3.2) (drill 1.8) (layers "*.Cu" "*.Mask") (uuid "p3-0000-0000-0000-000000000003"))
 	(pad "4" thru_hole rect (at -4.5 -5.25) (size 6.5 2.2) (drill oval 5.5 1.0) (layers "*.Cu" "*.Mask") (uuid "p4-0000-0000-0000-000000000004"))
 
-	(model "${KICAD_GITHUB}/3dmodels/power_gen/Choke_PFC_ITG_PFC282820B-900MHF.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_gen/Choke_PFC_ITG_PFC282820B-900MHF.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

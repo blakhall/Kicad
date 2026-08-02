@@ -198,7 +198,7 @@
 		(uuid "9cd81ef2-ce7a-4ce5-95ad-018fe2fa49f2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/common/led/led-2012-yellow.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/common/led/led-2012-yellow.step"
 		(offset
 			(xyz 0 0 0)
 		)

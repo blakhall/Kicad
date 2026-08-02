@@ -2348,7 +2348,7 @@
 		(uuid "7647b8dc-b411-46ab-845b-542f77d8053e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/so_gen/FC-BPGA-306_SOT2200-1_NXP.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/so_gen/FC-BPGA-306_SOT2200-1_NXP.step"
 		(offset
 			(xyz 0 0 0)
 		)

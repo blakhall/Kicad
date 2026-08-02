@@ -295,7 +295,7 @@
 		(uuid "59a091a7-bd26-4bc3-b15d-015a456857dc")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/power_gen/infineon-pg-hdsop-16-8-3d-12-stp-package-en.stp"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_gen/infineon-pg-hdsop-16-8-3d-12-stp-package-en.stp"
 		(offset
 			(xyz 0 0 0)
 		)

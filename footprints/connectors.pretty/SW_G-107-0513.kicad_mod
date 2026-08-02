@@ -240,7 +240,7 @@
 		(uuid "89daccbd-2d9e-4bfa-b2e0-54bf845aff42")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/connectors/G-107-0513.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/connectors/G-107-0513.step"
 		(offset
 			(xyz 0 0 0)
 		)

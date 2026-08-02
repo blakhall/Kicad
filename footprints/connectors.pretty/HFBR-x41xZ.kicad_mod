@@ -336,7 +336,7 @@
 		(uuid "5923d30f-5ee3-4aab-9946-1d80f1357efa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/connectors/optic/HFBR-X41X.STEP"
+	(model "D:/huni/data/github/Kicad/3dmodels/connectors/optic/HFBR-X41X.STEP"
 		(offset
 			(xyz 0 0 10)
 		)

@@ -257,7 +257,7 @@
 		(uuid "ee3566b8-fa17-44c6-9356-dd0bd4a9a9c5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/by_manufacturer/maxim/MAX20801TPBA+.stp"
+	(model "D:/huni/data/github/Kicad/3dmodels/by_manufacturer/maxim/MAX20801TPBA+.stp"
 		(offset
 			(xyz 0 0 0)
 		)

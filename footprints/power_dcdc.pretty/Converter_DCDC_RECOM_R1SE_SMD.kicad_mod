@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -6.5 0)
+		(at 0 -7.5 0)
 		(layer "F.SilkS")
 		(uuid "c4d3b2a1-1234-4567-8901-abcdef012345")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Converter_DCDC_RECOM_R1SE_SMD"
-		(at 0 6.5 0)
+		(at 0 7.5 0)
 		(layer "F.Fab")
 		(uuid "d5e4f3a2-2345-5678-9012-bcdef0123456")
 		(effects
@@ -130,19 +130,20 @@
 		(layer "F.SilkS")
 		(uuid "87654321-0008-0000-0000-000000000008")
 	)
-	(fp_line
-		(start -3.81 6.3)
-		(end -3.81 5.5)
+	(fp_circle
+		(center -5.5 5.1)
+		(end -5.2 5.1)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
 		(uuid "87654321-0009-0000-0000-000000000009")
 	)
 	(fp_line
-		(start -6.8 -6.2)
-		(end 6.8 -6.2)
+		(start -7.0 -6.6)
+		(end 7.0 -6.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -151,8 +152,8 @@
 		(uuid "87654321-0010-0000-0000-000000000010")
 	)
 	(fp_line
-		(start 6.8 -6.2)
-		(end 6.8 6.2)
+		(start 7.0 -6.6)
+		(end 7.0 6.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -161,8 +162,8 @@
 		(uuid "87654321-0011-0000-0000-000000000011")
 	)
 	(fp_line
-		(start 6.8 6.2)
-		(end -6.8 6.2)
+		(start 7.0 6.6)
+		(end -7.0 6.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -171,8 +172,8 @@
 		(uuid "87654321-0012-0000-0000-000000000012")
 	)
 	(fp_line
-		(start -6.8 6.2)
-		(end -6.8 -6.2)
+		(start -7.0 6.6)
+		(end -7.0 -6.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -210,7 +211,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "87654321-0018-0000-0000-000000000018")
 	)
-	(model "${KICAD_GITHUB}/3dmodels/power_dcdc/Converter_DCDC_RECOM_R1SE_SMD.step"
+	(model "D:/huni/data/github/Kicad/3dmodels/power_dcdc/Converter_DCDC_RECOM_R1SE_SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -222,5 +223,3 @@
 		)
 	)
 )
-
-

@@ -1230,7 +1230,7 @@
 		(uuid "2954a038-4ff0-404c-a5f1-c144f46d8b14")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/so_gen/FBGA13x13x0.65mm.stp"
+	(model "D:/huni/data/github/Kicad/3dmodels/so_gen/FBGA13x13x0.65mm.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -178,7 +178,7 @@
 		(uuid "e2ebcecb-2765-4984-a716-ec9f75a10c32")
 	)
 	(embedded_fonts no)
-	(model "${GITHUB_KICAD}/3dmodels/etc/testpoints/RCWCTE.STEP"
+	(model "D:/huni/data/github/Kicad/3dmodels/etc/testpoints/RCWCTE.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
