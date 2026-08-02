@@ -2137,13 +2137,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2156,13 +2156,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2175,13 +2175,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2194,13 +2194,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2213,13 +2213,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2232,13 +2232,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2251,13 +2251,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2270,13 +2270,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2289,13 +2289,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2308,13 +2308,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2327,13 +2327,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2346,13 +2346,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2365,13 +2365,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at -17.78 -20.32 0)
 				(length 2.54)
+				(hide yes)
 				(name "GNDP"
 					(effects
 						(font
@@ -2384,7 +2384,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
@@ -2403,13 +2402,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						
 					)
 				)
 			)
 			(pin power_out line
 				(at 17.78 20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VDD"
 					(effects
 						(font
@@ -2422,7 +2421,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
@@ -2513,13 +2511,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2532,13 +2530,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2551,13 +2549,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2570,13 +2568,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2589,13 +2587,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2608,13 +2606,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2627,13 +2625,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2646,13 +2644,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2665,13 +2663,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2684,13 +2682,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2703,13 +2701,13 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
 			(pin power_in line
 				(at 17.78 -20.32 180)
 				(length 2.54)
+				(hide yes)
 				(name "VEE"
 					(effects
 						(font
@@ -2722,7 +2720,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-						 hide
 					)
 				)
 			)
