@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "STT <B>PACKAGE</B>")
+	(descr "STT PACKAGE")
 	(property "Reference" "REF**"
 		(at -1.90837 -7.88791 0)
 		(layer "F.SilkS")
