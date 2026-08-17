@@ -1,0 +1,210 @@
+(footprint "HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NXP HVSON8 / SOT782-1 DFN-8-1EP 3x3mm Pitch 0.65mm Exposed Pad 1.6x2.4mm")
+	(tags "HVSON-8 SOT782-1 DFN-8 DFN-8-1EP NXP CAN Transceiver TJA1051 TJA1044")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "ba6a041e-a8f2-46d9-accd-818b5d7b5413")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "b2a933b0-d460-49b1-a55d-24e81a7c2b4f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3514f570-7cdc-4dae-8712-f5743add85ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18fb397f-bf1b-4829-b992-7b05940c99a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "HVSON-8 / DFN-8-1EP 3x3mm P0.65mm Package (NXP SOT782-1)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0360a0f-0e48-4af4-922c-1fac5dd75c2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "34b0a051-f034-4f97-9063-e42a321c45a2")
+	)
+	(fp_line
+		(start -1.5 -0.9)
+		(end -0.9 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acb6bcf5-5cf7-483f-a577-ebb457c1ceb6")
+	)
+	(fp_line
+		(start -1.5 -1.6)
+		(end 1.5 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40d82929-525f-4ff9-a64d-4d33b2cc4a30")
+	)
+	(fp_line
+		(start 1.5 1.6)
+		(end -1.5 1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34500c95-cdef-410d-bcb9-a22e5eefd421")
+	)
+	(fp_circle
+		(center -2.1 -0.975)
+		(end -1.95 -0.975)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b326e44b-9a48-4902-87a7-a7e54293c6d6")
+	)
+	(fp_rect
+		(start -2.1 -1.8)
+		(end 2.1 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "73eb35d1-e296-4e4d-a055-342fb38a0fc5")
+	)
+	(pad "1" smd roundrect
+		(at -1.4 -0.975)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dbf5538a-3d58-43da-b2a9-37ea4f87236f")
+	)
+	(pad "2" smd roundrect
+		(at -1.4 -0.325)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1b522060-92f1-4877-a125-ac7d526bf909")
+	)
+	(pad "3" smd roundrect
+		(at -1.4 0.325)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6e292232-8142-4ed7-bfa7-081caadb46b6")
+	)
+	(pad "4" smd roundrect
+		(at -1.4 0.975)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4effc1dc-97d0-44af-8a74-859a4c4b5f3c")
+	)
+	(pad "5" smd roundrect
+		(at 1.4 0.975)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8e9b5b77-3225-43a7-a20b-d0c2025cc57f")
+	)
+	(pad "6" smd roundrect
+		(at 1.4 0.325)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ef87e0cf-b9b6-4ddc-ad20-1c4c1c3135c2")
+	)
+	(pad "7" smd roundrect
+		(at 1.4 -0.325)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c0ff5695-fece-4deb-9978-4ec273f6e90e")
+	)
+	(pad "8" smd roundrect
+		(at 1.4 -0.975)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1a7818e8-b40d-4f9b-9f9b-2e731a216ccb")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.6 2.4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1967aa71-ed8d-48a8-a50a-fb004118778b")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.1 1.7)
+		(layers "F.Paste")
+		(uuid "75c6ddc0-19b6-44f4-8c12-5ff0e75097e4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_GITHUB}/3dmodels/common_gen/HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

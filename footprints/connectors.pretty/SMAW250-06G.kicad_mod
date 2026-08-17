@@ -1,0 +1,211 @@
+(footprint "SMAW250-06G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Yeonho SMAW250-06 2.50mm Pitch Right-Angle (Horizontal) Wafer Connector, 6 Pin Through-Hole")
+	(tags "connector Yeonho SMAW250 2.5mm Right-Angle Horizontal Wafer 6pin")
+	(property "Reference" "REF**"
+		(at 6.25 -2.98 0)
+		(layer "F.SilkS")
+		(uuid "8a8a85b0-88ed-4090-a979-b564a57e76f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMAW250-06G"
+		(at 6.25 8.42 0)
+		(layer "F.Fab")
+		(uuid "702300b3-ca10-4056-af5e-872a6f8b4d09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d4ca58-e03d-44a3-aef6-9716b5d32e5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.yeonho.com"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "523830fb-cbaf-4cf5-8e94-da3c16c91afb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Yeonho SMAW250-06 2.50mm Pitch Right-Angle Wafer Connector, 6-Pin"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5670ac5-f08f-49bb-ae7f-26462689f047")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.45 -1.78)
+		(end 14.95 7.22)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "53b0a0ab-d7dc-4486-98a5-d74d4138b453")
+	)
+	(fp_line
+		(start -2.45 -0.78)
+		(end -1.45 -1.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01af476b-45bb-452a-b00a-c041e6b24c16")
+	)
+	(fp_line
+		(start -2.60 -1.93)
+		(end 15.10 -1.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06e5062d-740c-40a5-85e6-1b02a88dab71")
+	)
+	(fp_line
+		(start 15.10 -1.93)
+		(end 15.10 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04076b87-240c-4560-9dd7-f306b54e5f63")
+	)
+	(fp_line
+		(start 15.10 7.37)
+		(end -2.60 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f69a3a3b-1241-4e6c-96a3-ada6d319326d")
+	)
+	(fp_line
+		(start -2.60 7.37)
+		(end -2.60 -1.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c2237b0-0d27-4edc-ab1c-49dc06eaa346")
+	)
+	(fp_circle
+		(center 0 -2.43)
+		(end 0.15 -2.43)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1fb5ee18-e72c-4d8d-b4f7-d61d1471e735")
+	)
+	(fp_rect
+		(start -2.95 -2.28)
+		(end 15.45 7.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "413bb8d6-71f0-42c1-9f64-143693da9a23")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0.0 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "68c5c88a-ddb2-4ffd-acde-78a731f6df53")
+	)
+	(pad "2" thru_hole oval
+		(at 2.5 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cfb1379-5130-4bfa-be5e-3db2c4e64d56")
+	)
+	(pad "3" thru_hole oval
+		(at 5.0 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "030e5221-fd1d-4871-a68e-d7cf656bb452")
+	)
+	(pad "4" thru_hole oval
+		(at 7.5 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "417da3e6-ea44-4c4a-aecb-4959e98b3bf9")
+	)
+	(pad "5" thru_hole oval
+		(at 10.0 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6e12c44-fe60-4c94-98e4-d22585a1fc57")
+	)
+	(pad "6" thru_hole oval
+		(at 12.5 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85d147aa-575b-4b4a-a553-f211c372d128")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_GITHUB}/3dmodels/connectors/User Library-SMAW250-06G.step"
+		(offset
+			(xyz 7.5 -0.22 2.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

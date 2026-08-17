@@ -1,0 +1,187 @@
+(footprint "SMAW250-03G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Yeonho SMAW250-03 2.50mm Pitch Right-Angle (Horizontal) Wafer Connector, 3 Pin Through-Hole")
+	(tags "connector Yeonho SMAW250 2.5mm Right-Angle Horizontal Wafer 3pin")
+	(property "Reference" "REF**"
+		(at 2.50 -2.98 0)
+		(layer "F.SilkS")
+		(uuid "67f373e4-3116-4024-86b4-309091273caa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMAW250-03G"
+		(at 2.50 8.42 0)
+		(layer "F.Fab")
+		(uuid "bc13dd77-5161-4ccd-8493-4e65ffd37520")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27c9b93c-72b7-49c9-b06c-13a4b81e9ea6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.yeonho.com"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7751364c-1bdb-40dc-91b7-b24275adc775")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Yeonho SMAW250-03 2.50mm Pitch Right-Angle Wafer Connector, 3-Pin"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0821010-ee14-41d1-9504-ad3fcfb521d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.45 -1.78)
+		(end 7.45 7.22)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "519b1d20-6e3f-4925-89f9-07413c14ca01")
+	)
+	(fp_line
+		(start -2.45 -0.78)
+		(end -1.45 -1.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27b9386e-6992-49b0-9cd2-6446b906c73a")
+	)
+	(fp_line
+		(start -2.60 -1.93)
+		(end 7.60 -1.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7729f9a5-5ccc-4d66-a1c8-a0e2423c9315")
+	)
+	(fp_line
+		(start 7.60 -1.93)
+		(end 7.60 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a10e44f3-4fa1-44f1-a21c-bd278b62f72a")
+	)
+	(fp_line
+		(start 7.60 7.37)
+		(end -2.60 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cd98686-3e41-48ee-b4dd-2bae1b7ef498")
+	)
+	(fp_line
+		(start -2.60 7.37)
+		(end -2.60 -1.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a9e3c6f-dd61-46a5-8293-e8d4b170dfe4")
+	)
+	(fp_circle
+		(center 0 -2.43)
+		(end 0.15 -2.43)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e2f5b403-5495-4ae9-a77e-90c9bc1b8112")
+	)
+	(fp_rect
+		(start -2.95 -2.28)
+		(end 7.95 7.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "85145928-bc04-4e23-a15a-e206f071f2af")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0.0 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "5b7fab65-7f8b-4002-9bdf-7df5fd1e76cc")
+	)
+	(pad "2" thru_hole oval
+		(at 2.5 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "806a4df0-3a9e-4548-bb0d-953139d7d11a")
+	)
+	(pad "3" thru_hole oval
+		(at 5.0 0.0)
+		(size 1.7 1.95)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93a1c104-3b39-4fde-a96f-630b44efe2e7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_GITHUB}/3dmodels/connectors/User Library-SMAW250-03G.step"
+		(offset
+			(xyz 0.0 -0.22 2.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
