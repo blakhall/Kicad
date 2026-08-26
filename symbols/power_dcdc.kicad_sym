@@ -51,15 +51,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MAX660M/NOPB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Ti"
 			(at 0 0 0)
 			(effects
@@ -502,15 +493,6 @@
 			)
 		)
 		(property "Description" "Isolated 1W Single Output DC-DC Converters"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1546,17 +1528,6 @@
 				)
 			)
 		)
-		(property "Part Number" "SKMW20G-12"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PartNumber" "SKMW20G-12"
 			(at 0 0 0)
 			(show_name no)
@@ -1779,15 +1750,6 @@
 			)
 		)
 		(property "Manufacturer" "Traco Power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "THN 20-7211UIR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2787,7 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SY8088AAC"
+		(property "PartNumber" "SY8088AAC"
 			(at 0 0 0)
 			(effects
 				(font

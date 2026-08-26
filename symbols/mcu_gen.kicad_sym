@@ -14883,15 +14883,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "IS31CG5317-LQLS3"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_fp_filters" "*FP-IS31CG5317-LQLS3_LQFP80-MFG*"
 			(at 0 0 0)
 			(effects
@@ -16790,15 +16781,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "IS31CG5317-LQLS3"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_fp_filters" "*FP-IS31CG5317-LQLS3_LQFP80-MFG*"
 			(at 0 0 0)
 			(effects
@@ -17237,15 +17219,6 @@
 			)
 		)
 		(property "Manufacturer" "NXP"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MIMX9352CVVXMAB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27684,7 +27657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ESP32-C5-WROOM-1U-N4"
+		(property "PartNumber" "ESP32-C5-WROOM-1U-N4"
 			(at 0 0 0)
 			(effects
 				(font

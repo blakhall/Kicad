@@ -994,17 +994,6 @@
 				)
 			)
 		)
-		(property "Part Number" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(show_name no)
@@ -1916,7 +1905,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "TJA1051TK/3"
+		(property "PartNumber" "MCP2122T-E/SN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2186,7 +2175,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "ECMF02-2AMX6"
+		(property "PartNumber" "MCP2122T-E/SN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2390,7 +2379,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ESP32-C5-WROOM-1U-N4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3059,7 +3047,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "TFBS4650-TT3"
+		(property "PartNumber" "MCP2122T-E/SN"
 			(at 0 0 0)
 			(hide yes)
 			(effects

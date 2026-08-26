@@ -2215,15 +2215,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "HFBR-1414Z"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Cost" ""
 			(at 0 0 0)
 			(effects
@@ -2769,16 +2760,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HFBR-2412T"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "None"
 			(at 0 0 0)
 			(effects
@@ -2850,15 +2831,6 @@
 			)
 		)
 		(property "Cost" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "HFBR-2412T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3586,15 +3558,6 @@
 			)
 		)
 		(property "Manufacturer" "Sullins"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" " NPTC051KFXC-RC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5357,15 +5320,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)

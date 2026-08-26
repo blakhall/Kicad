@@ -3563,18 +3563,6 @@
 				)
 			)
 		)
-		(property "MPN" "LTC2634IMSE-LZ12#PBF"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "OC_FARNELL" "1704049"
 			(at 0 0 0)
 			(show_name no)
