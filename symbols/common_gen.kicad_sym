@@ -2379,6 +2379,7 @@
 				(hide yes)
 			)
 		)
+		(property "PartNumber" "ESP32-C5-WROOM-1U-N4"
 			(at 0 0 0)
 			(effects
 				(font
