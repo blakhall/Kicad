@@ -24,7 +24,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Symbol:CE-Logo_8.5x6mm_SilkScreen"
+		(property "Footprint" "etc:CE-Logo_11.2x8mm_SilkScreen"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97,9 +97,9 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(property "Reference" "FB"
 			(at -6.35 0.508 90)
 			(effects
@@ -134,7 +134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Cable Ring Core / Toroid (Wire Harness)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -480,7 +480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "etc:Rohs_10mmx10mm"
+		(property "Footprint" "etc:RoHS-Logo_8mm_SilkScreen"
 			(at 0 0 0)
 			(effects
 				(font
@@ -546,4 +546,175 @@
 		)
 		(embedded_fonts no)
 	)
-)
+
+	(symbol "KC"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "KC" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:KC-Logo_5.7x8mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Korea Certification (KC) Mark" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "KC_0_1"
+			(rectangle (start -3.81 2.54) (end 3.81 -2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "KC" (at 0 0 0) (effects (font (size 2.54 2.54) (thickness 0.4) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "UL"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "UL" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:UL-Logo_8x8mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Underwriters Laboratories (UL) Mark" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "UL_0_1"
+			(circle (center 0 0) (radius 3.0) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "UL" (at 0 0 0) (effects (font (size 2.2 2.2) (thickness 0.35) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "FCC"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "FCC" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:FCC-Logo_9.6x8mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Federal Communications Commission (FCC) Mark" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "FCC_0_1"
+			(rectangle (start -3.81 2.54) (end 3.81 -2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "FCC" (at 0 0 0) (effects (font (size 2.54 2.54) (thickness 0.4) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "WEEE"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "WEEE" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:WEEE-Logo_5.6x8mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Waste Electrical and Electronic Equipment Directive Mark" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "WEEE_0_1"
+			(rectangle (start -3.81 2.54) (end 3.81 -2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "WEEE" (at 0 0 0) (effects (font (size 2.54 2.54) (thickness 0.4) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "ESD"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "ESD" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:ESD-Logo_8.9x8mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Electrostatic Sensitive Devices Warning Symbol" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "ESD_0_1"
+			(polyline (pts (xy 0 4.62) (xy -4.0 -2.31) (xy 4.0 -2.31) (xy 0 4.62)) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "ESD" (at 0 0.11 0) (effects (font (size 2.0 2.0) (thickness 0.35) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "Warning_HighVoltage"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "Warning_HighVoltage" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:Symbol_HighVoltage_Triangle_8x7mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "High Voltage / Electrical Hazard Warning Symbol (ISO 7010 W012)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "Warning_HighVoltage_0_1"
+			(polyline (pts (xy 0 4.62) (xy -4.0 -2.31) (xy 4.0 -2.31) (xy 0 4.62)) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "HV" (at 0 0.11 0) (effects (font (size 2.0 2.0) (thickness 0.35) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "Warning_Caution"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "Warning_Caution" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:Caution_Triangle_8x7mm_SilkScreen" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "General Caution / Attention Warning Symbol (ISO 7010 W001)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "Warning_Caution_0_1"
+			(polyline (pts (xy 0 4.62) (xy -4.0 -2.31) (xy 4.0 -2.31) (xy 0 4.62)) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "!" (at 0 0.11 0) (effects (font (size 2.0 2.0) (thickness 0.35) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "QRCode"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "#SYM" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "QRCode" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:qrcode" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "PCB QR Code Marking" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "QRCode_0_1"
+			(rectangle (start -3.0 3.0) (end 3.0 -3.0) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "QR" (at 0 0 0) (effects (font (size 2.54 2.54) (thickness 0.4) (bold yes))))
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "Marking_BoardInfo"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "MK" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "${TITLE} Rev.${REVISION}" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "etc:Marking_BoardInfo_F_SilkS" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "PCB Silkscreen Board Information (${MY_COMPANY}, ${TITLE}, Rev.${REVISION})" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "Marking_BoardInfo_0_1"
+			(rectangle (start -10.16 2.54) (end 10.16 -2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+			(text "${MY_COMPANY}" (at 0 1.0 0) (effects (font (size 1.27 1.27) (thickness 0.2) (bold yes))))
+			(text "${TITLE} Rev.${REVISION}" (at 0 -1.0 0) (effects (font (size 1.27 1.27) (thickness 0.2))))
+		)
+		(embedded_fonts no)
+	))
