@@ -1,4 +1,4 @@
-(footprint "Converter_PFC_Artesyn_AIF04ZPFC-01NTL"
+(footprint "AIF04ZPFC-01NTL"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -238,7 +238,7 @@
 		(fp_text user "TOP MOUNT SIDE"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "9478620c-8071-4acb-9c02-651db2e99964")
+		(uuid "bd65e932-1930-40bb-9600-a0405f185a2c")
 		(effects
 			(font
 				(size 1.8 1.8)
@@ -489,7 +489,7 @@
 		(uuid "0feda734-8d55-4348-a75c-16ac6af98791")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/power_gen/Converter_PFC_Artesyn_AIF04ZPFC-01NTL.step"
+	(model "${KICAD_GITHUB}/3dmodels/power_gen/AIF04ZPFC-01NTL.step"
 		(offset
 			(xyz 0 0 0)
 		)
