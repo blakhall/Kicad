@@ -8846,6 +8846,404 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SCF29XV-150-1R7A015JV"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0 4.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCF29XV-150-1R7A015JV"
+			(at 0 -4.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "common:Choke_Toroid_KEMET_SCF29XV-150-1R7A015JV_L40.5xW21.4mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/SCF29XV-150-1R7A015JV"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High Voltage Automotive Common Mode Choke, 2.5mH, 15A, 1000VAC/VDC, Nanocrystalline, AEC-Q200, SCF29XV Series, 4-Pin THT Vertical"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "SCF29XV-150-1R7A015JV"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SCF29XV-150-1R7A015JV"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SCF29XV-150-1R7A015JV_0_1"
+			(circle
+				(center -3.048 1.524)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -3.048 -1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.032) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.508) (xy 2.54 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.032) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 2.032)
+				(mid -2.032 1.5262)
+				(end -2.54 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -2.032)
+				(mid -2.032 -1.5262)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 2.032)
+				(mid -1.016 1.5262)
+				(end -1.524 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 -2.032)
+				(mid -1.016 -1.5262)
+				(end -0.508 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.508 2.032)
+				(mid 0 1.5262)
+				(end -0.508 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 -2.032)
+				(mid 0 -1.5262)
+				(end 0.508 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 2.032)
+				(mid 1.016 1.5262)
+				(end 0.508 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.508 -2.032)
+				(mid 1.016 -1.5262)
+				(end 1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 2.032)
+				(mid 2.032 1.5262)
+				(end 1.524 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 -2.032)
+				(mid 2.032 -1.5262)
+				(end 2.54 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -0.508) (xy -2.54 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.032) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SCF29XV-150-1R7A015JV_1_1"
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TL431DBZ"
 		(pin_numbers
 			(hide yes)
