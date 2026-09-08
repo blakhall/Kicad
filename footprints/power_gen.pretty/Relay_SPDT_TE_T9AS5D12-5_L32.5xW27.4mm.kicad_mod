@@ -126,21 +126,21 @@
 	)
 	(pad "11" thru_hole circle
 		(at 0.950 -8.890)
-		(size 3.200 3.200)
+		(size 3.600 3.600)
 		(layers "*.Cu" "*.Mask")
-		(drill 1.600)
+		(drill 2.000)
 	)
 	(pad "14" thru_hole circle
 		(at 3.490 8.890)
-		(size 3.200 3.200)
+		(size 3.600 3.600)
 		(layers "*.Cu" "*.Mask")
-		(drill 1.600)
+		(drill 2.000)
 	)
 	(pad "12" thru_hole circle
 		(at 11.110 8.890)
-		(size 3.200 3.200)
+		(size 3.600 3.600)
 		(layers "*.Cu" "*.Mask")
-		(drill 1.600)
+		(drill 2.000)
 	)
 	(model "${KICAD_GITHUB}/3dmodels/power_gen/T9AS5D12-5.step"
 		(offset (xyz 0.0000 0.0000 0.0000))
