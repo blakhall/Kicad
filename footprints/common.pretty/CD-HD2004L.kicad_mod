@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cd-hd2x.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Surface Mount Schottky Bridge Rectifier Diode 2A 40V, TO-269AA (Mini-DIP)"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(property "Part Numer" ""
+	(property "Part Number" "CD-HD2004"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "6fa6a6e9-29a5-4e97-9aa6-7f975b981abd")
@@ -183,7 +183,7 @@
 		(uuid "85f0b822-5d4b-42c5-8a4c-9aae68c54428")
 	)
 	(embedded_fonts no)
-	(model "D:/huni/data/github/Kicad/3dmodels/common/CD-HD2004.stp"
+	(model "${KICAD_GITHUB}/3dmodels/common/CD-HD2004L.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -191,7 +191,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

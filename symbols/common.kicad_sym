@@ -1653,7 +1653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "common:CD-HD2004"
+		(property "Footprint" "common:CD-HD2004L"
 			(at 3.81 3.175 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1665,7 +1665,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88769/woo5g.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cd-hd2x.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1676,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Surface Mount Schottky Bridge Rectifier Diode 2A 40V, TO-269AA (Mini-DIP)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,7 +1687,7 @@
 				)
 			)
 		)
-		(property "PartNumber" ""
+		(property "PartNumber" "CD-HD2004"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1698,7 +1698,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1720,7 +1720,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Bridge Rectifier acdc"
+		(property "ki_keywords" "Bridge Rectifier Schottky TO-269AA Mini-DIP"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,7 +1731,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "D*Bridge*Round*D9.8mm*"
+		(property "ki_fp_filters" "CD-HD2004* TO-269AA* Mini-DIP*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
