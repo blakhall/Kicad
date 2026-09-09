@@ -1,0 +1,252 @@
+(footprint "PDLF4500LC"
+	(version 20240108)
+	(generator "antigravity-ide")
+	(layer "F.Cu")
+	(descr "Coilcraft PDLF Series SMT Data Line EMI Filter / Common Mode Choke, 8-SMD Gull Wing, 7.80x5.50mm body, 1.27mm pitch (Document 491)")
+	(tags "Coilcraft PDLF PDLF4500LC Common Mode Choke Data Line EMI Filter")
+	(property "Reference" "FL**"
+		(at 0 -3.85 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PDLF4500LC"
+		(at 0 3.85 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PDLF4500LC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/pdfs/pdlf.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Coilcraft PDLF SMT Data Line EMI Filter, 4-line Common Mode Choke, 8-SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.35 -2.85)
+		(end 2.35 -2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "s1")
+	)
+	(fp_line
+		(start -2.35 2.85)
+		(end 2.35 2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "s2")
+	)
+	(fp_circle
+		(center -4.55 -1.905)
+		(end -4.35 -1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "s_dot")
+	)
+	(fp_line
+		(start -4.5 -2.4)
+		(end -4.5 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "s_bar")
+	)
+	(fp_line
+		(start -2.90 -2.75)
+		(end 3.90 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab1")
+	)
+	(fp_line
+		(start 3.90 -2.75)
+		(end 3.90 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab2")
+	)
+	(fp_line
+		(start 3.90 2.75)
+		(end -3.90 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab3")
+	)
+	(fp_line
+		(start -3.90 2.75)
+		(end -3.90 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab4")
+	)
+	(fp_line
+		(start -3.90 -1.75)
+		(end -2.90 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab_chamfer")
+	)
+	(fp_circle
+		(center -2.80 -1.80)
+		(end -2.40 -1.80)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fab_dot")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+		(uuid "fab_ref")
+	)
+	(fp_rect
+		(start -4.40 -3.05)
+		(end 4.40 3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "crtyd")
+	)
+	(pad "1" smd roundrect
+		(at -3.30 -1.905)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad1")
+	)
+	(pad "2" smd roundrect
+		(at -3.30 -0.635)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad2")
+	)
+	(pad "3" smd roundrect
+		(at -3.30 0.635)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad3")
+	)
+	(pad "4" smd roundrect
+		(at -3.30 1.905)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad4")
+	)
+	(pad "5" smd roundrect
+		(at 3.30 1.905)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad5")
+	)
+	(pad "6" smd roundrect
+		(at 3.30 0.635)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad6")
+	)
+	(pad "7" smd roundrect
+		(at 3.30 -0.635)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad7")
+	)
+	(pad "8" smd roundrect
+		(at 3.30 -1.905)
+		(size 1.52 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "pad8")
+	)
+	(model "${KIPRJLMOD}/3dmodels/common/Filter_DataLine_Coilcraft_PDLF_8SMD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
