@@ -7592,359 +7592,359 @@
 		)
 		(embedded_fonts no)
 	)
-\t(symbol "2EDB8259Y"
-\t\t(exclude_from_sim no)
-\t\t(in_bom yes)
-\t\t(on_board yes)
-\t\t(in_pos_files yes)
-\t\t(duplicate_pin_numbers_are_jumpers no)
-\t\t(property "Reference" "U"
-\t\t\t(at 2.54 -0.254 90)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t\t(justify right bottom)
-\t\t\t)
-\t\t)
-\t\t(property "Value" "2EDB8259Y"
-\t\t\t(at -25.4 0 90)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t\t(justify right bottom)
-\t\t\t)
-\t\t)
-\t\t(property "Footprint" "common:Infineon_PG-DSO-14_2EDB8259Y"
-\t\t\t(at 0 0 0)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(hide yes)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t)
-\t\t)
-\t\t(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2EDB8259F_2EDBx259Y-DataSheet-v01_03-EN.pdf?fileId=8ac78c8c8bb8b2a1018c1b2f9f1b4021"
-\t\t\t(at 0 0 0)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(hide yes)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t)
-\t\t)
-\t\t(property "Description" "Dual-Channel Isolated Gate-Driver IC, 5A/9A Source/Sink, 150mil DSO-14 Package"
-\t\t\t(at 0 0 0)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(hide yes)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t)
-\t\t)
-\t\t(property "Part Number" "2EDB8259Y"
-\t\t\t(at 0 5.588 90)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(hide yes)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t\t(justify right bottom)
-\t\t\t)
-\t\t)
-\t\t(property "Manufacturer" "Infineon"
-\t\t\t(at 0 5.588 90)
-\t\t\t(show_name no)
-\t\t\t(do_not_autoplace no)
-\t\t\t(hide yes)
-\t\t\t(effects
-\t\t\t\t(font
-\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t)
-\t\t\t\t(justify right bottom)
-\t\t\t)
-\t\t)
-\t\t(symbol "2EDB8259Y_1_0"
-\t\t\t(rectangle
-\t\t\t\t(start -22.86 0)
-\t\t\t\t(end 0 -17.78)
-\t\t\t\t(stroke
-\t\t\t\t\t(width 0.0254)
-\t\t\t\t\t(type solid)
-\t\t\t\t\t(color 128 0 0 1)
-\t\t\t\t)
-\t\t\t\t(fill
-\t\t\t\t\t(type background)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -2.54 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "INA"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "1"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -5.08 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "INB"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "2"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -7.62 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "VDDI"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "3"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -10.16 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "GNDI"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t(number "4"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -12.7 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "DIS"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "5"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -15.24 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "DTC"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "6"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -17.78 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "N.C"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "7"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -20.32 5.08 270)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "VDDI"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "8"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -20.32 -22.86 90)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "GNDB"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "9"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -17.78 -22.86 90)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "OUTB"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "10"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -15.24 -22.86 90)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "VDDB"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "11"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -7.62 -22.86 90)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "GNDA"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "12"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -5.08 -22.86 90)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "OUTA"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "13"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t\t(pin passive line
-\t\t\t\t(at -2.54 -22.86 90)
-\t\t\t\t(length 5.08)
-\t\t\t\t(name "VDDA"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t\t(number "14"
-\t\t\t\t\t(effects
-\t\t\t\t\t\t(font
-\t\t\t\t\t\t\t(size 1.27 1.27)
-\t\t\t\t\t\t)
-\t\t\t\t\t)
-\t\t\t\t)
-\t\t\t)
-\t\t)
-\t\t(embedded_fonts no)
-\t)
+	(symbol "2EDB8259Y"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 2.54 -0.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "2EDB8259Y"
+			(at -25.4 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "common:Infineon_PG-DSO-14_2EDB8259Y"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2EDB8259F_2EDBx259Y-DataSheet-v01_03-EN.pdf?fileId=8ac78c8c8bb8b2a1018c1b2f9f1b4021"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual-Channel Isolated Gate-Driver IC, 5A/9A Source/Sink, 150mil DSO-14 Package"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "2EDB8259Y"
+			(at 0 5.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 0 5.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(symbol "2EDB8259Y_1_0"
+			(rectangle
+				(start -22.86 0)
+				(end 0 -17.78)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 5.08 270)
+				(length 5.08)
+				(name "INA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 270)
+				(length 5.08)
+				(name "INB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 5.08 270)
+				(length 5.08)
+				(name "VDDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 5.08 270)
+				(length 5.08)
+				(name "GNDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 270)
+				(length 5.08)
+				(name "DIS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 5.08 270)
+				(length 5.08)
+				(name "DTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 5.08 270)
+				(length 5.08)
+				(name "N.C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 5.08 270)
+				(length 5.08)
+				(name "VDDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 -22.86 90)
+				(length 5.08)
+				(name "GNDB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 -22.86 90)
+				(length 5.08)
+				(name "OUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -22.86 90)
+				(length 5.08)
+				(name "VDDB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -22.86 90)
+				(length 5.08)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -22.86 90)
+				(length 5.08)
+				(name "OUTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -22.86 90)
+				(length 5.08)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
 	(symbol "2EDB9259F"
 		(exclude_from_sim no)
@@ -9136,12 +9136,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -9531,12 +9530,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -9926,12 +9924,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -10321,12 +10318,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -10716,12 +10712,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)

@@ -13323,12 +13323,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -13718,12 +13717,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -14113,12 +14111,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -14508,12 +14505,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
@@ -14903,12 +14899,11 @@
 				)
 			)
 			(text "ISOLATION"
-				(at -0.635 0 900)
+				(at -0.635 0 90)
 				(effects
 					(font
 						(size 0.8 0.8)
 					)
-					(justify center)
 				)
 			)
 		)
