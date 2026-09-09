@@ -3210,7 +3210,7 @@
 	)
 	(symbol "PDLF4500LC"
 		(pin_names
-			(offset 1.016)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3572,7 +3572,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
-				(name "1"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3590,7 +3590,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
-				(name "8"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3608,7 +3608,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "2"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3626,7 +3626,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "7"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3644,7 +3644,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 2.54)
-				(name "3"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3662,7 +3662,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
-				(name "6"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3680,7 +3680,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 2.54)
-				(name "4"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3698,7 +3698,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 2.54)
-				(name "5"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
