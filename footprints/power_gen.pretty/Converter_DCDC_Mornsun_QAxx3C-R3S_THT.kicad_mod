@@ -1,0 +1,230 @@
+(footprint "Converter_DCDC_Mornsun_QAxx3C-R3S_THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Mornsun QAxx3C-R3S Series (QA053C-1803R3S) 5.0kVAC Isolated DC-DC Converter for SiC MOSFET Driver, 19.50x9.80x12.50mm, SIP-7 (pins 3,4 omitted), https://www.mornsun-power.com/public/uploads/pdf/QAxx3C-R3S.pdf")
+	(tags "Mornsun QAxx3C-R3S QA053C-1803R3S DCDC Converter SiC Driver SIP")
+	(property "Reference" "REF**"
+		(at 7.62 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "6f391a45-b771-460b-8d02-e2261a86a601")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_Mornsun_QAxx3C-R3S_THT"
+		(at 7.62 7.8 0)
+		(layer "F.Fab")
+		(uuid "a2d483b1-2ce0-4dfb-9db2-50d4f9bca882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "common:Converter_DCDC_Mornsun_QAxx3C-R3S_THT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mornsun-power.com/public/uploads/pdf/QAxx3C-R3S.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC-DC Converter for SiC Driver, 5kVAC Isolation, SIP-7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.25 -3.32)
+		(end 17.49 -3.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 17.49 -3.32)
+		(end 17.49 6.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 17.49 6.72)
+		(end -2.25 6.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.25 6.72)
+		(end -2.25 -3.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.6 -3.32)
+		(end -2.6 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center 0 -3.8)
+		(end 0.2 -3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -2.38 -3.45)
+		(end 17.62 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.13 -2.20)
+		(end -1.13 -3.20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.13 -3.20)
+		(end 17.37 -3.20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 17.37 -3.20)
+		(end 17.37 6.60)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 17.37 6.60)
+		(end -2.13 6.60)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.13 6.60)
+		(end -2.13 -2.20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 1.70 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "5" thru_hole oval
+		(at 10.16 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "6" thru_hole oval
+		(at 12.7 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "7" thru_hole oval
+		(at 15.24 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_GITHUB}/3dmodels/common/Converter_DCDC_Mornsun_QAxx3C-R3S_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
