@@ -13637,7 +13637,7 @@
 				)
 			)
 		)
-		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 12V UVLO, SOIC-14 DWK"
+		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 5V UVLO (GaN), SOIC-14 DWK"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14031,7 +14031,7 @@
 				)
 			)
 		)
-		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 17V UVLO (SiC), SOIC-14 DWK"
+		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 8V UVLO, SOIC-14 DWK"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14425,7 +14425,7 @@
 				)
 			)
 		)
-		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 5V UVLO (GaN), SOIC-14 DWK"
+		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 12V UVLO, SOIC-14 DWK"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14819,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 8V UVLO, SOIC-14 DWK"
+		(property "Description" "Isolated Dual-Channel Gate Driver, 4A/6A, 5kVRMS, 17V UVLO (SiC), SOIC-14 DWK"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
