@@ -1,0 +1,341 @@
+(footprint "SOIC-14_7.5x10.3mm_P1.27mm_TI_DWK0014A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TI SOIC-14 Wide Body (DWK0014A) package for UCC21551x dual-channel isolated gate driver (7.5x10.3mm body, pitch 1.27mm, high-voltage clearance gap between pins 11 and 14)")
+	(tags "TI SOIC-14 DWK DWK0014A Wide SOIC UCC21551 UCC21551A UCC21551B UCC21551C UCC21551D Gate Driver")
+	(property "Reference" "REF**"
+		(at 0 -6.2 0)
+		(layer "F.SilkS")
+		(uuid "f121551a-a12b-4d43-8587-873b22b10001")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOIC-14_7.5x10.3mm_P1.27mm_TI_DWK0014A"
+		(at 0 6.2 0)
+		(layer "F.Fab")
+		(uuid "f121551a-a12b-4d43-8587-873b22b10002")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc21551.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f121551a-a12b-4d43-8587-873b22b10003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4A/6A 5kVRMS Reinforced Dual-Channel Isolated Gate Driver, 14-SOIC Wide Body"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f121551a-a12b-4d43-8587-873b22b10004")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f121551a-a12b-4d43-8587-873b22b10005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Part Number" "UCC21551"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f121551a-a12b-4d43-8587-873b22b10006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 -5.27)
+		(end -1.5 -5.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e121551a-1001-4001-8001-000000000001")
+	)
+	(fp_line
+		(start 1.5 -5.27)
+		(end 3.75 -5.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e121551a-1001-4001-8001-000000000002")
+	)
+	(fp_line
+		(start -3.75 5.27)
+		(end 3.75 5.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e121551a-1001-4001-8001-000000000003")
+	)
+	(fp_line
+		(start 3.75 -1.1)
+		(end 3.75 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e121551a-1001-4001-8001-000000000004")
+	)
+	(fp_circle
+		(center -6.0 -4.445)
+		(end -5.8 -4.445)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e121551a-1001-4001-8001-000000000005")
+	)
+	(fp_line
+		(start -2.75 -5.15)
+		(end 3.75 -5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e121551a-1001-4001-8001-000000000006")
+	)
+	(fp_line
+		(start 3.75 -5.15)
+		(end 3.75 5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e121551a-1001-4001-8001-000000000007")
+	)
+	(fp_line
+		(start 3.75 5.15)
+		(end -3.75 5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e121551a-1001-4001-8001-000000000008")
+	)
+	(fp_line
+		(start -3.75 5.15)
+		(end -3.75 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e121551a-1001-4001-8001-000000000009")
+	)
+	(fp_line
+		(start -3.75 -4.15)
+		(end -2.75 -5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e121551a-1001-4001-8001-000000000010")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e121551a-1001-4001-8001-000000000011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6.3 -5.45)
+		(end 6.3 -5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e121551a-1001-4001-8001-000000000012")
+	)
+	(fp_line
+		(start 6.3 -5.45)
+		(end 6.3 5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e121551a-1001-4001-8001-000000000013")
+	)
+	(fp_line
+		(start 6.3 5.45)
+		(end -6.3 5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e121551a-1001-4001-8001-000000000014")
+	)
+	(fp_line
+		(start -6.3 5.45)
+		(end -6.3 -5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e121551a-1001-4001-8001-000000000015")
+	)
+	(pad "1" smd roundrect
+		(at -4.65 -4.445)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000021")
+	)
+	(pad "2" smd roundrect
+		(at -4.65 -3.175)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000022")
+	)
+	(pad "3" smd roundrect
+		(at -4.65 -1.905)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000023")
+	)
+	(pad "4" smd roundrect
+		(at -4.65 -0.635)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000024")
+	)
+	(pad "5" smd roundrect
+		(at -4.65 0.635)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000025")
+	)
+	(pad "6" smd roundrect
+		(at -4.65 1.905)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000026")
+	)
+	(pad "7" smd roundrect
+		(at -4.65 3.175)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000027")
+	)
+	(pad "8" smd roundrect
+		(at -4.65 4.445)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000028")
+	)
+	(pad "9" smd roundrect
+		(at 4.65 4.445)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000029")
+	)
+	(pad "10" smd roundrect
+		(at 4.65 3.175)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000030")
+	)
+	(pad "11" smd roundrect
+		(at 4.65 1.905)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000031")
+	)
+	(pad "14" smd roundrect
+		(at 4.65 -1.905)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000032")
+	)
+	(pad "15" smd roundrect
+		(at 4.65 -3.175)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000033")
+	)
+	(pad "16" smd roundrect
+		(at 4.65 -4.445)
+		(size 2.0 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e121551a-1001-4001-8001-000000000034")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_GITHUB}/3dmodels/common/SOIC-14_7.5x10.3mm_P1.27mm_TI_DWK0014A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
