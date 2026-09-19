@@ -238,7 +238,7 @@
 		(roundrect_rratio 0.2)
 		(uuid "pad8")
 	)
-	(model "${KIPRJLMOD}/3dmodels/common/Filter_DataLine_Coilcraft_PDLF_8SMD.step"
+	(model "${KICAD_GITHUB}/3dmodels/common/Filter_DataLine_Coilcraft_PDLF_8SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)
