@@ -1,0 +1,80 @@
+(footprint "ACT1210D-510-2P-TL00"
+  (version 20250114)
+  (generator "dsp_can_emc")
+  (layer "F.Cu")
+  (descr "TDK ACT1210D-TL00; manufacturer recommended land 20260520 p3; 1-4 / 2-3 windings")
+  (tags "TDK CAN FD common mode choke")
+  (attr smd)
+  (property "Reference" "REF**"
+    (at 0 -2.1 0)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.8 0.8))))
+  (property "Value" "ACT1210D-510-2P-TL00"
+    (at 0 2.1 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 0.7 0.7))))
+  (fp_rect
+    (start -1.6 -1.25)
+    (end 1.6 1.25)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (fill none)
+    (layer "F.Fab"))
+  (fp_rect
+    (start -2.3 -1.6)
+    (end 2.3 1.6)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (fill none)
+    (layer "F.CrtYd"))
+  (fp_line
+    (start -1.72 -1.4)
+    (end 1.72 -1.4)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS"))
+  (fp_line
+    (start -1.72 1.4)
+    (end 1.72 1.4)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS"))
+  (fp_circle
+    (center -2.2 -1.1)
+    (end -2.12 -1.1)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (fill solid)
+    (layer "F.SilkS"))
+  (pad "1" smd rect
+    (at -1.525 -0.5)
+    (size 1.05 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "2" smd rect
+    (at -1.525 0.5)
+    (size 1.05 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "3" smd rect
+    (at 1.525 0.5)
+    (size 1.05 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "4" smd rect
+    (at 1.525 -0.5)
+    (size 1.05 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask"))
+  (model "${KICAD_GITHUB}/3dmodels/dsp_emc/ACT1210D-510-2P-TL00.step"
+    (offset
+      (xyz 0 0 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0))))
