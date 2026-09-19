@@ -1,529 +1,1135 @@
 (kicad_symbol_lib
-  (version 20241209)
-  (generator "kicad_symbol_editor")
-  (symbol "PFC219167D-501K"
-    (pin_numbers
-      (hide yes))
-    (pin_names
-      (offset 1.016)
-      (hide yes))
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (in_pos_files yes)
-    (duplicate_pin_numbers_are_jumpers no)
-    (property "Reference" "L"
-      (at -1.27 0 90)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "500uH"
-      (at 1.905 0 90)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" "wpt_magnetics:L_ITG_PFC219167D-501K_53.9x53.9mm"
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://www.itg-electronics.com/files/babd00e63216f7cf96a4afc1ad5fc214.pdf"
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "ITG catalog 500uH +/-10%, 45mOhm max; Lmin319.1uH at18.5A/25C; Irms14.2A DC/40C rise. Pins1,3 electrical;2,4 mounting only. Hot L, PWM insulation and losses unqualified."
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "PFC219167D-501K"
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "ITG Electronics, Inc."
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "ki_keywords" "PFC power inductor powder core 500uH"
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "ki_fp_filters" "L_ITG_PFC219167D-501K_53.9x53.9mm"
-      (at 0 0 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "PFC219167D-501K_0_1"
-      (arc
-        (start 0 2.54)
-        (mid 0.6323 1.905)
-        (end 0 1.27)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0 1.27)
-        (mid 0.6323 0.635)
-        (end 0 0)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0 0)
-        (mid 0.6323 -0.635)
-        (end 0 -1.27)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0 -1.27)
-        (mid 0.6323 -1.905)
-        (end 0 -2.54)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none))))
-    (symbol "PFC219167D-501K_1_1"
-      (pin passive line
-        (at 0 3.81 270)
-        (length 1.27)
-        (name "1"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 0 -3.81 90)
-        (length 1.27)
-        (name "3"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "3"
-          (effects
-            (font
-              (size 1.27 1.27))))))
-    (embedded_fonts no))
-  (symbol "PFC219167D-351K"
-    (pin_numbers
-      (hide yes))
-    (pin_names
-      (offset 1.016)
-      (hide yes))
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (in_pos_files yes)
-    (duplicate_pin_numbers_are_jumpers no)
-    (symbol "PFC219167D-351K_0_1"
-      (arc
-        (start 0 2.54)
-        (mid 0.6323 1.905)
-        (end 0 1.27)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0 1.27)
-        (mid 0.6323 0.635)
-        (end 0 0)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0 0)
-        (mid 0.6323 -0.635)
-        (end 0 -1.27)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0 -1.27)
-        (mid 0.6323 -1.905)
-        (end 0 -2.54)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none))))
-    (symbol "PFC219167D-351K_1_1"
-      (pin passive line
-        (at 0 3.81 270)
-        (length 1.27)
-        (name "1"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 0 -3.81 90)
-        (length 1.27)
-        (name "3"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "3"
-          (effects
-            (font
-              (size 1.27 1.27))))))
-    (embedded_fonts no)
-    (property "Reference" "L"
-      (at -3.81 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "350uH"
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" "wpt_magnetics:L_ITG_PFC219167D-351K_55.5x55.5mm"
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)))
-      (hide yes))
-    (property "Datasheet" "https://www.itg-electronics.com/files/babd00e63216f7cf96a4afc1ad5fc214.pdf"
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)))
-      (hide yes))
-    (property "Description" "PFC energy-storage inductor 350uH +/-10%, 33.5mOhm max. Thermal reference16.6A DC at25C / approx40K rise; NOT34A continuous. Pins1/3 electrical,2/4 mechanical. Hot L and repetitive PWM insulation unqualified."
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)))
-      (hide yes))
-    (property "Manufacturer" "ITG Electronics, Inc."
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)))
-      (hide yes))
-    (property "PartNumber" "PFC219167D-351K"
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)))
-      (hide yes))
-    (property "Cost" ""
-      (at 4.0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)))
-      (hide yes)))
-  (symbol "SCF29XV-200-2R0A011JV"
-    (pin_names
-      (offset 0)
-      (hide yes))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "LF"
-      (at 0 6.35 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "SCF29XV-200-2R0A011JV"
-      (at 0 -6.35 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" "wpt_magnetics:Choke_Toroid_KEMET_SCF29XV-200-2R0A011JV_L41.5xW21.4mm"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/SCF29XV-200-2R0A011JV"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "20A 1.3mH common-mode choke, 1000VAC/DC, vertical 4-pin. N1=1-2 N2=3-4, dots1/3. Output HF loss/leakage qualification pending."
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "KEMET"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "SCF29XV-200-2R0A011JV"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "SCF29XV-200-2R0A011JV_0_1"
-      (circle
-        (center -3.048 1.524)
-        (radius 0.254)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type outline)))
-      (circle
-        (center -3.048 -1.27)
-        (radius 0.254)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type outline)))
-      (polyline
-        (pts
-          (xy -2.54 2.032)
-          (xy -2.54 2.54))
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (polyline
-        (pts
-          (xy -2.54 0.508)
-          (xy 2.54 0.508))
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (polyline
-        (pts
-          (xy -2.54 -2.032)
-          (xy -2.54 -2.54))
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start -1.524 2.032)
-        (mid -2.032 1.5262)
-        (end -2.54 2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start -2.54 -2.032)
-        (mid -2.032 -1.5262)
-        (end -1.524 -2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start -0.508 2.032)
-        (mid -1.016 1.5262)
-        (end -1.524 2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start -1.524 -2.032)
-        (mid -1.016 -1.5262)
-        (end -0.508 -2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0.508 2.032)
-        (mid 0 1.5262)
-        (end -0.508 2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start -0.508 -2.032)
-        (mid 0 -1.5262)
-        (end 0.508 -2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 1.524 2.032)
-        (mid 1.016 1.5262)
-        (end 0.508 2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 0.508 -2.032)
-        (mid 1.016 -1.5262)
-        (end 1.524 -2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 2.54 2.032)
-        (mid 2.032 1.5262)
-        (end 1.524 2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (arc
-        (start 1.524 -2.032)
-        (mid 2.032 -1.5262)
-        (end 2.54 -2.032)
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (polyline
-        (pts
-          (xy 2.54 2.54)
-          (xy 2.54 2.032))
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (polyline
-        (pts
-          (xy 2.54 -0.508)
-          (xy -2.54 -0.508))
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none)))
-      (polyline
-        (pts
-          (xy 2.54 -2.032)
-          (xy 2.54 -2.54))
-        (stroke
-          (width 0)
-          (type default))
-        (fill
-          (type none))))
-    (symbol "SCF29XV-200-2R0A011JV_1_1"
-      (pin passive line
-        (at -5.08 2.54 0)
-        (length 2.54)
-        (name "~"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 5.08 2.54 180)
-        (length 2.54)
-        (name "~"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "2"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -5.08 -2.54 0)
-        (length 2.54)
-        (name "~"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "3"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 5.08 -2.54 180)
-        (length 2.54)
-        (name "~"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "4"
-          (effects
-            (font
-              (size 1.27 1.27))))))))
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(symbol "PFC219167D-501K"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500uH"
+			(at 1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wpt_magnetics:L_ITG_PFC219167D-501K_53.9x53.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.itg-electronics.com/files/babd00e63216f7cf96a4afc1ad5fc214.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ITG catalog 500uH +/-10%, 45mOhm max; Lmin319.1uH at18.5A/25C; Irms14.2A DC/40C rise. Pins1,3 electrical;2,4 mounting only. Hot L, PWM insulation and losses unqualified."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "PFC219167D-501K"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ITG Electronics, Inc."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PFC power inductor powder core 500uH"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "L_ITG_PFC219167D-501K_53.9x53.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PFC219167D-501K_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PFC219167D-501K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PFC219167D-351K"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(symbol "PFC219167D-351K_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PFC219167D-351K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(property "Reference" "L"
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "350uH"
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wpt_magnetics:L_ITG_PFC219167D-351K_55.5x55.5mm"
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(hide yes)
+		)
+		(property "Datasheet" "https://www.itg-electronics.com/files/babd00e63216f7cf96a4afc1ad5fc214.pdf"
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(hide yes)
+		)
+		(property "Description" "PFC energy-storage inductor 350uH +/-10%, 33.5mOhm max. Thermal reference16.6A DC at25C / approx40K rise; NOT34A continuous. Pins1/3 electrical,2/4 mechanical. Hot L and repetitive PWM insulation unqualified."
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(hide yes)
+		)
+		(property "Manufacturer" "ITG Electronics, Inc."
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(hide yes)
+		)
+		(property "PartNumber" "PFC219167D-351K"
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(hide yes)
+		)
+		(property "Cost" ""
+			(at 4.0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(hide yes)
+		)
+	)
+	(symbol "SCF29XV-200-2R0A011JV"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LF"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCF29XV-200-2R0A011JV"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wpt_magnetics:Choke_Toroid_KEMET_SCF29XV-200-2R0A011JV_L41.5xW21.4mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/SCF29XV-200-2R0A011JV"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20A 1.3mH common-mode choke, 1000VAC/DC, vertical 4-pin. N1=1-2 N2=3-4, dots1/3. Output HF loss/leakage qualification pending."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "SCF29XV-200-2R0A011JV"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SCF29XV-200-2R0A011JV_0_1"
+			(circle
+				(center -3.048 1.524)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -3.048 -1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.032)
+					(xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.508)
+					(xy 2.54 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.032)
+					(xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 2.032)
+				(mid -2.032 1.5262)
+				(end -2.54 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -2.032)
+				(mid -2.032 -1.5262)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 2.032)
+				(mid -1.016 1.5262)
+				(end -1.524 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 -2.032)
+				(mid -1.016 -1.5262)
+				(end -0.508 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.508 2.032)
+				(mid 0 1.5262)
+				(end -0.508 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 -2.032)
+				(mid 0 -1.5262)
+				(end 0.508 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 2.032)
+				(mid 1.016 1.5262)
+				(end 0.508 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.508 -2.032)
+				(mid 1.016 -1.5262)
+				(end 1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 2.032)
+				(mid 2.032 1.5262)
+				(end 1.524 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 -2.032)
+				(mid 2.032 -1.5262)
+				(end 2.54 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54)
+					(xy 2.54 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -0.508)
+					(xy -2.54 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.032)
+					(xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SCF29XV-200-2R0A011JV_1_1"
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PAS6322.100NLT"
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAS6322.100NLT"
+			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_P919"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shared functional symbol; package and purchasing selection are instance properties. Verified pin mapping retained from reviewed PoC design."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics / YAGEO Group"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "PAS6322.100NLT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinMapSource" "P919.C (05/26), pages 1 and 2 visually cross-checked"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MechanicalStatus" "Footprint/3D pending; physical pads 3/4 have no winding connection shown; keep unrouted"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qualification" "CT isolation working voltage and transient qualification pending"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "current transformer Pulse PAS6322"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Transformer_CurrentSense*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PAS6322.100NLT_0_1"
+			(arc
+				(start -1.016 1.27)
+				(mid -1.524 0.7642)
+				(end -2.032 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.524 1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -2.032 -1.27)
+				(mid -1.524 -0.7642)
+				(end -1.016 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid -0.508 0.7642)
+				(end -1.016 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.016 -1.27)
+				(mid -0.508 -0.7642)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 1.27)
+				(mid 0.508 0.7642)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.508 -0.7642)
+				(end 1.016 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.032 1.27)
+				(mid 1.524 0.7642)
+				(end 1.016 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.524 -1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 1.016 -1.27)
+				(mid 1.524 -0.7642)
+				(end 2.032 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 0.254)
+					(xy -1.778 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -0.254)
+					(xy -1.778 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PAS6322.100NLT_1_1"
+			(pin passive line
+				(at -2.54 -1.27 0)
+				(length 0.508)
+				(name "PRI_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -1.27 180)
+				(length 0.508)
+				(name "PRI_2_DOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 1.27 180)
+				(length 0.508)
+				(name "SEC_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 1.27 0)
+				(length 0.508)
+				(name "SEC_6_DOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

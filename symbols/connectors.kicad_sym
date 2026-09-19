@@ -134,8 +134,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "5227161-2_0_0"
 			(rectangle
 				(start 5.08 -10.16)
@@ -150,7 +164,8 @@
 			)
 			(polyline
 				(pts
-					(xy 6.858 -3.302) (xy 6.35 -4.064)
+					(xy 6.858 -3.302)
+					(xy 6.35 -4.064)
 				)
 				(stroke
 					(width 0.254)
@@ -173,7 +188,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -1.016) (xy 6.604 -1.016)
+					(xy 7.62 -1.016)
+					(xy 6.604 -1.016)
 				)
 				(stroke
 					(width 0.254)
@@ -185,7 +201,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -1.016) (xy 7.62 -3.302)
+					(xy 7.62 -1.016)
+					(xy 7.62 -3.302)
 				)
 				(stroke
 					(width 0.254)
@@ -208,7 +225,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -3.302) (xy 6.858 -3.302)
+					(xy 7.62 -3.302)
+					(xy 6.858 -3.302)
 				)
 				(stroke
 					(width 0.254)
@@ -220,7 +238,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -3.302) (xy 7.112 -4.064)
+					(xy 7.62 -3.302)
+					(xy 7.112 -4.064)
 				)
 				(stroke
 					(width 0.254)
@@ -232,7 +251,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -3.302) (xy 8.382 -3.302)
+					(xy 7.62 -3.302)
+					(xy 8.382 -3.302)
 				)
 				(stroke
 					(width 0.254)
@@ -244,7 +264,8 @@
 			)
 			(polyline
 				(pts
-					(xy 8.382 -3.302) (xy 7.874 -4.064)
+					(xy 8.382 -3.302)
+					(xy 7.874 -4.064)
 				)
 				(stroke
 					(width 0.254)
@@ -256,7 +277,8 @@
 			)
 			(polyline
 				(pts
-					(xy 8.636 -1.016) (xy 7.62 -1.016)
+					(xy 8.636 -1.016)
+					(xy 7.62 -1.016)
 				)
 				(stroke
 					(width 0.254)
@@ -290,7 +312,8 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 5.08 0)
+					(xy 10.16 0)
+					(xy 5.08 0)
 				)
 				(stroke
 					(width 0.254)
@@ -302,7 +325,8 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -2.54) (xy 5.08 -2.54)
+					(xy 10.16 -2.54)
+					(xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -456,9 +480,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x01_1_1"
 			(rectangle
 				(start -1.27 1.27)
@@ -572,9 +617,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x02_1_1"
 			(rectangle
 				(start -1.27 1.27)
@@ -717,9 +783,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x03_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -891,9 +978,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x04_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -1094,9 +1202,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x05_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -1326,9 +1455,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x06_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -1587,9 +1737,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "Conn_01x07_1_1"
 			(rectangle
 				(start -1.27 8.89)
@@ -1911,13 +2082,35 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "G-107-0513_0_0"
 			(polyline
 				(pts
-					(xy -2.54 0) (xy -5.08 0)
+					(xy -2.54 0)
+					(xy -5.08 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1929,7 +2122,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy 2.794 2.1336)
+					(xy -2.54 0)
+					(xy 2.794 2.1336)
 				)
 				(stroke
 					(width 0.1524)
@@ -1963,7 +2157,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 2.921 2.54)
+					(xy 5.08 2.54)
+					(xy 2.921 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1975,7 +2170,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 2.921 -2.54)
+					(xy 5.08 -2.54)
+					(xy 2.921 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2224,7 +2420,14 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "HFBR-1414Z" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "HFBR-1414Z"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "HFBR-14x4Z_0_0"
 			(rectangle
 				(start -7.62 -7.62)
@@ -2239,7 +2442,8 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 5.08) (xy 0 2.54)
+					(xy -1.524 5.08)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -2251,7 +2455,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 7.62) (xy -7.62 7.62)
+					(xy 0 7.62)
+					(xy -7.62 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -2263,7 +2468,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy -1.524 5.08)
+					(xy 0 5.08)
+					(xy -1.524 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -2275,7 +2481,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy 0 7.62)
+					(xy 0 5.08)
+					(xy 0 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -2287,7 +2494,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.524 5.08)
+					(xy 0 2.54)
+					(xy 1.524 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -2299,7 +2507,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy -7.62 0)
+					(xy 0 0)
+					(xy -7.62 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -2311,7 +2520,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2323,7 +2533,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 5.08) (xy 0 5.08)
+					(xy 1.524 5.08)
+					(xy 0 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -2335,7 +2546,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 2.54) (xy -1.524 2.54)
+					(xy 1.524 2.54)
+					(xy -1.524 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -2347,7 +2559,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.4384 4.953) (xy 3.3274 5.4356)
+					(xy 2.4384 4.953)
+					(xy 3.3274 5.4356)
 				)
 				(stroke
 					(width 0.254)
@@ -2359,7 +2572,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.6162 4.8768) (xy 2.8448 5.0292)
+					(xy 2.6162 4.8768)
+					(xy 2.8448 5.0292)
 				)
 				(stroke
 					(width 0.254)
@@ -2371,7 +2585,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.9972 4.4704) (xy 2.4384 4.953)
+					(xy 2.9972 4.4704)
+					(xy 2.4384 4.953)
 				)
 				(stroke
 					(width 0.254)
@@ -2383,7 +2598,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.9972 4.4704) (xy 3.0226 5.207)
+					(xy 2.9972 4.4704)
+					(xy 3.0226 5.207)
 				)
 				(stroke
 					(width 0.254)
@@ -2395,7 +2611,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.0226 5.207) (xy 2.8956 5.207)
+					(xy 3.0226 5.207)
+					(xy 2.8956 5.207)
 				)
 				(stroke
 					(width 0.254)
@@ -2407,7 +2624,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.3274 5.4356) (xy 1.5494 3.4036)
+					(xy 3.3274 5.4356)
+					(xy 1.5494 3.4036)
 				)
 				(stroke
 					(width 0.254)
@@ -2419,7 +2637,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.3274 5.4356) (xy 2.9972 4.4704)
+					(xy 3.3274 5.4356)
+					(xy 2.9972 4.4704)
 				)
 				(stroke
 					(width 0.254)
@@ -2431,7 +2650,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 4.8514) (xy 4.572 5.334)
+					(xy 3.683 4.8514)
+					(xy 4.572 5.334)
 				)
 				(stroke
 					(width 0.254)
@@ -2443,7 +2663,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.8608 4.7752) (xy 4.0894 4.9276)
+					(xy 3.8608 4.7752)
+					(xy 4.0894 4.9276)
 				)
 				(stroke
 					(width 0.254)
@@ -2455,7 +2676,8 @@
 			)
 			(polyline
 				(pts
-					(xy 4.2418 4.3688) (xy 3.683 4.8514)
+					(xy 4.2418 4.3688)
+					(xy 3.683 4.8514)
 				)
 				(stroke
 					(width 0.254)
@@ -2467,7 +2689,8 @@
 			)
 			(polyline
 				(pts
-					(xy 4.2418 4.3688) (xy 4.2672 5.1054)
+					(xy 4.2418 4.3688)
+					(xy 4.2672 5.1054)
 				)
 				(stroke
 					(width 0.254)
@@ -2479,7 +2702,8 @@
 			)
 			(polyline
 				(pts
-					(xy 4.2672 5.1054) (xy 4.1402 5.1054)
+					(xy 4.2672 5.1054)
+					(xy 4.1402 5.1054)
 				)
 				(stroke
 					(width 0.254)
@@ -2491,7 +2715,8 @@
 			)
 			(polyline
 				(pts
-					(xy 4.572 5.334) (xy 2.794 3.302)
+					(xy 4.572 5.334)
+					(xy 2.794 3.302)
 				)
 				(stroke
 					(width 0.254)
@@ -2503,7 +2728,8 @@
 			)
 			(polyline
 				(pts
-					(xy 4.572 5.334) (xy 4.2418 4.3688)
+					(xy 4.572 5.334)
+					(xy 4.2418 4.3688)
 				)
 				(stroke
 					(width 0.254)
@@ -2515,7 +2741,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 7.62) (xy 5.08 0)
+					(xy 5.08 7.62)
+					(xy 5.08 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -2848,11 +3075,19 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "HFBR-2412T" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "HFBR-2412T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "HFBR-24x2T_0_0"
 			(polyline
 				(pts
-					(xy -10.16 -0.635) (xy -8.89 3.175)
+					(xy -10.16 -0.635)
+					(xy -8.89 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -2864,7 +3099,8 @@
 			)
 			(polyline
 				(pts
-					(xy -9.525 5.08) (xy -5.08 5.08)
+					(xy -9.525 5.08)
+					(xy -5.08 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -2876,7 +3112,8 @@
 			)
 			(polyline
 				(pts
-					(xy -9.525 -2.54) (xy -10.16 -0.635)
+					(xy -9.525 -2.54)
+					(xy -10.16 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -2888,7 +3125,8 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 3.175) (xy -9.525 5.08)
+					(xy -8.89 3.175)
+					(xy -9.525 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -2900,7 +3138,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 7.62) (xy -5.715 7.62)
+					(xy -7.62 7.62)
+					(xy -5.715 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -2912,7 +3151,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 5.715) (xy -7.62 7.62)
+					(xy -7.62 5.715)
+					(xy -7.62 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -2924,7 +3164,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -3.175) (xy -7.62 -5.08)
+					(xy -7.62 -3.175)
+					(xy -7.62 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -2936,7 +3177,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -5.08) (xy -5.715 -5.08)
+					(xy -7.62 -5.08)
+					(xy -5.715 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -2948,7 +3190,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 7.62) (xy -3.175 7.62)
+					(xy -5.08 7.62)
+					(xy -3.175 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -2960,7 +3203,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy -5.08 4.445)
+					(xy -5.08 5.08)
+					(xy -5.08 4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -2972,7 +3216,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 4.445) (xy -5.08 -1.905)
+					(xy -5.08 4.445)
+					(xy -5.08 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -2984,7 +3229,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 4.445) (xy -4.445 4.445)
+					(xy -5.08 4.445)
+					(xy -4.445 4.445)
 				)
 				(stroke
 					(width 0.1524)
@@ -2996,7 +3242,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -1.905) (xy -5.08 -2.54)
+					(xy -5.08 -1.905)
+					(xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3008,7 +3255,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -2.54) (xy -9.525 -2.54)
+					(xy -5.08 -2.54)
+					(xy -9.525 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3020,7 +3268,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -5.08) (xy -3.175 -5.08)
+					(xy -5.08 -5.08)
+					(xy -3.175 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -3032,7 +3281,8 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 4.445) (xy -4.445 -1.905)
+					(xy -4.445 4.445)
+					(xy -4.445 -1.905)
 				)
 				(stroke
 					(width 0.1524)
@@ -3044,7 +3294,8 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 -1.905) (xy -5.08 -1.905)
+					(xy -4.445 -1.905)
+					(xy -5.08 -1.905)
 				)
 				(stroke
 					(width 0.1524)
@@ -3056,7 +3307,8 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 1.27) (xy -2.413 2.667)
+					(xy -3.81 1.27)
+					(xy -2.413 2.667)
 				)
 				(stroke
 					(width 0.1524)
@@ -3068,7 +3320,8 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 0.127) (xy -2.286 1.524)
+					(xy -3.683 0.127)
+					(xy -2.286 1.524)
 				)
 				(stroke
 					(width 0.1524)
@@ -3080,7 +3333,8 @@
 			)
 			(polyline
 				(pts
-					(xy -3.302 2.286) (xy -2.794 1.778)
+					(xy -3.302 2.286)
+					(xy -2.794 1.778)
 				)
 				(stroke
 					(width 0.1524)
@@ -3092,7 +3346,8 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 1.143) (xy -2.667 0.635)
+					(xy -3.175 1.143)
+					(xy -2.667 0.635)
 				)
 				(stroke
 					(width 0.1524)
@@ -3104,7 +3359,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 1.778) (xy -2.413 2.667)
+					(xy -2.794 1.778)
+					(xy -2.413 2.667)
 				)
 				(stroke
 					(width 0.1524)
@@ -3116,7 +3372,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 0.635) (xy -2.286 1.524)
+					(xy -2.667 0.635)
+					(xy -2.286 1.524)
 				)
 				(stroke
 					(width 0.1524)
@@ -3128,7 +3385,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 7.62) (xy -0.635 7.62)
+					(xy -2.54 7.62)
+					(xy -0.635 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -3140,7 +3398,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -5.08) (xy -0.635 -5.08)
+					(xy -2.54 -5.08)
+					(xy -0.635 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -3152,7 +3411,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.413 2.667) (xy -3.302 2.286)
+					(xy -2.413 2.667)
+					(xy -3.302 2.286)
 				)
 				(stroke
 					(width 0.1524)
@@ -3164,7 +3424,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 1.524) (xy -3.175 1.143)
+					(xy -2.286 1.524)
+					(xy -3.175 1.143)
 				)
 				(stroke
 					(width 0.1524)
@@ -3176,7 +3437,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 7.62) (xy 1.905 7.62)
+					(xy 0 7.62)
+					(xy 1.905 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -3188,7 +3450,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy 0 2.54)
+					(xy 0 5.08)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -3200,7 +3463,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy 2.54 5.08)
+					(xy 0 5.08)
+					(xy 2.54 5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -3212,7 +3476,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy -1.27 2.54)
+					(xy 0 2.54)
+					(xy -1.27 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3224,7 +3489,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 0)
+					(xy 0 2.54)
+					(xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -3236,7 +3502,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy -1.27 2.54)
+					(xy 0 0)
+					(xy -1.27 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3248,7 +3515,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy -1.27 0)
+					(xy 0 0)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -3260,7 +3528,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -2.54)
+					(xy 0 0)
+					(xy 0 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -3272,7 +3541,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 2.54 -2.54)
+					(xy 0 -2.54)
+					(xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -3284,7 +3554,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 1.905 -5.08)
+					(xy 0 -5.08)
+					(xy 1.905 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -3296,7 +3567,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 2.54) (xy 0 2.54)
+					(xy 1.27 2.54)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3308,7 +3580,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 2.54) (xy 0 0)
+					(xy 1.27 2.54)
+					(xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -3320,7 +3593,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 0 0)
+					(xy 1.27 0)
+					(xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -3332,7 +3606,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 7.62) (xy 2.54 -5.08)
+					(xy 2.54 7.62)
+					(xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.4064)
@@ -3344,7 +3619,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 12.7 -5.08)
+					(xy 2.54 -5.08)
+					(xy 12.7 -5.08)
 				)
 				(stroke
 					(width 0.4064)
@@ -3356,7 +3632,8 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 7.62) (xy 2.54 7.62)
+					(xy 12.7 7.62)
+					(xy 2.54 7.62)
 				)
 				(stroke
 					(width 0.4064)
@@ -3368,7 +3645,8 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -5.08) (xy 12.7 7.62)
+					(xy 12.7 -5.08)
+					(xy 12.7 7.62)
 				)
 				(stroke
 					(width 0.4064)
@@ -3391,7 +3669,8 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -5.08) (xy 15.24 -2.54)
+					(xy 15.24 -5.08)
+					(xy 15.24 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -3403,7 +3682,8 @@
 			)
 			(polyline
 				(pts
-					(xy 17.78 -5.08) (xy 15.24 -5.08)
+					(xy 17.78 -5.08)
+					(xy 15.24 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -3584,8 +3864,22 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" " NPTC051KFXC-RC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" " NPTC051KFXC-RC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "NPTC051KFXC-RC_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -3815,9 +4109,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SMW250-02_1_1"
 			(rectangle
 				(start -1.27 1.27)
@@ -3960,9 +4275,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SMW250-03_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -4134,9 +4470,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SMW250-04_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -4337,9 +4694,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SMW250-05_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -4569,9 +4947,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SMW250-06_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -4830,9 +5229,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SMW250-07_1_1"
 			(rectangle
 				(start -1.27 8.89)
@@ -5111,9 +5531,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "SW_SPDT_312_0_1"
 			(circle
 				(center -2.032 0)
@@ -5128,7 +5569,8 @@
 			)
 			(polyline
 				(pts
-					(xy -1.651 0.254) (xy 1.651 2.286)
+					(xy -1.651 0.254)
+					(xy 1.651 2.286)
 				)
 				(stroke
 					(width 0)
@@ -5323,8 +5765,22 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "USB4125-GF-A_REVA2_0_0"
 			(rectangle
 				(start -7.62 -25.4)
@@ -5589,9 +6045,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "YW396-03_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -5763,9 +6240,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "conn_01x05x254xsmdxR_1_1"
 			(rectangle
 				(start -1.27 6.35)
@@ -5995,9 +6493,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "S4B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "S4B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "S4B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -6198,9 +6717,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "S5B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "S5B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "S5B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -6430,9 +6970,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "S2B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "S2B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "S2B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -6575,9 +7136,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "S3B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "S3B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "S3B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -6749,9 +7331,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "S6B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "S6B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "S6B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -7010,9 +7613,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "B2B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "B2B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "B2B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -7155,9 +7779,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "B3B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "B3B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "B3B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -7329,9 +7974,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "B4B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "B4B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "B4B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -7532,9 +8198,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "B5B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "B5B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "B5B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -7764,9 +8451,30 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "B6B-PH-K-S" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer" "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Cost" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "PartNumber" "B6B-PH-K-S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide
+			)
+		)
 		(symbol "B6B-PH-K-S_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -9466,5 +10174,310 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "Conn_01x12_Functional"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x12_Functional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(property "Description" "Shared functional symbol; package and purchasing selection are instance properties. Verified pin mapping retained from reviewed PoC design."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(symbol "Conn_01x12_Functional_0_1"
+			(rectangle
+				(start -17.78 33.02)
+				(end 17.78 -33.02)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Conn_01x12_Functional_1_1"
+			(pin passive line
+				(at -22.86 27.94 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 22.86 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 17.78 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 12.7 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 7.62 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 2.54 0)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -2.54 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -7.62 0)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -12.7 0)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -17.78 0)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -22.86 0)
+				(length 5.08)
+				(name "11"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -27.94 0)
+				(length 5.08)
+				(name "12"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
 	)
 )

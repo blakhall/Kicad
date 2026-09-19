@@ -1,459 +1,1294 @@
 (kicad_symbol_lib
-  (version 20231120)
-  (generator kicad_symbol_editor)
-  (symbol "G7L-2A-P-PV_DC24"
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "K"
-      (at 0 5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "G7L-2A-P-PV_DC24"
-      (at 0 -5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g7l_pv.pdf"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "Actual coil/contact pin numbers from manufacturer bottom view. NO contacts; footprint and physical integration pending."
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "Omron"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "G7L-2A-P-PV DC24"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "G7L-2A-P-PV_DC24_0_1"
-      (rectangle
-        (start -12.70 15.24)
-        (end 12.70 -15.24)
-        (stroke
-          (width 0.254)
-          (type default))
-        (fill
-          (type background))))
-    (symbol "G7L-2A-P-PV_DC24_1_1"
-      (pin passive line
-        (at -15.24 10.16 0)
-        (length 2.54)
-        (name "A1"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "0"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 10.16 180)
-        (length 2.54)
-        (name "A2"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -15.24 0.00 0)
-        (length 2.54)
-        (name "N-C"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "2"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 0.00 180)
-        (length 2.54)
-        (name "N-NO"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "4"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -15.24 -10.16 0)
-        (length 2.54)
-        (name "L-C"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "6"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 -10.16 180)
-        (length 2.54)
-        (name "L-NO"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "8"
-          (effects
-            (font
-              (size 1.27 1.27)))))))
-  (symbol "G6QE-1A_DC24"
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "K"
-      (at 0 5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "G6QE-1A_DC24"
-      (at 0 -5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6qe.pdf"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "Actual coil/contact pin numbers from manufacturer bottom view. NO contacts; footprint and physical integration pending."
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "Omron"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "G6QE-1A DC24"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "G6QE-1A_DC24_0_1"
-      (rectangle
-        (start -12.70 15.24)
-        (end 12.70 -15.24)
-        (stroke
-          (width 0.254)
-          (type default))
-        (fill
-          (type background))))
-    (symbol "G6QE-1A_DC24_1_1"
-      (pin passive line
-        (at -15.24 7.62 0)
-        (length 2.54)
-        (name "A1"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 7.62 180)
-        (length 2.54)
-        (name "A2"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "2"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -15.24 -7.62 0)
-        (length 2.54)
-        (name "COM"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "4"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 -7.62 180)
-        (length 2.54)
-        (name "NO"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "3"
-          (effects
-            (font
-              (size 1.27 1.27)))))))
-  (symbol "G7L-2A-P-PV_DC12"
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "K"
-      (at 0 5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "G7L-2A-P-PV DC12"
-      (at 0 -5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g7l_pv.pdf"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "12VDC coil; manufacturer coil/contact pin numbers. Footprint and physical integration pending."
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "Omron"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "G7L-2A-P-PV DC12"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "G7L-2A-P-PV_DC12_0_1"
-      (rectangle
-        (start -12.70 15.24)
-        (end 12.70 -15.24)
-        (stroke
-          (width 0.254)
-          (type default))
-        (fill
-          (type background))))
-    (symbol "G7L-2A-P-PV_DC12_1_1"
-      (pin passive line
-        (at -15.24 10.16 0)
-        (length 2.54)
-        (name "A1"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "0"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 10.16 180)
-        (length 2.54)
-        (name "A2"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -15.24 0.00 0)
-        (length 2.54)
-        (name "N-C"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "2"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 0.00 180)
-        (length 2.54)
-        (name "N-NO"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "4"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -15.24 -10.16 0)
-        (length 2.54)
-        (name "L-C"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "6"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 -10.16 180)
-        (length 2.54)
-        (name "L-NO"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "8"
-          (effects
-            (font
-              (size 1.27 1.27)))))))
-  (symbol "G6QE-1A_DC12"
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "K"
-      (at 0 5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Value" "G6QE-1A DC12"
-      (at 0 -5.08 0)
-      (effects
-        (font
-          (size 1.27 1.27))))
-    (property "Footprint" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6qe.pdf"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "12VDC coil; manufacturer coil/contact pin numbers. Footprint and physical integration pending."
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "Omron"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "G6QE-1A DC12"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "G6QE-1A_DC12_0_1"
-      (rectangle
-        (start -12.70 15.24)
-        (end 12.70 -15.24)
-        (stroke
-          (width 0.254)
-          (type default))
-        (fill
-          (type background))))
-    (symbol "G6QE-1A_DC12_1_1"
-      (pin passive line
-        (at -15.24 7.62 0)
-        (length 2.54)
-        (name "A1"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 7.62 180)
-        (length 2.54)
-        (name "A2"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "2"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -15.24 -7.62 0)
-        (length 2.54)
-        (name "COM"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "4"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 15.24 -7.62 180)
-        (length 2.54)
-        (name "NO"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "3"
-          (effects
-            (font
-              (size 1.27 1.27))))))))
+	(version 20231120)
+	(generator kicad_symbol_editor)
+	(symbol "G7L-2A-P-PV_DC24"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G7L-2A-P-PV_DC24"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g7l_pv.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Actual coil/contact pin numbers from manufacturer bottom view. NO contacts; footprint and physical integration pending."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "G7L-2A-P-PV DC24"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "G7L-2A-P-PV_DC24_0_1"
+			(rectangle
+				(start -12.70 15.24)
+				(end 12.70 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "G7L-2A-P-PV_DC24_1_1"
+			(pin passive line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 0.00 0)
+				(length 2.54)
+				(name "N-C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0.00 180)
+				(length 2.54)
+				(name "N-NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "L-C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "L-NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "G6QE-1A_DC24"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6QE-1A_DC24"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6qe.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Actual coil/contact pin numbers from manufacturer bottom view. NO contacts; footprint and physical integration pending."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "G6QE-1A DC24"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "G6QE-1A_DC24_0_1"
+			(rectangle
+				(start -12.70 15.24)
+				(end 12.70 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "G6QE-1A_DC24_1_1"
+			(pin passive line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 7.62 180)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(name "NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "G7L-2A-P-PV_DC12"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G7L-2A-P-PV DC12"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g7l_pv.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12VDC coil; manufacturer coil/contact pin numbers. Footprint and physical integration pending."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "G7L-2A-P-PV DC12"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "G7L-2A-P-PV_DC12_0_1"
+			(rectangle
+				(start -12.70 15.24)
+				(end 12.70 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "G7L-2A-P-PV_DC12_1_1"
+			(pin passive line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 0.00 0)
+				(length 2.54)
+				(name "N-C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0.00 180)
+				(length 2.54)
+				(name "N-NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "L-C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "L-NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "G6QE-1A_DC12"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6QE-1A DC12"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6qe.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12VDC coil; manufacturer coil/contact pin numbers. Footprint and physical integration pending."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "G6QE-1A DC12"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "G6QE-1A_DC12_0_1"
+			(rectangle
+				(start -12.70 15.24)
+				(end 12.70 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "G6QE-1A_DC12_1_1"
+			(pin passive line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 7.62 180)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(name "NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AQY410EH"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AQY410EH"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/495"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shared functional symbol; package and purchasing selection are instance properties. Verified pin mapping retained from reviewed PoC design."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "AQY410EH"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "AQY410EH_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54)
+					(xy -3.175 2.54)
+					(xy -3.175 -2.54)
+					(xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -0.635)
+					(xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635)
+					(xy -3.81 0.635)
+					(xy -2.54 0.635)
+					(xy -3.175 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.508)
+					(xy -0.635 0.508)
+					(xy -1.016 0.381)
+					(xy -1.016 0.635)
+					(xy -0.635 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -0.508)
+					(xy -0.635 -0.508)
+					(xy -1.016 -0.635)
+					(xy -1.016 -0.381)
+					(xy -0.635 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 2.159)
+					(xy 1.016 0.635)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.397)
+					(xy 0.508 1.397)
+					(xy 0.508 -1.397)
+					(xy 1.016 -1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -0.635)
+					(xy 1.016 -2.159)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.651 2.159)
+					(xy 2.794 2.159)
+					(xy 2.794 2.54)
+					(xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.651 1.397)
+					(xy 2.794 1.397)
+					(xy 2.794 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.651 -0.635)
+					(xy 2.794 -0.635)
+					(xy 2.794 0.635)
+					(xy 1.651 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.651 -1.397)
+					(xy 2.794 -1.397)
+					(xy 2.794 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.651 -2.159)
+					(xy 2.794 -2.159)
+					(xy 2.794 -2.54)
+					(xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 1.397)
+					(xy 2.286 1.524)
+					(xy 2.286 1.27)
+					(xy 1.778 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -1.397)
+					(xy 2.286 -1.27)
+					(xy 2.286 -1.524)
+					(xy 1.778 -1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.794 0.635)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0)
+					(xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.794 0)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.794 -0.635)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.429 1.651)
+					(xy 4.191 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.429 -1.651)
+					(xy 4.191 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.81 2.54)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.651)
+					(xy 3.429 0.889)
+					(xy 4.191 0.889)
+					(xy 3.81 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.81 0)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.651)
+					(xy 3.429 -0.889)
+					(xy 4.191 -0.889)
+					(xy 3.81 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54)
+					(xy 3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.81 -2.54)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AQY410EH_1_1"
+			(polyline
+				(pts
+					(xy 1.524 2.286)
+					(xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -0.508)
+					(xy 1.524 -2.286)
+				)
+				(stroke
+					(width 0.3302)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

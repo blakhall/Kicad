@@ -117,7 +117,8 @@
 		(symbol "Q_NMOS_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -129,7 +130,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -141,7 +143,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -153,7 +156,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -165,7 +169,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -177,7 +182,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -189,7 +197,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -212,7 +223,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -246,7 +258,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -258,7 +272,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -270,7 +285,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -744,5 +762,340 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "Fan_2Pin_Negative1"
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(symbol "Fan_2Pin_Negative1_0_0"
+			(polyline
+				(pts
+					(xy -5.08 2.032)
+					(xy -5.334 2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.032)
+					(xy -5.207 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.572 1.524)
+				(mid -5.08 1.0182)
+				(end -5.588 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.588 1.524)
+				(mid -5.4392 1.8832)
+				(end -5.08 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54)
+					(xy -4.064 1.016)
+					(xy -3.302 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fan_2Pin_Negative1_0_1"
+			(polyline
+				(pts
+					(xy -5.334 -3.302)
+					(xy -5.08 -3.302)
+					(xy -5.08 -3.048)
+					(xy -4.826 -3.048)
+					(xy -4.826 -3.302)
+					(xy -4.318 -3.302)
+					(xy -4.318 -3.048)
+					(xy -4.064 -3.048)
+					(xy -4.064 -3.302)
+					(xy -3.556 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54)
+					(xy -5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.016)
+					(xy -4.064 -1.016)
+					(xy -4.064 -2.54)
+					(xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.81)
+				(mid -0.0015 0.9048)
+				(end -2.54 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.572)
+					(xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.2672)
+					(xy 0 4.6228)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.016)
+				(radius 3.2512)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -0.508)
+				(mid 0 1.0618)
+				(end 2.54 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.2352)
+					(xy 0 -2.6416)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08)
+					(xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -0.508)
+				(mid 0.047 0.9315)
+				(end 0 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fan_2Pin_Negative1_1_1"
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(property "Reference" "M"
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Value" "Fan_2Pin_Negative1"
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+			(hide yes)
+		)
+		(property "Datasheet" ""
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+			(hide yes)
+		)
+		(property "Description" "Shared functional symbol; package and purchasing selection are instance properties. Verified pin mapping retained from reviewed PoC design."
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+			(hide yes)
+		)
+		(property "Manufacturer" ""
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+			(hide yes)
+		)
+		(property "PartNumber" ""
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+			(hide yes)
+		)
+		(property "Cost" ""
+			(at 0.0 0.0 0.0)
+			(effects
+				(font
+					(size 1.0 1.0)
+				)
+			)
+			(hide yes)
+		)
 	)
 )

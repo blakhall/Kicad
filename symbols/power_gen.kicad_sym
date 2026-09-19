@@ -627,7 +627,8 @@
 		(symbol "CSD17308Q3_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -639,7 +640,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -651,7 +653,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -663,7 +666,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -675,7 +679,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -687,7 +692,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -699,7 +707,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -722,7 +733,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -756,7 +768,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -768,7 +782,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -780,7 +795,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -1068,7 +1086,8 @@
 		(symbol "DN2530N8-G_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -7.62)
+					(xy 7.62 5.08)
+					(xy 7.62 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -1080,7 +1099,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -7.62) (xy 38.1 -7.62)
+					(xy 7.62 -7.62)
+					(xy 38.1 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -1092,7 +1112,8 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
+					(xy 38.1 5.08)
+					(xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -1104,7 +1125,8 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -7.62) (xy 38.1 5.08)
+					(xy 38.1 -7.62)
+					(xy 38.1 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -1296,7 +1318,8 @@
 		(symbol "FF6MR12W2M1H_1_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -1308,7 +1331,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1320,7 +1344,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -8.255) (xy 0.254 -12.065)
+					(xy 0.254 -8.255)
+					(xy 0.254 -12.065)
 				)
 				(stroke
 					(width 0.254)
@@ -1332,7 +1357,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -10.16) (xy -2.54 -10.16)
+					(xy 0.254 -10.16)
+					(xy -2.54 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -1344,7 +1370,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1356,7 +1383,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -1368,7 +1396,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -1380,7 +1409,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -1392,7 +1424,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -7.874) (xy 0.762 -8.89)
+					(xy 0.762 -7.874)
+					(xy 0.762 -8.89)
 				)
 				(stroke
 					(width 0.254)
@@ -1404,7 +1437,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -9.652) (xy 0.762 -10.668)
+					(xy 0.762 -9.652)
+					(xy 0.762 -10.668)
 				)
 				(stroke
 					(width 0.254)
@@ -1416,7 +1450,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -11.43) (xy 0.762 -12.446)
+					(xy 0.762 -11.43)
+					(xy 0.762 -12.446)
 				)
 				(stroke
 					(width 0.254)
@@ -1428,7 +1463,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -11.938) (xy 3.302 -11.938) (xy 3.302 -8.382) (xy 0.762 -8.382)
+					(xy 0.762 -11.938)
+					(xy 3.302 -11.938)
+					(xy 3.302 -8.382)
+					(xy 0.762 -8.382)
 				)
 				(stroke
 					(width 0)
@@ -1440,7 +1478,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -1452,7 +1493,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 -10.16) (xy 2.032 -9.779) (xy 2.032 -10.541) (xy 1.016 -10.16)
+					(xy 1.016 -10.16)
+					(xy 2.032 -9.779)
+					(xy 2.032 -10.541)
+					(xy 1.016 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -1486,7 +1530,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 -7.62)
+					(xy 2.54 -2.54)
+					(xy 2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1498,7 +1543,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -1532,7 +1579,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -12.7) (xy 2.54 -10.16) (xy 0.762 -10.16)
+					(xy 2.54 -12.7)
+					(xy 2.54 -10.16)
+					(xy 0.762 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -1544,7 +1593,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -1556,7 +1606,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 -9.779) (xy 3.683 -9.779)
+					(xy 2.921 -9.779)
+					(xy 3.683 -9.779)
 				)
 				(stroke
 					(width 0)
@@ -1568,7 +1619,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -1580,7 +1634,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -9.779) (xy 2.921 -10.414) (xy 3.683 -10.414) (xy 3.302 -9.779)
+					(xy 3.302 -9.779)
+					(xy 2.921 -10.414)
+					(xy 3.683 -10.414)
+					(xy 3.302 -9.779)
 				)
 				(stroke
 					(width 0)
@@ -1720,7 +1777,8 @@
 		(symbol "FF6MR12W2M1H_2_1"
 			(polyline
 				(pts
-					(xy -2.54 -5.08) (xy -2.54 -5.08)
+					(xy -2.54 -5.08)
+					(xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -1743,7 +1801,10 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 5.08) (xy 2.54 1.27) (xy -2.54 -1.27) (xy -2.54 -5.08)
+					(xy 2.54 5.08)
+					(xy 2.54 1.27)
+					(xy -2.54 -1.27)
+					(xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -1900,7 +1961,8 @@
 		(symbol "IMLT65R015M2H_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -1912,7 +1974,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1924,7 +1987,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1936,7 +2000,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -1948,7 +2013,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -1960,7 +2026,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -1972,7 +2041,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -1984,7 +2056,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -2018,7 +2091,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -2041,7 +2116,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -2053,7 +2129,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -3752,7 +3831,8 @@
 		(symbol "MOSFET_half_bridge_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -3764,7 +3844,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -3776,7 +3857,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -8.255) (xy 0.254 -12.065)
+					(xy 0.254 -8.255)
+					(xy 0.254 -12.065)
 				)
 				(stroke
 					(width 0.254)
@@ -3788,7 +3870,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -10.16) (xy -2.54 -10.16)
+					(xy 0.254 -10.16)
+					(xy -2.54 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -3800,7 +3883,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -3812,7 +3896,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -3824,7 +3909,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -3836,7 +3922,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -3848,7 +3937,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -7.874) (xy 0.762 -8.89)
+					(xy 0.762 -7.874)
+					(xy 0.762 -8.89)
 				)
 				(stroke
 					(width 0.254)
@@ -3860,7 +3950,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -9.652) (xy 0.762 -10.668)
+					(xy 0.762 -9.652)
+					(xy 0.762 -10.668)
 				)
 				(stroke
 					(width 0.254)
@@ -3872,7 +3963,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -11.43) (xy 0.762 -12.446)
+					(xy 0.762 -11.43)
+					(xy 0.762 -12.446)
 				)
 				(stroke
 					(width 0.254)
@@ -3884,7 +3976,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -11.938) (xy 3.302 -11.938) (xy 3.302 -8.382) (xy 0.762 -8.382)
+					(xy 0.762 -11.938)
+					(xy 3.302 -11.938)
+					(xy 3.302 -8.382)
+					(xy 0.762 -8.382)
 				)
 				(stroke
 					(width 0)
@@ -3896,7 +3991,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -3908,7 +4006,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 -10.16) (xy 2.032 -9.779) (xy 2.032 -10.541) (xy 1.016 -10.16)
+					(xy 1.016 -10.16)
+					(xy 2.032 -9.779)
+					(xy 2.032 -10.541)
+					(xy 1.016 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -3920,7 +4021,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -3954,7 +4056,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 -7.62)
+					(xy 2.54 -2.54)
+					(xy 2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -3966,7 +4069,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -3978,7 +4083,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -7.62) (xy 2.54 -8.382)
+					(xy 2.54 -7.62)
+					(xy 2.54 -8.382)
 				)
 				(stroke
 					(width 0)
@@ -4012,7 +4118,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -12.7) (xy 2.54 -10.16) (xy 0.762 -10.16)
+					(xy 2.54 -12.7)
+					(xy 2.54 -10.16)
+					(xy 0.762 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -4024,7 +4132,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -4036,7 +4145,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 -9.779) (xy 3.683 -9.779)
+					(xy 2.921 -9.779)
+					(xy 3.683 -9.779)
 				)
 				(stroke
 					(width 0)
@@ -4048,7 +4158,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -4060,7 +4173,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -9.779) (xy 2.921 -10.414) (xy 3.683 -10.414) (xy 3.302 -9.779)
+					(xy 3.302 -9.779)
+					(xy 2.921 -10.414)
+					(xy 3.683 -10.414)
+					(xy 3.302 -9.779)
 				)
 				(stroke
 					(width 0)
@@ -4247,7 +4363,8 @@
 		(symbol "Q_NMOS_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -4259,7 +4376,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -4271,7 +4389,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -4283,7 +4402,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -4295,7 +4415,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -4307,7 +4428,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -4319,7 +4443,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -4342,7 +4469,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -4376,7 +4504,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -4388,7 +4518,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -4400,7 +4531,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -4551,7 +4685,8 @@
 		(symbol "Q_NMOS_1_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -4563,7 +4698,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -4575,7 +4711,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -4587,7 +4724,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -4599,7 +4737,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -4611,7 +4750,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -4623,7 +4765,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -4635,7 +4780,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -4669,7 +4815,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -4681,7 +4829,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -4693,7 +4842,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -4849,7 +5001,10 @@
 		(symbol "Relay_SPST-NO_0_0"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					(xy 7.62 5.08)
+					(xy 7.62 2.54)
+					(xy 6.985 3.175)
+					(xy 7.62 3.81)
 				)
 				(stroke
 					(width 0)
@@ -4885,7 +5040,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -1.905) (xy -2.54 1.905)
+					(xy -7.62 -1.905)
+					(xy -2.54 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -4897,7 +5053,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy -5.08 1.905)
+					(xy -5.08 5.08)
+					(xy -5.08 1.905)
 				)
 				(stroke
 					(width 0)
@@ -4909,7 +5066,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -5.08) (xy -5.08 -1.905)
+					(xy -5.08 -5.08)
+					(xy -5.08 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -4921,7 +5079,8 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0) (xy -1.27 0)
+					(xy -1.905 0)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -4933,7 +5092,8 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 0) (xy 0 0)
+					(xy -0.635 0)
+					(xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -4945,7 +5105,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0) (xy 1.27 0)
+					(xy 0.635 0)
+					(xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -4957,7 +5118,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 0) (xy 2.54 0)
+					(xy 1.905 0)
+					(xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -4969,7 +5131,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 0) (xy 3.81 0)
+					(xy 3.175 0)
+					(xy 3.81 0)
 				)
 				(stroke
 					(width 0.254)
@@ -4981,7 +5144,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 3.175 3.81)
+					(xy 5.08 -2.54)
+					(xy 3.175 3.81)
 				)
 				(stroke
 					(width 0.508)
@@ -4993,7 +5157,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -5.08)
+					(xy 5.08 -2.54)
+					(xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -5562,7 +5727,7 @@
 		)
 		(embedded_fonts no)
 	)
-		(symbol "T9AS5D12-5"
+	(symbol "T9AS5D12-5"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5704,7 +5869,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -2.54) (xy -2.54 2.54)
+					(xy -7.62 -2.54)
+					(xy -2.54 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -5716,7 +5882,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy -5.08 2.54)
+					(xy -5.08 5.08)
+					(xy -5.08 2.54)
 				)
 				(stroke
 					(width 0)
@@ -5728,7 +5895,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -5.08) (xy -5.08 -2.54)
+					(xy -5.08 -5.08)
+					(xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5740,7 +5908,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy -1.27 0)
+					(xy -2.54 0)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -5752,7 +5921,8 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 0) (xy 0 0)
+					(xy -0.635 0)
+					(xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -5764,7 +5934,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0) (xy 1.27 0)
+					(xy 0.635 0)
+					(xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -5776,7 +5947,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 3.81 0)
+					(xy 2.54 0)
+					(xy 3.81 0)
 				)
 				(stroke
 					(width 0.254)
@@ -5788,7 +5960,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -5.08) (xy 5.08 -2.54)
+					(xy 5.08 -5.08)
+					(xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5800,7 +5973,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 4.0 1.9)
+					(xy 5.08 -2.54)
+					(xy 4.0 1.9)
 				)
 				(stroke
 					(width 0.508)
@@ -5812,7 +5986,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 5.08) (xy 2.54 2.54)
+					(xy 2.54 5.08)
+					(xy 2.54 2.54)
 				)
 				(stroke
 					(width 0)
@@ -5835,7 +6010,8 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 2.54)
+					(xy 7.62 5.08)
+					(xy 7.62 2.54)
 				)
 				(stroke
 					(width 0)
@@ -5951,7 +6127,7 @@
 		)
 		(embedded_fonts no)
 	)
-(symbol "TR-1a_5V"
+	(symbol "TR-1a_5V"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6071,7 +6247,10 @@
 		(symbol "TR-1a_5V_0_0"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					(xy 7.62 5.08)
+					(xy 7.62 2.54)
+					(xy 6.985 3.175)
+					(xy 7.62 3.81)
 				)
 				(stroke
 					(width 0)
@@ -6107,7 +6286,8 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -1.905) (xy -2.54 1.905)
+					(xy -7.62 -1.905)
+					(xy -2.54 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -6119,7 +6299,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy -5.08 1.905)
+					(xy -5.08 5.08)
+					(xy -5.08 1.905)
 				)
 				(stroke
 					(width 0)
@@ -6131,7 +6312,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -5.08) (xy -5.08 -1.905)
+					(xy -5.08 -5.08)
+					(xy -5.08 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -6143,7 +6325,8 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0) (xy -1.27 0)
+					(xy -1.905 0)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -6155,7 +6338,8 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 0) (xy 0 0)
+					(xy -0.635 0)
+					(xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -6167,7 +6351,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0) (xy 1.27 0)
+					(xy 0.635 0)
+					(xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -6179,7 +6364,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 0) (xy 2.54 0)
+					(xy 1.905 0)
+					(xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -6191,7 +6377,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 0) (xy 3.81 0)
+					(xy 3.175 0)
+					(xy 3.81 0)
 				)
 				(stroke
 					(width 0.254)
@@ -6203,7 +6390,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 3.175 3.81)
+					(xy 5.08 -2.54)
+					(xy 3.175 3.81)
 				)
 				(stroke
 					(width 0.508)
@@ -6215,7 +6403,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -5.08)
+					(xy 5.08 -2.54)
+					(xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -6638,7 +6827,8 @@
 		(symbol "infineon-pg-hdsop-22-3_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -6650,7 +6840,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -6662,7 +6853,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -6674,7 +6866,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -6686,7 +6879,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -6698,7 +6892,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.302 -1.778)
+					(xy 3.302 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -6710,7 +6907,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 2.032 0.381)
+					(xy 2.032 -0.381)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -6722,7 +6922,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -6756,7 +6957,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -6768,7 +6971,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.921 0.381) (xy 3.683 0.381)
+					(xy 2.921 0.381)
+					(xy 3.683 0.381)
 				)
 				(stroke
 					(width 0)
@@ -6780,7 +6984,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					(xy 3.302 0.381)
+					(xy 2.921 -0.254)
+					(xy 3.683 -0.254)
+					(xy 3.302 0.381)
 				)
 				(stroke
 					(width 0)
@@ -7273,7 +7480,8 @@
 		(symbol "mosfet_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.254 1.905)
+					(xy 0.254 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -7285,7 +7493,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 0) (xy -2.54 0)
+					(xy 0.254 0)
+					(xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -7297,7 +7506,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 2.286)
+					(xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -7309,7 +7519,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.762 0.508)
+					(xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -7321,7 +7532,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.762 -1.27)
+					(xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -7333,7 +7545,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.778) (xy 3.81 -1.778) (xy 3.81 1.778) (xy 0.762 1.778)
+					(xy 0.762 -1.778)
+					(xy 3.81 -1.778)
+					(xy 3.81 1.778)
+					(xy 0.762 1.778)
 				)
 				(stroke
 					(width 0)
@@ -7345,7 +7560,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0) (xy 1.778 0.254) (xy 1.778 -0.254) (xy 1.016 0)
+					(xy 1.016 0)
+					(xy 1.778 0.254)
+					(xy 1.778 -0.254)
+					(xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -7357,7 +7575,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
+					(xy 2.54 2.54)
+					(xy 2.54 1.778)
 				)
 				(stroke
 					(width 0)
@@ -7391,7 +7610,9 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					(xy 2.54 -2.54)
+					(xy 2.54 0)
+					(xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -7403,7 +7624,8 @@
 			)
 			(polyline
 				(pts
-					(xy 3.429 0.635) (xy 4.191 0.635)
+					(xy 3.429 0.635)
+					(xy 4.191 0.635)
 				)
 				(stroke
 					(width 0)
@@ -7417,7 +7639,10 @@
 		(symbol "mosfet_1_1"
 			(polyline
 				(pts
-					(xy 3.81 0.508) (xy 3.302 -0.508) (xy 4.318 -0.508) (xy 3.81 0.508)
+					(xy 3.81 0.508)
+					(xy 3.302 -0.508)
+					(xy 4.318 -0.508)
+					(xy 3.81 0.508)
 				)
 				(stroke
 					(width 0)
@@ -7754,7 +7979,7 @@
 						)
 					)
 				)
-			(number "4"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7945,7 +8170,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "2EDB9259F"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8299,7 +8523,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "2EDB9259Y"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8653,7 +8876,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "2EDB8259F"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9007,7 +9229,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "UCC21551"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9125,7 +9346,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 -12.7)
+					(xy 0 12.7)
+					(xy 0 -12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -9401,7 +9623,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "UCC21551A"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9519,7 +9740,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 -12.7)
+					(xy 0 12.7)
+					(xy 0 -12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -9795,7 +10017,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "UCC21551B"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9913,7 +10134,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 -12.7)
+					(xy 0 12.7)
+					(xy 0 -12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -10189,7 +10411,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "UCC21551C"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10307,7 +10528,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 -12.7)
+					(xy 0 12.7)
+					(xy 0 -12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -10582,8 +10804,25 @@
 			)
 		)
 		(embedded_fonts no)
+		(property "PartNumber" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+			(hide yes)
+		)
 	)
-
 	(symbol "UCC21551D"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10701,7 +10940,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 -12.7)
+					(xy 0 12.7)
+					(xy 0 -12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -10977,7 +11217,6 @@
 		)
 		(embedded_fonts no)
 	)
-
 	(symbol "MBRM130LT1G"
 		(pin_numbers
 			(hide yes)
@@ -11091,7 +11330,12 @@
 		(symbol "MBRM130LT1G_0_1"
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy -1.905 0.635)
+					(xy -1.905 1.27)
+					(xy -1.27 1.27)
+					(xy -1.27 -1.27)
+					(xy -0.635 -1.27)
+					(xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -11103,7 +11347,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 1.27 1.27)
+					(xy 1.27 -1.27)
+					(xy -1.27 0)
+					(xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -11115,7 +11362,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 1.27 0)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -11278,7 +11526,12 @@
 		(symbol "NRVBM130LT1G_0_1"
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy -1.905 0.635)
+					(xy -1.905 1.27)
+					(xy -1.27 1.27)
+					(xy -1.27 -1.27)
+					(xy -0.635 -1.27)
+					(xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -11290,7 +11543,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 1.27 1.27)
+					(xy 1.27 -1.27)
+					(xy -1.27 0)
+					(xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -11302,7 +11558,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 1.27 0)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -11469,7 +11726,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 7.62) (xy 0 -7.62)
+					(xy 0 7.62)
+					(xy 0 -7.62)
 				)
 				(stroke
 					(width 0.254)
@@ -11679,7 +11937,8 @@
 		(symbol "CSM_IPT_0_1"
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -11691,7 +11950,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -11839,7 +12099,8 @@
 		(symbol "CSM_Nano_0_1"
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -11851,7 +12112,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -11900,5 +12162,445 @@
 				)
 			)
 		)
+	)
+	(symbol "LM4040C30QDBZR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 8.89 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM4040C30"
+			(at 8.89 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm4040.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Shared functional symbol; package and purchasing selection are instance properties. Verified pin mapping retained from reviewed PoC design."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNumber" "LM4040C30QDBZR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LM4040C30QDBZR_0_1"
+			(rectangle
+				(start -2.54 2.54)
+				(end 7.62 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM4040C30QDBZR_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 90)
+				(length 2.54)
+				(name "*"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS259630DDAR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TPS259630DDAR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2596.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Shared functional symbol; package and purchasing selection are instance properties. Verified pin mapping retained from reviewed PoC design."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "PartNumber" "TPS259630DDAR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "TPS259630DDAR_0_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS259630DDAR_1_1"
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "dV/dT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "EN/UVLO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "~{FLT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "ILM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "OVLO/OVCSEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 )
