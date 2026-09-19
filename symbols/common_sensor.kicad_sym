@@ -72,7 +72,7 @@
 				)
 			)
 		)
-		(property "Cost" "0"
+		(property "Cost" ""
 			(at 0 0 0)
 			(hide yes)
 			(effects
@@ -80,7 +80,8 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)		
+
 		(symbol "ACS72981xLR_0_1"
 			(rectangle
 				(start -7.62 15.24)
@@ -264,7 +265,19 @@
 					(size 1.27 1.27)
 				)
 			)
+		)		
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
+
 		(symbol "TFBS4650-TT3_0_1"
 			(rectangle
 				(start -7.62 10.16)
@@ -478,7 +491,7 @@
 				)
 			)
 		)
-		(property "Cost" "0"
+		(property "Cost" ""
 			(at 0 0 0)
 			(hide yes)
 			(effects
@@ -495,7 +508,8 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)		
+
 		(symbol "ACS37030LLZATR-065B3_0_1"
 			(rectangle
 				(start -10.16 7.62)
@@ -691,7 +705,7 @@
 				)
 			)
 		)
-		(property "Cost" "0"
+		(property "Cost" ""
 			(at 0 0 0)
 			(hide yes)
 			(effects
@@ -708,7 +722,8 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)		
+
 		(symbol "ACS37030_0_1"
 			(rectangle
 				(start -10.16 7.62)
@@ -911,7 +926,19 @@
 					(size 1.27 1.27)
 				)
 			)
+		)		
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
+
 		(symbol "TFBS4650-TR1_0_1"
 			(rectangle
 				(start -7.62 10.16)

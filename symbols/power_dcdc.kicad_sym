@@ -2070,7 +2070,7 @@
 				)
 			)
 		)
-		(property "Cost" "0"
+		(property "Cost" ""
 			(at 0 0 0)
 			(hide yes)
 			(effects
@@ -2848,6 +2848,17 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "SY8088AAC_0_1"
 			(rectangle
 				(start -7.62 6.35)
@@ -3024,17 +3035,6 @@
 				)
 			)
 		)
-		(property "Part Number" "QA053C-1803R3S"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "Mornsun DC-DC Isolated Converter SiC Gate Driver 5V 18V -3.5V SIP"
 			(at 0 0 0)
 			(show_name no)
@@ -3047,6 +3047,28 @@
 			)
 		)
 		(property "ki_fp_filters" "Converter*DCDC*Mornsun*QA* Converter*DCDC*SIP* QA053C*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "QA053C-1803R3S"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
