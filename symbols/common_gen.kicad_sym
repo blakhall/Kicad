@@ -5208,4 +5208,2474 @@
 		)
 		(embedded_fonts no)
 	)
+(symbol "TJA1044BTK_0J"
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "TJA1044BTK_0J_0_1"
+    (rectangle
+      (start -10.16 7.62)
+      (end 10.16 -7.62)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background))))
+  (symbol "TJA1044BTK_0J_1_1"
+    (pin input line
+      (at -12.7 5.08 0)
+      (length 2.54)
+      (name "TXD"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at 0 -10.16 90)
+      (length 2.54)
+      (name "GND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at 0 10.16 270)
+      (length 2.54)
+      (name "VCC"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin output line
+      (at -12.7 2.54 0)
+      (length 2.54)
+      (name "RXD"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "4"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at -12.7 -2.54 0)
+      (length 2.54)
+      (name "VIO"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "5"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at 12.7 -2.54 180)
+      (length 2.54)
+      (name "CANL"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "6"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at 12.7 2.54 180)
+      (length 2.54)
+      (name "CANH"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "7"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin input line
+      (at -12.7 -5.08 0)
+      (length 2.54)
+      (name "STB"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "8"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 0 -10.16 90)
+      (length 2.54)
+      (hide yes)
+      (name "GND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "9"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "TJA1044BTK/0J"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "common_gen:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1044.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "CAN FD transceiver with standby; VCC 4.5-5.5 V, VIO 2.91-5.5 V; HVSON8 SOT782-1"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "NXP Semiconductors"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "TJA1044BTK/0J"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "ACT1210D-510-2P-TL00"
+  (pin_names
+    (offset 0.254)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "ACT1210D-510-2P-TL00_0_1"
+    (circle
+      (center -3.048 1.524)
+      (radius 0.254)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (circle
+      (center -3.048 -1.27)
+      (radius 0.254)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy -2.54 2.032)
+        (xy -2.54 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 0.508)
+        (xy 2.54 0.508))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 -2.032)
+        (xy -2.54 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start -1.524 2.032)
+      (mid -2.032 1.5262)
+      (end -2.54 2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start -2.54 -2.032)
+      (mid -2.032 -1.5262)
+      (end -1.524 -2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start -0.508 2.032)
+      (mid -1.016 1.5262)
+      (end -1.524 2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start -1.524 -2.032)
+      (mid -1.016 -1.5262)
+      (end -0.508 -2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start 0.508 2.032)
+      (mid 0 1.5262)
+      (end -0.508 2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start -0.508 -2.032)
+      (mid 0 -1.5262)
+      (end 0.508 -2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start 1.524 2.032)
+      (mid 1.016 1.5262)
+      (end 0.508 2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start 0.508 -2.032)
+      (mid 1.016 -1.5262)
+      (end 1.524 -2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start 2.54 2.032)
+      (mid 2.032 1.5262)
+      (end 1.524 2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (arc
+      (start 1.524 -2.032)
+      (mid 2.032 -1.5262)
+      (end 2.54 -2.032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 2.54)
+        (xy 2.54 2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 -0.508)
+        (xy -2.54 -0.508))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 -2.032)
+        (xy 2.54 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "ACT1210D-510-2P-TL00_1_1"
+    (pin passive line
+      (at -5.08 2.54 0)
+      (length 2.54)
+      (name "1"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 5.08 2.54 180)
+      (length 2.54)
+      (name "4"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "4"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at -5.08 -2.54 0)
+      (length 2.54)
+      (name "2"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 5.08 -2.54 180)
+      (length 2.54)
+      (name "3"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "L"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "ACT1210D-510-2P-TL00"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "dsp_emc:ACT1210D-510-2P-TL00"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://product.tdk.cn/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_act1210d_zh.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "CAN FD common mode choke; 51uH +50/-30%; DCR 3ohm max through 125C; 115mA before derating; winding 1-4 / 2-3"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "TDK"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "ACT1210D-510-2P-TL00"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "ESD2CAN24DCKRQ1"
+  (pin_names
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "ESD2CAN24DCKRQ1_0_0"
+    (pin passive line
+      (at 0 -5.08 90)
+      (length 2.54)
+      (name "GND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (symbol "ESD2CAN24DCKRQ1_0_1"
+    (rectangle
+      (start -4.445 2.54)
+      (end 4.445 -2.54)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background)))
+    (polyline
+      (pts
+        (xy -3.81 1.27)
+        (xy -3.175 0.635)
+        (xy -1.905 0.635)
+        (xy -1.27 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 2.54)
+        (xy -2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 0.635)
+        (xy -2.54 -1.27)
+        (xy 2.54 -1.27)
+        (xy 2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 0.635)
+        (xy -1.905 -0.635)
+        (xy -3.175 -0.635)
+        (xy -2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 0.635)
+        (xy -3.175 1.905)
+        (xy -1.905 1.905)
+        (xy -2.54 0.635)
+        (xy -2.54 1.27))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0 -1.27)
+        (xy 0 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 1.27 1.27)
+        (xy 1.905 0.635)
+        (xy 2.54 0.635)
+        (xy 3.175 0.635)
+        (xy 3.81 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 2.54)
+        (xy 2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 0.635)
+        (xy 1.905 -0.635)
+        (xy 3.175 -0.635)
+        (xy 2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 0.635)
+        (xy 3.175 1.905)
+        (xy 1.905 1.905)
+        (xy 2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "ESD2CAN24DCKRQ1_1_1"
+    (pin passive line
+      (at -2.54 5.08 270)
+      (length 2.54)
+      (name "IO1"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 2.54 5.08 270)
+      (length 2.54)
+      (name "IO2"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "D"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "ESD2CAN24DCKRQ1"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd2can24-q1.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Dual bidirectional CAN TVS; +/-24V standoff; 3pF typ / 5pF max; 37V TYP at 5.7A 8/20us, not maximum guarantee; SC70 DCK3"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Texas Instruments"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "ESD2CAN24DCKRQ1"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "KMR211GLFS"
+  (pin_names
+    (offset 1.016)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "KMR211GLFS_0_1"
+    (circle
+      (center -2.032 0)
+      (radius 0.508)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0 1.27)
+        (xy 0 3.048))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.508 2.54)
+        (xy 3.048 2.54)
+        (xy 3.048 -1.143)
+        (xy -3.048 -1.143)
+        (xy -3.048 2.54)
+        (xy -0.508 2.54))
+      (stroke
+        (width -0.0254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.508 2.54)
+        (xy 3.048 2.54)
+        (xy 3.048 -1.143)
+        (xy -3.048 -1.143)
+        (xy -3.048 2.54)
+        (xy -0.508 2.54))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (circle
+      (center 2.032 0)
+      (radius 0.508)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 1.27)
+        (xy -2.54 1.27))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (pin passive line
+      (at -5.08 0 0)
+      (length 2.54)
+      (name "1"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 5.08 0 180)
+      (length 2.54)
+      (name "2"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (symbol "KMR211GLFS_1_1"
+    (rectangle
+      (start -3.048 2.54)
+      (end 3.048 -1.27)
+      (stroke
+        (width -0.0254)
+        (type default))
+      (fill
+        (type background)))
+    (pin passive line
+      (at 0 -3.81 90)
+      (length 2.54)
+      (name "B"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "SH"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "SW"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "KMR211G LFS"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "electrical:KMR211GLFS_Z0"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-kmr2-series-datasheet?assetguid=f782bfc7-b600-4ab5-8c8d-a2a094a642e3"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "KMR2 silver-contact 1.2N momentary NO reset switch; 1-50mA, 20mV-32V; shield to GND; KiCad 1/2 are upper/lower terminal groups, SH is case"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "C&K (Littelfuse)"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "KMR211G LFS"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "W25Q64JVZPIQ"
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "W25Q64JVZPIQ_0_1"
+    (rectangle
+      (start -7.62 10.16)
+      (end 10.16 -10.16)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background))))
+  (symbol "W25Q64JVZPIQ_1_1"
+    (pin input line
+      (at -10.16 7.62 0)
+      (length 2.54)
+      (name "~{CS}"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at -10.16 0 0)
+      (length 2.54)
+      (name "DO/IO_{1}"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at -10.16 -2.54 0)
+      (length 2.54)
+      (name "IO2"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at 0 -12.7 90)
+      (length 2.54)
+      (name "GND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "4"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at -10.16 2.54 0)
+      (length 2.54)
+      (name "DI/IO_{0}"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "5"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin input line
+      (at -10.16 5.08 0)
+      (length 2.54)
+      (name "CLK"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "6"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at -10.16 -5.08 0)
+      (length 2.54)
+      (name "IO3"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "7"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at 0 12.7 270)
+      (length 2.54)
+      (name "VCC"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "8"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 2.54 -12.7 90)
+      (length 2.54)
+      (name "EP_NC"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "9"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "W25Q64JVZPIQ"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Winbond%20PDFs/W25Q64JV_Rev_C.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "64 Mbit / 8 MiB SPI NOR, 2.7-3.6 V; IQ has QE=1; WSON-8 6x5 mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Winbond"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "W25Q64JVZPIQ"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "ESD321DYAR"
+  (pin_names
+    (offset 0)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "ESD321DYAR_0_1"
+    (rectangle
+      (start -3.048 1.905)
+      (end 3.048 -3.048)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background)))
+    (polyline
+      (pts
+        (xy -2.54 -2.032)
+        (xy -2.54 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -1.905 -2.032)
+        (xy -0.635 -1.397)
+        (xy -0.635 -2.667)
+        (xy -1.905 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -1.905 -2.667)
+        (xy -1.905 -1.397))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -1.016 0)
+        (xy -2.54 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 0.762)
+        (xy -0.762 0.762))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 0)
+        (xy 0.508 0.635)
+        (xy 0.508 -0.635)
+        (xy -0.762 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 -0.762)
+        (xy -0.762 0.762))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.635 -2.032)
+        (xy -2.54 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.635 -2.032)
+        (xy 0.635 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.381 0.762)
+        (xy -0.762 0.762))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (circle
+      (center 0 -2.032)
+      (radius 0.2032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy 0 -2.54)
+        (xy 0 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.762 -2.032)
+        (xy 2.032 -1.397)
+        (xy 2.032 -2.667)
+        (xy 0.762 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.762 -2.667)
+        (xy 0.762 -1.397))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.889 0)
+        (xy -1.016 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.889 0)
+        (xy -1.016 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.889 0)
+        (xy 2.54 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (circle
+      (center 2.54 0)
+      (radius 0.2032)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy 2.54 -2.032)
+        (xy 0.635 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 -2.032)
+        (xy 0.635 -2.032))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 -2.032)
+        (xy 2.54 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "ESD321DYAR_1_1"
+    (pin passive line
+      (at 0 -5.08 90)
+      (length 2.54)
+      (name "I/O"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 5.08 0 180)
+      (length 2.54)
+      (name "GND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "ESD321DYAR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Diode_SMD:D_SOD-523"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd321.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "3.6V unidirectional low-capacitance ESD candidate; DYA pin1 GND/pin2 IO; system EMC validation pending"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Texas Instruments"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "ESD321DYAR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "TMUX1511PWR"
+  (pin_names
+    (offset 0.508))
+  (in_bom yes)
+  (on_board yes)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "TMUX1511PWR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Quad SPST; SEL high closes; powered-off protected 0..3.6V; PW14 pin map; not an overvoltage clamp"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Texas Instruments"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "TMUX1511PWR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (symbol "TMUX1511PWR_0_1"
+    (rectangle
+      (start -15.24 25.4)
+      (end 15.24 -25.4)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background))))
+  (symbol "TMUX1511PWR_1_1"
+    (pin passive line
+      (at -20.32 17.78 0)
+      (length 5.08)
+      (name "S1"
+        (effects
+          (font
+            (size 1 1))))
+      (number "2"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at 20.32 17.78 180)
+      (length 5.08)
+      (name "D1"
+        (effects
+          (font
+            (size 1 1))))
+      (number "3"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin input line
+      (at -11.43 -30.48 90)
+      (length 5.08)
+      (name "SEL1"
+        (effects
+          (font
+            (size 1 1))))
+      (number "1"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at -20.32 10.16 0)
+      (length 5.08)
+      (name "S2"
+        (effects
+          (font
+            (size 1 1))))
+      (number "5"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at 20.32 10.16 180)
+      (length 5.08)
+      (name "D2"
+        (effects
+          (font
+            (size 1 1))))
+      (number "6"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin input line
+      (at -3.81 -30.48 90)
+      (length 5.08)
+      (name "SEL2"
+        (effects
+          (font
+            (size 1 1))))
+      (number "4"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at -20.32 2.54 0)
+      (length 5.08)
+      (name "S3"
+        (effects
+          (font
+            (size 1 1))))
+      (number "9"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at 20.32 2.54 180)
+      (length 5.08)
+      (name "D3"
+        (effects
+          (font
+            (size 1 1))))
+      (number "8"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin input line
+      (at 3.81 -30.48 90)
+      (length 5.08)
+      (name "SEL3"
+        (effects
+          (font
+            (size 1 1))))
+      (number "10"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at -20.32 -5.08 0)
+      (length 5.08)
+      (name "S4"
+        (effects
+          (font
+            (size 1 1))))
+      (number "12"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at 20.32 -5.08 180)
+      (length 5.08)
+      (name "D4"
+        (effects
+          (font
+            (size 1 1))))
+      (number "11"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin input line
+      (at 11.43 -30.48 90)
+      (length 5.08)
+      (name "SEL4"
+        (effects
+          (font
+            (size 1 1))))
+      (number "13"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 0 30.48 270)
+      (length 5.08)
+      (name "VDD"
+        (effects
+          (font
+            (size 1 1))))
+      (number "14"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 20.32 -20.32 180)
+      (length 5.08)
+      (name "GND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "7"
+        (effects
+          (font
+            (size 1 1)))))))
+(symbol "TCA9517ADGKR"
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "TCA9517ADGKR_1_1"
+    (rectangle
+      (start -10.16 10.16)
+      (end 10.16 -10.16)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background)))
+    (polyline
+      (pts
+        (xy -2.54 2.54)
+        (xy -2.54 3.556)
+        (xy -0.762 3.556))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 -2.54)
+        (xy -2.54 -1.524)
+        (xy -0.762 -1.524))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 2.54)
+        (xy -0.762 4.572)
+        (xy 1.016 3.556)
+        (xy -0.762 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 1.524)
+        (xy -2.54 1.524)
+        (xy -2.54 2.54)
+        (xy -3.81 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 -2.54)
+        (xy -0.762 -0.508)
+        (xy 1.016 -1.524)
+        (xy -0.762 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.762 -3.556)
+        (xy -2.54 -3.556)
+        (xy -2.54 -2.54)
+        (xy -3.81 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 1.016 3.556)
+        (xy 2.794 3.556)
+        (xy 2.794 2.54)
+        (xy 4.064 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 1.016 2.54)
+        (xy 1.016 0.762)
+        (xy 1.016 0.508)
+        (xy -0.762 1.524)
+        (xy 1.016 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 1.016 -1.524)
+        (xy 2.794 -1.524)
+        (xy 2.794 -2.54)
+        (xy 4.064 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 1.016 -2.54)
+        (xy 1.016 -4.318)
+        (xy 1.016 -4.572)
+        (xy -0.762 -3.556)
+        (xy 1.016 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.794 2.54)
+        (xy 2.794 1.524)
+        (xy 1.016 1.524))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.794 -2.54)
+        (xy 2.794 -3.556)
+        (xy 1.016 -3.556))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (pin power_in line
+      (at -2.54 12.7 270)
+      (length 2.54)
+      (name "VCCA"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at -12.7 2.54 0)
+      (length 2.54)
+      (name "SCLA"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at -12.7 -2.54 0)
+      (length 2.54)
+      (name "SDAA"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at 0 -12.7 90)
+      (length 2.54)
+      (name "GND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "4"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 12.7 -7.62 180)
+      (length 2.54)
+      (name "EN"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "5"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at 12.7 -2.54 180)
+      (length 2.54)
+      (name "SDAB"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "6"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin bidirectional line
+      (at 12.7 2.54 180)
+      (length 2.54)
+      (name "SCLB"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "7"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin power_in line
+      (at 2.54 12.7 270)
+      (length 2.54)
+      (name "VCCB"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "8"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "TCA9517ADGKR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9517a.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Bidirectional I2C repeater; B-side static VOL offset; internal EN pullup requires external 10k pulldown"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Texas Instruments"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "TCA9517ADGKR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "VOS618A-3T"
+  (pin_names
+    (offset 1.016))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "VOS618A-3T_0_1"
+    (rectangle
+      (start -5.08 3.81)
+      (end 5.08 -3.81)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background)))
+    (polyline
+      (pts
+        (xy -5.08 2.54)
+        (xy -2.54 2.54)
+        (xy -2.54 -1.27)
+        (xy -2.54 0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -3.175 -0.635)
+        (xy -1.905 -0.635))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 -0.635)
+        (xy -2.54 -2.54)
+        (xy -5.08 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -2.54 -0.635)
+        (xy -3.175 0.635)
+        (xy -1.905 0.635)
+        (xy -2.54 -0.635))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.508 0.508)
+        (xy 0.762 0.508)
+        (xy 0.381 0.381)
+        (xy 0.381 0.635)
+        (xy 0.762 0.508))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy -0.508 -0.508)
+        (xy 0.762 -0.508)
+        (xy 0.381 -0.635)
+        (xy 0.381 -0.381)
+        (xy 0.762 -0.508))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 1.905)
+        (xy 2.54 -1.905))
+      (stroke
+        (width 0.508)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.54 0.635)
+        (xy 4.445 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 3.048 -1.651)
+        (xy 3.556 -1.143)
+        (xy 4.064 -2.159)
+        (xy 3.048 -1.651))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy 4.445 2.54)
+        (xy 5.08 2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 4.445 -2.54)
+        (xy 2.54 -0.635))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy 4.445 -2.54)
+        (xy 5.08 -2.54))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "VOS618A-3T_1_1"
+    (pin passive line
+      (at -7.62 2.54 0)
+      (length 2.54)
+      (name "A"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at -7.62 -2.54 0)
+      (length 2.54)
+      (name "K"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 7.62 -2.54 180)
+      (length 2.54)
+      (name "E"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 7.62 2.54 180)
+      (length 2.54)
+      (name "C"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "4"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "VOS618A-3T"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.vishay.com/docs/83465/vos618a.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Phototransistor optocoupler; 1 A, 2 K, 3 E, 4 C; CTR group 3; temperature/aging qualification pending"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Vishay"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "VOS618A-3T"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "IPS4260LTR"
+  (pin_names
+    (offset 0.508))
+  (in_bom yes)
+  (on_board yes)
+  (property "Reference" "U"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "IPS4260LTR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_SO:ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.st.com/resource/en/datasheet/ips4260l.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Quad protected low-side switch; IN pins also open-drain fault outputs; use series resistors; auto-retry cut-off; EP21=SGND"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "STMicroelectronics"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "IPS4260LTR"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (symbol "IPS4260LTR_0_1"
+    (rectangle
+      (start -20.32 35.56)
+      (end 20.32 -35.56)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background))))
+  (symbol "IPS4260LTR_1_1"
+    (pin bidirectional line
+      (at -25.4 30.48 0)
+      (length 5.08)
+      (name "IN1"
+        (effects
+          (font
+            (size 1 1))))
+      (number "4"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin bidirectional line
+      (at -25.4 22.86 0)
+      (length 5.08)
+      (name "IN2"
+        (effects
+          (font
+            (size 1 1))))
+      (number "5"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin bidirectional line
+      (at -25.4 15.24 0)
+      (length 5.08)
+      (name "IN3"
+        (effects
+          (font
+            (size 1 1))))
+      (number "6"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin bidirectional line
+      (at -25.4 7.62 0)
+      (length 5.08)
+      (name "IN4"
+        (effects
+          (font
+            (size 1 1))))
+      (number "7"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at -25.4 0 0)
+      (length 5.08)
+      (name "ILIM"
+        (effects
+          (font
+            (size 1 1))))
+      (number "12"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at -25.4 -7.62 0)
+      (length 5.08)
+      (name "CoD"
+        (effects
+          (font
+            (size 1 1))))
+      (number "11"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin open_collector line
+      (at -25.4 -15.24 0)
+      (length 5.08)
+      (name "OL"
+        (effects
+          (font
+            (size 1 1))))
+      (number "9"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin open_collector line
+      (at -25.4 -22.86 0)
+      (length 5.08)
+      (name "FLT"
+        (effects
+          (font
+            (size 1 1))))
+      (number "10"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at -25.4 -30.48 0)
+      (length 5.08)
+      (name "VCC"
+        (effects
+          (font
+            (size 1 1))))
+      (number "13"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin open_collector line
+      (at 25.4 30.48 180)
+      (length 5.08)
+      (name "OUT1"
+        (effects
+          (font
+            (size 1 1))))
+      (number "17"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin open_collector line
+      (at 25.4 22.86 180)
+      (length 5.08)
+      (name "OUT2"
+        (effects
+          (font
+            (size 1 1))))
+      (number "16"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin open_collector line
+      (at 25.4 15.24 180)
+      (length 5.08)
+      (name "OUT3"
+        (effects
+          (font
+            (size 1 1))))
+      (number "15"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin open_collector line
+      (at 25.4 7.62 180)
+      (length 5.08)
+      (name "OUT4"
+        (effects
+          (font
+            (size 1 1))))
+      (number "14"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at 25.4 0 180)
+      (length 5.08)
+      (name "VZ"
+        (effects
+          (font
+            (size 1 1))))
+      (number "3"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin passive line
+      (at 25.4 -7.62 180)
+      (length 5.08)
+      (name "VZ"
+        (effects
+          (font
+            (size 1 1))))
+      (number "18"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 25.4 -15.24 180)
+      (length 5.08)
+      (name "PGND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "1"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 25.4 -22.86 180)
+      (length 5.08)
+      (name "PGND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "2"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 25.4 -30.48 180)
+      (length 5.08)
+      (name "PGND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "19"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at -12.7 -40.64 90)
+      (length 5.08)
+      (name "PGND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "20"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 0 -40.64 90)
+      (length 5.08)
+      (name "SGND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "8"
+        (effects
+          (font
+            (size 1 1)))))
+    (pin power_in line
+      (at 12.7 -40.64 90)
+      (length 5.08)
+      (name "EP_SGND"
+        (effects
+          (font
+            (size 1 1))))
+      (number "21"
+        (effects
+          (font
+            (size 1 1)))))))
+(symbol "DMP2035U-7"
+  (pin_names
+    (offset 0)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "DMP2035U-7_0_1"
+    (polyline
+      (pts
+        (xy 0.254 1.905)
+        (xy 0.254 -1.905))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.254 0)
+        (xy -2.54 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.762 2.286)
+        (xy 0.762 1.27))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.762 1.778)
+        (xy 3.302 1.778)
+        (xy 3.302 -1.778)
+        (xy 0.762 -1.778))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.762 0.508)
+        (xy 0.762 -0.508))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 0.762 -1.27)
+        (xy 0.762 -2.286))
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (circle
+      (center 1.651 0)
+      (radius 2.794)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.286 0)
+        (xy 1.27 0.381)
+        (xy 1.27 -0.381)
+        (xy 2.286 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy 2.54 2.54)
+        (xy 2.54 1.778))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (circle
+      (center 2.54 1.778)
+      (radius 0.254)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (circle
+      (center 2.54 -1.778)
+      (radius 0.254)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type outline)))
+    (polyline
+      (pts
+        (xy 2.54 -2.54)
+        (xy 2.54 0)
+        (xy 0.762 0))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 2.921 -0.381)
+        (xy 3.683 -0.381))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none)))
+    (polyline
+      (pts
+        (xy 3.302 -0.381)
+        (xy 2.921 0.254)
+        (xy 3.683 0.254)
+        (xy 3.302 -0.381))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "DMP2035U-7_1_1"
+    (pin input line
+      (at -5.08 0 0)
+      (length 2.54)
+      (name "G"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 2.54 -5.08 90)
+      (length 2.54)
+      (name "S"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "2"
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (pin passive line
+      (at 2.54 5.08 270)
+      (length 2.54)
+      (name "D"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "3"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "Q"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "DMP2035U-7"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" "https://www.diodes.com/datasheet/download/DMP2035U.pdf"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Reverse-input P-MOS: 1 gate,2 source,3 drain. Drain faces input, source faces eFuse. VDS -20V, VGS +/-10V per DS31830 Rev11-2."
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" "Diodes Incorporated"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" "DMP2035U-7"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
 )

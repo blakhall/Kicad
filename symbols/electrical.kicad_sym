@@ -1098,4 +1098,250 @@
 			(hide yes)
 		)
 	)
+(symbol "PWR_FLAG"
+  (power global)
+  (pin_numbers
+    (hide yes))
+  (pin_names
+    (offset 0)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "PWR_FLAG_0_0"
+    (pin power_out line
+      (at 0 0 90)
+      (length 0)
+      (name ""
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (symbol "PWR_FLAG_0_1"
+    (polyline
+      (pts
+        (xy 0 0)
+        (xy 0 1.27)
+        (xy -1.016 1.905)
+        (xy 0 2.54)
+        (xy 1.016 1.905)
+        (xy 0 1.27))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (embedded_fonts no)
+  (property "Reference" "#FLG"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "PWR_FLAG"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Generic reusable symbol; select specifications and purchasing identity on the schematic instance."
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "TestPoint"
+  (pin_numbers
+    (hide yes))
+  (pin_names
+    (offset 0.762)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (in_pos_files yes)
+  (duplicate_pin_numbers_are_jumpers no)
+  (symbol "TestPoint_0_1"
+    (circle
+      (center 0 3.302)
+      (radius 0.762)
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "TestPoint_1_1"
+    (pin passive line
+      (at 0 0 90)
+      (length 2.54)
+      (name "1"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "TP"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "TestPoint"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Generic reusable symbol; select specifications and purchasing identity on the schematic instance."
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
+(symbol "TestPoint_Rectangular"
+  (pin_names
+    (offset 1.016)
+    (hide yes))
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (symbol "TestPoint_Rectangular_1_1"
+    (rectangle
+      (start -1.27 1.27)
+      (end 1.27 -1.27)
+      (stroke
+        (width 0.254)
+        (type default))
+      (fill
+        (type background)))
+    (rectangle
+      (start -1.27 0.127)
+      (end 0 -0.127)
+      (stroke
+        (width 0.1524)
+        (type default))
+      (fill
+        (type none)))
+    (pin passive line
+      (at -5.08 0 0)
+      (length 3.81)
+      (name "Pin_1"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27))))))
+  (embedded_fonts no)
+  (property "Reference" "TP"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Value" "TestPoint_Rectangular"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))))
+  (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Description" "Bare PCB test pad; no assembled component"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Manufacturer" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "PartNumber" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes)))
+  (property "Cost" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1 1))
+      (hide yes))))
 )

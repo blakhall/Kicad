@@ -1,0 +1,227 @@
+(footprint "TSM-107-01-L-DV-006"
+  (version 20260206)
+  (generator "pcbnew")
+  (generator_version "10.0")
+  (layer "F.Cu")
+  (descr "Samtec manufacturer land pattern, top/mating view: odd contacts +Y, columns from -X; no alignment posts")
+  (property "Reference" "REF**"
+    (at 0 -5.218 0)
+    (layer "F.SilkS")
+    (uuid "8669f582-0479-4b2a-ba29-fb6c91f4e170")
+    (effects
+      (font
+        (size 0.8 0.8)
+        (thickness 0.12))))
+  (property "Value" "TSM-107-01-L-DV-006"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "beca52cf-c46d-4e26-81f1-c511b91764ac")
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "df30a53f-a4bc-4407-bcc8-41497fe3dead")
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (property "Description" ""
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "3fe04d7b-6453-4b72-9835-52ff4cc61dc2")
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (attr smd)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_line
+    (start -9.07 2.2765)
+    (end -9.07 2.6765)
+    (stroke
+      (width 0.12)
+      (type default))
+    (layer "F.SilkS")
+    (uuid "30242461-2467-48b3-b750-092f6da56177"))
+  (fp_line
+    (start -9.01 -0.5)
+    (end -9.01 0.5)
+    (stroke
+      (width 0.12)
+      (type default))
+    (layer "F.SilkS")
+    (uuid "8d306f4a-480b-47ae-916a-658e9e01f083"))
+  (fp_line
+    (start 9.01 -0.5)
+    (end 9.01 0.5)
+    (stroke
+      (width 0.12)
+      (type default))
+    (layer "F.SilkS")
+    (uuid "4324f08f-1ddb-4978-abc0-634a2a30ec83"))
+  (fp_line
+    (start -9.24 -4.617999)
+    (end 9.24 -4.617999)
+    (stroke
+      (width 0.05)
+      (type default))
+    (layer "F.CrtYd")
+    (uuid "2aa5524a-cdd2-4dd6-aa9a-a1ca02b17cb1"))
+  (fp_line
+    (start -9.24 4.617999)
+    (end -9.24 -4.617999)
+    (stroke
+      (width 0.05)
+      (type default))
+    (layer "F.CrtYd")
+    (uuid "1382c55f-9810-4d51-b480-5885cf544250"))
+  (fp_line
+    (start 9.24 -4.617999)
+    (end 9.24 4.617999)
+    (stroke
+      (width 0.05)
+      (type default))
+    (layer "F.CrtYd")
+    (uuid "9e6dbb90-8400-4b30-a8c4-f65805c05990"))
+  (fp_line
+    (start 9.24 4.617999)
+    (end -9.24 4.617999)
+    (stroke
+      (width 0.05)
+      (type default))
+    (layer "F.CrtYd")
+    (uuid "13b9c088-8741-4d27-b8a7-8ffa1a87dd9c"))
+  (fp_line
+    (start -8.89 -2.54)
+    (end 8.89 -2.54)
+    (stroke
+      (width 0.1)
+      (type default))
+    (layer "F.Fab")
+    (uuid "c9b31d61-2875-451f-9095-05a18adf9a8c"))
+  (fp_line
+    (start -8.89 2.54)
+    (end -8.89 -2.54)
+    (stroke
+      (width 0.1)
+      (type default))
+    (layer "F.Fab")
+    (uuid "75424637-f707-4a91-80b0-1eb777c98eb5"))
+  (fp_line
+    (start 8.89 -2.54)
+    (end 8.89 2.54)
+    (stroke
+      (width 0.1)
+      (type default))
+    (layer "F.Fab")
+    (uuid "cadd5d88-2fb2-4cf0-833c-6c467444453a"))
+  (fp_line
+    (start 8.89 2.54)
+    (end -8.89 2.54)
+    (stroke
+      (width 0.1)
+      (type default))
+    (layer "F.Fab")
+    (uuid "ec769214-a4d1-4d8d-92b6-881d40c69d38"))
+  (pad "1" smd roundrect
+    (at -7.62 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "e1b1ab55-efe0-4cad-8569-2e7287d28954"))
+  (pad "2" smd roundrect
+    (at -7.62 -2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "094e159f-b8de-41a6-8b0a-6bf37e0be90d"))
+  (pad "3" smd roundrect
+    (at -5.08 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "799ccded-6c3c-4d39-b960-943f5a5544bb"))
+  (pad "4" smd roundrect
+    (at -5.08 -2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "41c01679-24f9-48dc-a9c3-e395ba2ec681"))
+  (pad "5" smd roundrect
+    (at -2.54 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "604650ec-9cd6-4f2b-a8bf-524db534dd5f"))
+  (pad "7" smd roundrect
+    (at 0 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "dbb8d649-9317-442c-8021-06ba67ab0fd8"))
+  (pad "8" smd roundrect
+    (at 0 -2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "51c5e59c-8c51-4283-8cac-b45a9a9e0e1d"))
+  (pad "9" smd roundrect
+    (at 2.54 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "a1c7dd52-f468-4541-9c92-5906df4eb744"))
+  (pad "10" smd roundrect
+    (at 2.54 -2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "cd419e35-9775-420a-bdf8-a9d8d092fb34"))
+  (pad "11" smd roundrect
+    (at 5.08 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "da2149de-14d8-4cd6-9850-9542839bed2a"))
+  (pad "12" smd roundrect
+    (at 5.08 -2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "6d3e95b4-b50e-47fe-a3b8-eafcbefe8bc9"))
+  (pad "13" smd roundrect
+    (at 7.62 2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "786ad6a3-9fee-4ede-b87f-47d36cfaa3b5"))
+  (pad "14" smd roundrect
+    (at 7.62 -2.4765)
+    (size 1.27 3.683)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.15)
+    (thermal_bridge_angle 45)
+    (uuid "acbf4500-dd8e-4b36-9195-2a6bc65a152a"))
+  (embedded_fonts no)
+  (model "${KICAD_GITHUB}/3dmodels/connectors/TSM-107-01-L-DV-006.step"
+    (offset
+      (xyz 0 0 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0))))

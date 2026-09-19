@@ -1,0 +1,1629 @@
+{
+  "schema_version": 1,
+  "scope": "Registered DSP design candidates; exact purchasing identity independent of shared geometry. Unknown identities are retained in project BOM, never invented.",
+  "parts": [
+    {
+      "Manufacturer": "TDK",
+      "PartNumber": "MPZ1608S601ATA00",
+      "Symbols": [
+        "common:FerriteBead"
+      ],
+      "Footprints": [
+        "Inductor_SMD:L_0603_1608Metric"
+      ],
+      "Datasheets": [
+        "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "FB1",
+          "value": "MPZ1608S601ATA00"
+        },
+        {
+          "project": "base",
+          "reference": "FB701",
+          "value": "MPZ1608S601ATA00"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "NXP Semiconductors",
+      "PartNumber": "TJA1044BTK/0J",
+      "Symbols": [
+        "common_gen:TJA1044BTK_0J"
+      ],
+      "Footprints": [
+        "common_gen:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+      ],
+      "Datasheets": [
+        "https://www.nxp.com/docs/en/data-sheet/TJA1044.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "U5",
+          "value": "TJA1044BTK/0J"
+        },
+        {
+          "project": "module",
+          "reference": "U6",
+          "value": "TJA1044BTK/0J"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "TDK",
+      "PartNumber": "ACT1210D-510-2P-TL00",
+      "Symbols": [
+        "common_gen:ACT1210D-510-2P-TL00"
+      ],
+      "Footprints": [
+        "dsp_emc:ACT1210D-510-2P-TL00"
+      ],
+      "Datasheets": [
+        "https://product.tdk.cn/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_act1210d_zh.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "L1",
+          "value": "ACT1210D-510-2P-TL00"
+        },
+        {
+          "project": "module",
+          "reference": "L2",
+          "value": "ACT1210D-510-2P-TL00"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "ESD2CAN24DCKRQ1",
+      "Symbols": [
+        "common_gen:ESD2CAN24DCKRQ1"
+      ],
+      "Footprints": [
+        "Package_TO_SOT_SMD:SOT-323_SC-70"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/esd2can24-q1.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "D3",
+          "value": "ESD2CAN24DCKRQ1"
+        },
+        {
+          "project": "module",
+          "reference": "D4",
+          "value": "ESD2CAN24DCKRQ1"
+        },
+        {
+          "project": "base",
+          "reference": "D601",
+          "value": "ESD2CAN24DCKRQ1"
+        },
+        {
+          "project": "base",
+          "reference": "D602",
+          "value": "ESD2CAN24DCKRQ1"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "F28P550SJ9PDTR",
+      "Symbols": [
+        "mcu_gen:F28P550SJ9PDTR"
+      ],
+      "Footprints": [
+        "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tms320f28p550sj.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "U1",
+          "value": "F28P550SJ9PDTR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Vishay",
+      "PartNumber": "CRCW06030000Z0EA",
+      "Symbols": [
+        "common:R_US"
+      ],
+      "Footprints": [
+        "wpt_sensing:R_0603_1608Metric"
+      ],
+      "Datasheets": [
+        "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "R1",
+          "value": "0R"
+        },
+        {
+          "project": "module",
+          "reference": "R3",
+          "value": "0R"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Vishay",
+      "PartNumber": "FC0603E50R0BTBST1",
+      "Symbols": [
+        "common:R_US"
+      ],
+      "Footprints": [
+        "wpt_sensing:R_0603_1608Metric"
+      ],
+      "Datasheets": [
+        "https://www.vishay.com/docs/60093/fcseries.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "R2",
+          "value": "50R / 0.1%"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Wurth Elektronik / IQD",
+      "PartNumber": "830108207209",
+      "Symbols": [
+        "common:Crystal_GND24"
+      ],
+      "Footprints": [
+        "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+      ],
+      "Datasheets": [
+        "https://www.we-online.com/components/products/datasheet/830108207209.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "Y1",
+          "value": "20MHz / CL=8pF"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "KEMET",
+      "PartNumber": "C0402C120J3GACAUTO",
+      "Symbols": [
+        "common:C"
+      ],
+      "Footprints": [
+        "Capacitor_SMD:C_0402_1005Metric"
+      ],
+      "Datasheets": [
+        "https://yageogroup.com/component-documentation/download/specsheet/C0402C120J3GACAUTO"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "C16",
+          "value": "12pF / 25V C0G"
+        },
+        {
+          "project": "module",
+          "reference": "C17",
+          "value": "12pF / 25V C0G"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Samtec",
+      "PartNumber": "CLP-104-02-F-D-TR",
+      "Symbols": [
+        "connectors:CLP-104-02-F-D-TR"
+      ],
+      "Footprints": [
+        "connectors:CLP-104-02-F-D-TR_RevW"
+      ],
+      "Datasheets": [
+        "https://suddendocs.samtec.com/prints/clp-1xx-xx-xxx-d-xx-xx-xx-mkt.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "J3",
+          "value": "CLP-104-02-F-D-TR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "C&K (Littelfuse)",
+      "PartNumber": "KMR211G LFS",
+      "Symbols": [
+        "common_gen:KMR211GLFS"
+      ],
+      "Footprints": [
+        "electrical:KMR211GLFS_Z0"
+      ],
+      "Datasheets": [
+        "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-kmr2-series-datasheet?assetguid=f782bfc7-b600-4ab5-8c8d-a2a094a642e3"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "SW1",
+          "value": "KMR211G LFS"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Samtec",
+      "PartNumber": "FTSH-122-03-L-DV",
+      "Symbols": [
+        "dsp_connectors:FTSH-122-03-L-DV"
+      ],
+      "Footprints": [
+        "dsp_connectors:FTSH-122-03-L-DV"
+      ],
+      "Datasheets": [
+        "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-x-xx-mkt.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "J1",
+          "value": "FTSH-122-03-L-DV"
+        },
+        {
+          "project": "module",
+          "reference": "J2",
+          "value": "FTSH-122-03-L-DV"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Winbond",
+      "PartNumber": "W25Q64JVZPIQ",
+      "Symbols": [
+        "common_gen:W25Q64JVZPIQ"
+      ],
+      "Footprints": [
+        "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+      ],
+      "Datasheets": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Winbond%20PDFs/W25Q64JV_Rev_C.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "U3",
+          "value": "W25Q64JVZPIQ"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "REF3430IDBVR",
+      "Symbols": [
+        "power_gen:REF3430IDBVR"
+      ],
+      "Footprints": [
+        "wpt_driver:SOT-23-6"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/gpn/REF34"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "U4",
+          "value": "REF3430IDBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TPS7A3701DRVR",
+      "Symbols": [
+        "power_gen:TPS7A3701DRVR"
+      ],
+      "Footprints": [
+        "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tps7a37.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "U2",
+          "value": "TPS7A3701DRVR"
+        },
+        {
+          "project": "base",
+          "reference": "U701",
+          "value": "TPS7A3701DRVR"
+        },
+        {
+          "project": "base",
+          "reference": "U502",
+          "value": "TPS7A3701DRVR"
+        },
+        {
+          "project": "base",
+          "reference": "U503",
+          "value": "TPS7A3701DRVR"
+        },
+        {
+          "project": "base",
+          "reference": "U301",
+          "value": "TPS7A3701DRVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TPS3808G01DBVR",
+      "Symbols": [
+        "wpt_driver:TPS3808G01DBVR"
+      ],
+      "Footprints": [
+        "wpt_driver:SOT-23-6"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tps3808.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "module",
+          "reference": "U7",
+          "value": "TPS3808G01DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "ESD321DYAR",
+      "Symbols": [
+        "common_gen:ESD321DYAR"
+      ],
+      "Footprints": [
+        "Diode_SMD:D_SOD-523"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/esd321.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "D711",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D712",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D713",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D714",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D715",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D716",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D717",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D718",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D719",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D720",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D721",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D722",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D1201",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D1202",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D1203",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D1204",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D1205",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D1206",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D201",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D202",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D203",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D204",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D205",
+          "value": "ESD321DYAR"
+        },
+        {
+          "project": "base",
+          "reference": "D206",
+          "value": "ESD321DYAR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TMUX1511PWR",
+      "Symbols": [
+        "common_gen:TMUX1511PWR"
+      ],
+      "Footprints": [
+        "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U711",
+          "value": "TMUX1511PWR"
+        },
+        {
+          "project": "base",
+          "reference": "U712",
+          "value": "TMUX1511PWR"
+        },
+        {
+          "project": "base",
+          "reference": "U715",
+          "value": "TMUX1511PWR"
+        },
+        {
+          "project": "base",
+          "reference": "U716",
+          "value": "TMUX1511PWR"
+        },
+        {
+          "project": "base",
+          "reference": "U719",
+          "value": "TMUX1511PWR"
+        },
+        {
+          "project": "base",
+          "reference": "U720",
+          "value": "TMUX1511PWR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "OPA2320AIDR",
+      "Symbols": [
+        "wpt_sensing:OPA2320AIDR"
+      ],
+      "Footprints": [
+        "wpt_driver:SOIC-8_3.9x4.9mm_P1.27mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/opa2320.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U713",
+          "value": "OPA2320AIDR"
+        },
+        {
+          "project": "base",
+          "reference": "U714",
+          "value": "OPA2320AIDR"
+        },
+        {
+          "project": "base",
+          "reference": "U717",
+          "value": "OPA2320AIDR"
+        },
+        {
+          "project": "base",
+          "reference": "U718",
+          "value": "OPA2320AIDR"
+        },
+        {
+          "project": "base",
+          "reference": "U721",
+          "value": "OPA2320AIDR"
+        },
+        {
+          "project": "base",
+          "reference": "U722",
+          "value": "OPA2320AIDR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TPS3808G33DBVR",
+      "Symbols": [
+        "wpt_driver:TPS3808G33DBVR"
+      ],
+      "Footprints": [
+        "wpt_driver:SOT-23-6"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tps3808.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U702",
+          "value": "TPS3808G33DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U1",
+          "value": "TPS3808G33DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U2",
+          "value": "TPS3808G33DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U3",
+          "value": "TPS3808G33DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U4",
+          "value": "TPS3808G33DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U403",
+          "value": "TPS3808G33DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G17DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G17DBVR"
+      ],
+      "Footprints": [
+        "common:SOT-23-5"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U703",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U5",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U6",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U7",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U8",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U9",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U504",
+          "value": "SN74LVC1G17DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U412",
+          "value": "SN74LVC1G17DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G11DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G11DBVR"
+      ],
+      "Footprints": [
+        "wpt_driver:SOT-23-6"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U704",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U705",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U10",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U11",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U12",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U821",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U901",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U902",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U903",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U904",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U505",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U506",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U405",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U407",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U410",
+          "value": "SN74LVC1G11DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U411",
+          "value": "SN74LVC1G11DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TPS2553DBVR-1",
+      "Symbols": [
+        "power_gen:TPS2553DBVR-1"
+      ],
+      "Footprints": [
+        "wpt_driver:SOT-23-6"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U302",
+          "value": "TPS2553DBVR-1"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G06DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G06DBVR"
+      ],
+      "Footprints": [
+        "common:SOT-23-5"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U13",
+          "value": "SN74LVC1G06DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U14",
+          "value": "SN74LVC1G06DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U15",
+          "value": "SN74LVC1G06DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U822",
+          "value": "SN74LVC1G06DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC244APWR",
+      "Symbols": [
+        "wpt_driver:SN74LVC244APWR"
+      ],
+      "Footprints": [
+        "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U103",
+          "value": "SN74LVC244APWR"
+        },
+        {
+          "project": "base",
+          "reference": "U202",
+          "value": "SN74LVC244APWR"
+        },
+        {
+          "project": "base",
+          "reference": "U823",
+          "value": "SN74LVC244APWR"
+        },
+        {
+          "project": "base",
+          "reference": "U401",
+          "value": "SN74LVC244APWR"
+        },
+        {
+          "project": "base",
+          "reference": "U402",
+          "value": "SN74LVC244APWR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TCA9517ADGKR",
+      "Symbols": [
+        "common_gen:TCA9517ADGKR"
+      ],
+      "Footprints": [
+        "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tca9517a.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U201",
+          "value": "TCA9517ADGKR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Vishay",
+      "PartNumber": "SMBJ33CA-E3/52",
+      "Symbols": [
+        "common:D_TVS_Bidirectional"
+      ],
+      "Footprints": [
+        "Diode_SMD:D_SMB"
+      ],
+      "Datasheets": [
+        "https://www.vishay.com/docs/88392/smbj.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "D801",
+          "value": "SMBJ33CA-E3/52"
+        },
+        {
+          "project": "base",
+          "reference": "D804",
+          "value": "SMBJ33CA-E3/52"
+        },
+        {
+          "project": "base",
+          "reference": "D807",
+          "value": "SMBJ33CA-E3/52"
+        },
+        {
+          "project": "base",
+          "reference": "D810",
+          "value": "SMBJ33CA-E3/52"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Diodes Incorporated",
+      "PartNumber": "BAV21W-7-F",
+      "Symbols": [
+        "common:D"
+      ],
+      "Footprints": [
+        "wpt_gatebias:SOD123_BAT46W_DS30044"
+      ],
+      "Datasheets": [
+        "https://www.diodes.com/assets/Datasheets/ds12024.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "D802",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D803",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D805",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D806",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D808",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D809",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D811",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D812",
+          "value": "BAV21W-7-F"
+        },
+        {
+          "project": "base",
+          "reference": "D901",
+          "value": "BAV21W-7-F"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Vishay",
+      "PartNumber": "VOS618A-3T",
+      "Symbols": [
+        "common_gen:VOS618A-3T"
+      ],
+      "Footprints": [
+        "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+      ],
+      "Datasheets": [
+        "https://www.vishay.com/docs/83465/vos618a.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U801",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U802",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U803",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U804",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U911",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U912",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U913",
+          "value": "VOS618A-3T"
+        },
+        {
+          "project": "base",
+          "reference": "U914",
+          "value": "VOS618A-3T"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G14DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G14DBVR"
+      ],
+      "Footprints": [
+        "common:SOT-23-5"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U811",
+          "value": "SN74LVC1G14DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U812",
+          "value": "SN74LVC1G14DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U813",
+          "value": "SN74LVC1G14DBVR"
+        },
+        {
+          "project": "base",
+          "reference": "U814",
+          "value": "SN74LVC1G14DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "STMicroelectronics",
+      "PartNumber": "IPS4260LTR",
+      "Symbols": [
+        "common_gen:IPS4260LTR"
+      ],
+      "Footprints": [
+        "Package_SO:ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm"
+      ],
+      "Datasheets": [
+        "https://www.st.com/resource/en/datasheet/ips4260l.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U922",
+          "value": "IPS4260LTR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Vishay",
+      "PartNumber": "SMBJ30A-E3/52",
+      "Symbols": [
+        "common:D_TVS_Unidirectional"
+      ],
+      "Footprints": [
+        "Diode_SMD:D_SMB"
+      ],
+      "Datasheets": [
+        "https://www.vishay.com/docs/88392/smbj.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "D903",
+          "value": "SMBJ30A-E3/52"
+        },
+        {
+          "project": "base",
+          "reference": "D902",
+          "value": "SMBJ30A-E3/52"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Littelfuse",
+      "PartNumber": "0466.125NRHF",
+      "Symbols": [
+        "common:Fuse"
+      ],
+      "Footprints": [
+        "Fuse:Fuse_1206_3216Metric"
+      ],
+      "Datasheets": [
+        "https://www.littelfuse.com/assetdocs/littelfuse_fuse_466_datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "F901",
+          "value": "0466.125NRHF"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TPS7A1633DRBR",
+      "Symbols": [
+        "power_gen:TPS7A1633DRBR"
+      ],
+      "Footprints": [
+        "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tps7a16.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U921",
+          "value": "TPS7A1633DRBR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "TPS259474LRPWR",
+      "Symbols": [
+        "power_gen:TPS259474LRPWR"
+      ],
+      "Footprints": [
+        "power_gen:TPS25947_RPW0010A"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U501",
+          "value": "TPS259474LRPWR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "JST",
+      "PartNumber": "B2B-PH-K-S(LF)(SN)",
+      "Symbols": [
+        "connectors:B2B-PH-K-S"
+      ],
+      "Footprints": [
+        "connectors:B2B-PH-K-S"
+      ],
+      "Datasheets": [
+        "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "J503",
+          "value": "B2B-PH-K-S(LF)(SN)"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Littelfuse",
+      "PartNumber": "0466002.NRHF",
+      "Symbols": [
+        "common:Fuse"
+      ],
+      "Footprints": [
+        "Fuse:Fuse_1206_3216Metric"
+      ],
+      "Datasheets": [
+        "https://www.littelfuse.com/assetdocs/fuse-466-datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "F501",
+          "value": "0466002.NRHF"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Diodes Incorporated",
+      "PartNumber": "DMP2035U-7",
+      "Symbols": [
+        "common_gen:DMP2035U-7"
+      ],
+      "Footprints": [
+        "Package_TO_SOT_SMD:SOT-23"
+      ],
+      "Datasheets": [
+        "https://www.diodes.com/datasheet/download/DMP2035U.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "Q501",
+          "value": "DMP2035U-7"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Littelfuse",
+      "PartNumber": "SMBJ6.0CA",
+      "Symbols": [
+        "common:D_TVS_Bidirectional"
+      ],
+      "Footprints": [
+        "Diode_SMD:D_SMB"
+      ],
+      "Datasheets": [
+        "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "D501",
+          "value": "SMBJ6.0CA"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Diodes Incorporated",
+      "PartNumber": "BZT52C5V1-7-F",
+      "Symbols": [
+        "common:D_Zener"
+      ],
+      "Footprints": [
+        "Diode_SMD:D_SOD-123"
+      ],
+      "Datasheets": [
+        "https://www.diodes.com/_files/datasheets/ds18004.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "D502",
+          "value": "BZT52C5V1-7-F"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Samtec",
+      "PartNumber": "CLP-122-02-L-D",
+      "Symbols": [
+        "dsp_connectors:CLP-122-02-L-D"
+      ],
+      "Footprints": [
+        "dsp_connectors:CLP-122-02-L-D"
+      ],
+      "Datasheets": [
+        "https://suddendocs.samtec.com/prints/clp-1xx-xx-xxx-d-xx-xx-xx-mkt.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "J501",
+          "value": "CLP-122-02-L-D"
+        },
+        {
+          "project": "base",
+          "reference": "J502",
+          "value": "CLP-122-02-L-D"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G86DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G86DBVR"
+      ],
+      "Footprints": [
+        "common:SOT-23-5"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U404",
+          "value": "SN74LVC1G86DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G74DCUR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G74DCUR"
+      ],
+      "Footprints": [
+        "wpt_driver:VSSOP-8_2.3x2mm_P0.5mm"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U406",
+          "value": "SN74LVC1G74DCUR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G04DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G04DBVR"
+      ],
+      "Footprints": [
+        "common:SOT-23-5"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U408",
+          "value": "SN74LVC1G04DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Texas Instruments",
+      "PartNumber": "SN74LVC1G07DBVR",
+      "Symbols": [
+        "wpt_driver:SN74LVC1G07DBVR"
+      ],
+      "Footprints": [
+        "common:SOT-23-5"
+      ],
+      "Datasheets": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "base",
+          "reference": "U409",
+          "value": "SN74LVC1G07DBVR"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Samtec",
+      "PartNumber": "FTR-110-51-L-D-06",
+      "Symbols": [
+        "connectors:FTR-110-51-L-D-06"
+      ],
+      "Footprints": [
+        "connectors:FTR-110-51-L-D-06"
+      ],
+      "Datasheets": [
+        "https://suddendocs.samtec.com/prints/ftr-1xx-xx-xx-d-xx-xx-mkt.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "cti20",
+          "reference": "J1",
+          "value": "FTR-110-51-L-D-06"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Samtec",
+      "PartNumber": "FTSH-104-03-L-DV",
+      "Symbols": [
+        "connectors:FTSH-104-03-L-DV"
+      ],
+      "Footprints": [
+        "connectors:FTSH-104-03-L-DV"
+      ],
+      "Datasheets": [
+        "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "cti20",
+          "reference": "J2",
+          "value": "FTSH-104-03-L-DV"
+        },
+        {
+          "project": "ti14",
+          "reference": "J2",
+          "value": "FTSH-104-03-L-DV"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "YAGEO",
+      "PartNumber": "RC0603FR-0722RL",
+      "Symbols": [
+        "common:R_US"
+      ],
+      "Footprints": [
+        "wpt_sensing:R_0603_1608Metric"
+      ],
+      "Datasheets": [
+        "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0722RL"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "cti20",
+          "reference": "R1",
+          "value": "22R 1%"
+        },
+        {
+          "project": "cti20",
+          "reference": "R2",
+          "value": "22R 1%"
+        },
+        {
+          "project": "cti20",
+          "reference": "R3",
+          "value": "22R 1%"
+        },
+        {
+          "project": "ti14",
+          "reference": "R1",
+          "value": "22R 1%"
+        },
+        {
+          "project": "ti14",
+          "reference": "R2",
+          "value": "22R 1%"
+        },
+        {
+          "project": "ti14",
+          "reference": "R3",
+          "value": "22R 1%"
+        }
+      ]
+    },
+    {
+      "Manufacturer": "Samtec",
+      "PartNumber": "TSM-107-01-L-DV-006",
+      "Symbols": [
+        "connectors:TSM-107-01-L-DV-006"
+      ],
+      "Footprints": [
+        "connectors:TSM-107-01-L-DV-006"
+      ],
+      "Datasheets": [
+        "https://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf"
+      ],
+      "Cost": "",
+      "approval": "existing_design_candidate_not_production_qualified",
+      "usage": [
+        {
+          "project": "ti14",
+          "reference": "J1",
+          "value": "TSM-107-01-L-DV-006"
+        }
+      ]
+    }
+  ]
+}

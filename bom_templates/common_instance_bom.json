@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "fields": [
+    "Reference",
+    "Value",
+    "Footprint",
+    "Datasheet",
+    "Description",
+    "Manufacturer",
+    "PartNumber",
+    "Cost"
+  ],
+  "group_by": [
+    "Manufacturer",
+    "PartNumber",
+    "Value",
+    "Footprint",
+    "Description",
+    "DNP",
+    "InBOM"
+  ],
+  "unknown_identity_policy": "keep_per_reference",
+  "quantity": "count_unique_references",
+  "dnp_policy": "separate",
+  "missing_cost": "null_not_zero",
+  "authority": "schematic_instance; catalogue supplies selected part defaults only; no automatic overwrite"
+}
