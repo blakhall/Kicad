@@ -1,0 +1,28 @@
+{
+  "relative_to": "DSP_F28P550_40x30_Module origin; rotation 0; F.Cu",
+  "assembly": "DSP module procured separately; not a Samtec part",
+  "items": [
+    {
+      "Quantity": 2,
+      "Manufacturer": "Samtec",
+      "PartNumber": "CLP-122-02-L-D",
+      "Cost": null
+    }
+  ],
+  "placements": [
+    {
+      "connector": "J1",
+      "x_mm": 0,
+      "y_mm": -10.5,
+      "rotation_deg": 180,
+      "side": "F.Cu"
+    },
+    {
+      "connector": "J2",
+      "x_mm": 0,
+      "y_mm": 10.5,
+      "rotation_deg": 180,
+      "side": "F.Cu"
+    }
+  ]
+}

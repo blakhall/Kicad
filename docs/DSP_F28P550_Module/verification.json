@@ -1,0 +1,47 @@
+{
+  "new_symbols": [
+    "DSP_F28P550_40x30_Module",
+    "DSP_F28P550_40x30_Header_J1",
+    "DSP_F28P550_40x30_Header_J2"
+  ],
+  "pins_and_pads_checked": 176,
+  "required_fields_checked": 24,
+  "existing_symbols_preserved": 11,
+  "native_erc_errors": 0,
+  "native_erc_warnings": 0,
+  "source_sha256": {
+    "D:\\huni\\sw\\codex\\dsp_board\\kicad\\dsp_board.kicad_pcb": "1fab67cb2764cb4f21bc2b39eede0ad538caea71ad5f54e6d0d115d22c2f89f2",
+    "D:\\huni\\sw\\codex\\dsp_board\\kicad\\connectors.kicad_sch": "da9c54c11d752ee84f7f9236854a68f96dbf9373f856c79a62885b163e4db302"
+  },
+  "published_sha256": {
+    "D:\\huni\\data\\github\\Kicad\\symbols\\WPO_Board.kicad_sym": "96309c0943221fa44258286ca1f0cfe37becf4931d0546d251ea5edb7e6a258e",
+    "D:\\huni\\data\\github\\Kicad\\footprints\\WPO_Board.pretty\\DSP_F28P550_40x30_SocketPair.kicad_mod": "69fc833b595065986d88b2699a6c9fc9a4bdd5c32a47d0f23951df6468199378"
+  },
+  "model_note": "Two shared socket STEP models placed at socket centers; intentional assembly translations and Z rotations. No full DSP assembly 3D.",
+  "unknown_fields": {
+    "module": [
+      "PartNumber",
+      "Cost",
+      "Datasheet"
+    ],
+    "headers": [
+      "Cost"
+    ]
+  },
+  "toolkit": {
+    "new_symbols_passed": 3,
+    "new_footprints_passed": 1,
+    "new_failures": 0,
+    "category_existing_broken_links": [
+      "DRV_Board",
+      "DSP_Board",
+      "GAPowerBoard",
+      "VAControlBoard",
+      "VAPowerBoard"
+    ],
+    "category_fields": "14/14",
+    "broken_models": 0,
+    "invalid_files": 0
+  },
+  "position_output": "Assembly excluded; actual socket placements require two entries."
+}
