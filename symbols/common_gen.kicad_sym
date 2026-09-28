@@ -3477,516 +3477,525 @@
 		)
 	)
 	(symbol "PDLF4500LC"
-		(pin_names
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "FL"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PDLF4500LC"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "common:Filter_DataLine_Coilcraft_PDLF_8SMD"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.coilcraft.com/pdfs/pdlf.pdf"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-Line SMT Data Line EMI Filter / Common Mode Choke, 0.848kOhm @ 200MHz, 500mA, 5uH, 8-SMD Gull Wing"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Coilcraft"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "PDLF4500LC"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "common mode choke data line emi filter coilcraft pdlf"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Filter*Coilcraft*PDLF* PDLF*"
-			(at 0 0 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "PDLF4500LC_0_1"
-			(circle
-				(center -2.54 3.81)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -2.54 1.27)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -2.54 -1.27)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -2.54 -3.81)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27)
-					(xy 2.54 1.27)
-				)
-				(stroke
-					(width 0.25)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -1.27)
-					(xy 2.54 -1.27)
-				)
-				(stroke
-					(width 0.25)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -3.81)
-					(xy 2.54 -3.81)
-				)
-				(stroke
-					(width 0.25)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 2.54)
-				(mid -1.905 3.1723)
-				(end -1.27 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 2.54)
-				(mid -0.635 3.1723)
-				(end 0 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 2.54)
-				(mid 0.635 3.1723)
-				(end 1.27 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 2.54)
-				(mid 1.905 3.1723)
-				(end 2.54 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 0)
-				(mid -1.905 0.6323)
-				(end -1.27 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 0)
-				(mid -0.635 0.6323)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.635 0.6323)
-				(end 1.27 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 0)
-				(mid 1.905 0.6323)
-				(end 2.54 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -2.54)
-				(mid -1.905 -1.9077)
-				(end -1.27 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 -2.54)
-				(mid -0.635 -1.9077)
-				(end 0 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -2.54)
-				(mid 0.635 -1.9077)
-				(end 1.27 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 -2.54)
-				(mid 1.905 -1.9077)
-				(end 2.54 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -5.08)
-				(mid -1.905 -4.4477)
-				(end -1.27 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 -5.08)
-				(mid -0.635 -4.4477)
-				(end 0 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -5.08)
-				(mid 0.635 -4.4477)
-				(end 1.27 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 -5.08)
-				(mid 1.905 -4.4477)
-				(end 2.54 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "PDLF4500LC_1_1"
-			(pin passive line
-				(at -5.08 2.54 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -5.08 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -5.08 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
+	(pin_names
+		(hide yes)
 	)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "FL"
+		(at 0 5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "PDLF4500LC"
+		(at 0 -7.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" "common:Filter_DataLine_Coilcraft_PDLF_8SMD"
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/pdfs/pdlf.pdf"
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "4-Line SMT Data Line EMI Filter / Common Mode Choke, 0.848kOhm @ 200MHz, 500mA, 5uH, 8-SMD Gull Wing"
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "PartNumber" ""
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "ki_keywords" "common mode choke data line emi filter coilcraft pdlf"
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "ki_fp_filters" "Filter*Coilcraft*PDLF* PDLF*"
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(symbol "PDLF4500LC_0_1"
+		(circle
+			(center -2.54 3.81)
+			(radius 0.254)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(circle
+			(center -2.54 1.27)
+			(radius 0.254)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(circle
+			(center -2.54 -1.27)
+			(radius 0.254)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(circle
+			(center -2.54 -3.81)
+			(radius 0.254)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(polyline
+			(pts
+				(xy -2.54 1.27)
+				(xy 2.54 1.27)
+			)
+			(stroke
+				(width 0.25)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -2.54 -1.27)
+				(xy 2.54 -1.27)
+			)
+			(stroke
+				(width 0.25)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -2.54 -3.81)
+				(xy 2.54 -3.81)
+			)
+			(stroke
+				(width 0.25)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -2.54 2.54)
+			(mid -1.905 3.1723)
+			(end -1.27 2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -1.27 2.54)
+			(mid -0.635 3.1723)
+			(end 0 2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 0 2.54)
+			(mid 0.635 3.1723)
+			(end 1.27 2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 1.27 2.54)
+			(mid 1.905 3.1723)
+			(end 2.54 2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -2.54 0)
+			(mid -1.905 0.6323)
+			(end -1.27 0)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -1.27 0)
+			(mid -0.635 0.6323)
+			(end 0 0)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 0 0)
+			(mid 0.635 0.6323)
+			(end 1.27 0)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 1.27 0)
+			(mid 1.905 0.6323)
+			(end 2.54 0)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -2.54 -2.54)
+			(mid -1.905 -1.9077)
+			(end -1.27 -2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -1.27 -2.54)
+			(mid -0.635 -1.9077)
+			(end 0 -2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 0 -2.54)
+			(mid 0.635 -1.9077)
+			(end 1.27 -2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 1.27 -2.54)
+			(mid 1.905 -1.9077)
+			(end 2.54 -2.54)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -2.54 -5.08)
+			(mid -1.905 -4.4477)
+			(end -1.27 -5.08)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start -1.27 -5.08)
+			(mid -0.635 -4.4477)
+			(end 0 -5.08)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 0 -5.08)
+			(mid 0.635 -4.4477)
+			(end 1.27 -5.08)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(arc
+			(start 1.27 -5.08)
+			(mid 1.905 -4.4477)
+			(end 2.54 -5.08)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+	)
+	(symbol "PDLF4500LC_1_1"
+		(pin passive line
+			(at -5.08 2.54 0)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 2.54 180)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "8"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -5.08 0 0)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 0 180)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "7"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -5.08 -2.54 0)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 -2.54 180)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "6"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -5.08 -5.08 0)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 -5.08 180)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "5"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(property "Cost" ""
+		(at 0 0 0)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+)
 	(symbol "VO618A-4X016"
 		(in_bom yes)
 		(on_board yes)
@@ -9033,6 +9042,183 @@
 		)
 		(embedded_fonts no)
 	)
+(symbol "74LVC1G02"
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(in_pos_files yes)
+	(duplicate_pin_numbers_are_jumpers no)
+	(property "Reference" "U"
+		(at -5.08 7.62 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Value" "74LVC1G02"
+		(at 7.62 -7.62 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Footprint" "common:SOT-23-5"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects (font (size 1.27 1.27)))
+		(hide yes)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects (font (size 1.27 1.27)))
+		(hide yes)
+	)
+	(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects (font (size 1.27 1.27)))
+		(hide yes)
+	)
+	(property "ki_keywords" "Single Gate NOR LVC CMOS"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects (font (size 1.27 1.27)))
+	)
+	(symbol "74LVC1G02_0_1"
+		(arc
+			(start -7.62 5.08)
+			(mid -5.838 0)
+			(end -7.62 -5.08)
+			(stroke (width 0.254) (type default))
+			(fill (type none))
+		)
+		(polyline
+			(pts
+				(xy -7.62 2.54)
+				(xy -6.35 2.54)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+		(polyline
+			(pts
+				(xy -7.62 -2.54)
+				(xy -6.35 -2.54)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+		(arc
+			(start 5.08 0)
+			(mid 3.202 -3.202)
+			(end 0 -5.08)
+			(stroke (width 0.254) (type default))
+			(fill (type none))
+		)
+		(arc
+			(start 0 5.08)
+			(mid 3.2271 3.2271)
+			(end 5.08 0)
+			(stroke (width 0.254) (type default))
+			(fill (type none))
+		)
+		(polyline
+			(pts
+				(xy 0 5.08)
+				(xy -7.62 5.08)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+		(polyline
+			(pts
+				(xy 0 -5.08)
+				(xy -7.62 -5.08)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+	)
+	(symbol "74LVC1G02_1_1"
+		(pin input line
+			(at -15.24 2.54 0)
+			(length 7.62)
+			(name "A"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin input line
+			(at -15.24 -2.54 0)
+			(length 7.62)
+			(name "B"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 5.08)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin output inverted
+			(at 12.7 0 180)
+			(length 7.62)
+			(name "Y"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 5.08)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+	(embedded_fonts no)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "PartNumber" ""
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "Cost" ""
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+)
 	(symbol "TCAN1462VDRQ1"
 		(pin_names
 			(offset 1.016)

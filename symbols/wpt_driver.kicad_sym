@@ -1023,136 +1023,135 @@
         (size 1 1))
       (hide yes))))
 (symbol "SN74LVC1G06DBVR"
-  (exclude_from_sim no)
-  (in_bom yes)
-  (on_board yes)
-  (in_pos_files yes)
-  (duplicate_pin_numbers_are_jumpers no)
-  (symbol "SN74LVC1G06DBVR_0_1"
-    (polyline
-      (pts
-        (xy -7.62 6.35)
-        (xy -7.62 -6.35)
-        (xy 5.08 0)
-        (xy -7.62 6.35))
-      (stroke
-        (width 0.254)
-        (type default))
-      (fill
-        (type background)))
-    (polyline
-      (pts
-        (xy -3.81 -1.27)
-        (xy -1.27 -1.27))
-      (stroke
-        (width 0.254)
-        (type default))
-      (fill
-        (type background)))
-    (polyline
-      (pts
-        (xy -2.54 1.27)
-        (xy -3.81 0)
-        (xy -2.54 -1.27)
-        (xy -1.27 0)
-        (xy -2.54 1.27))
-      (stroke
-        (width 0.254)
-        (type default))
-      (fill
-        (type background))))
-  (symbol "SN74LVC1G06DBVR_1_1"
-    (pin input line
-      (at -15.24 0 0)
-      (length 7.62)
-      (name "A"
-        (effects
-          (font
-            (size 1.27 1.27))))
-      (number "2"
-        (effects
-          (font
-            (size 1.27 1.27)))))
-    (pin power_in line
-      (at -5.08 -10.16 90)
-      (length 5.08)
-      (name "GND"
-        (effects
-          (font
-            (size 1.27 1.27))))
-      (number "3"
-        (effects
-          (font
-            (size 1.27 1.27)))))
-    (pin open_collector inverted
-      (at 12.7 0 180)
-      (length 7.62)
-      (name "Y"
-        (effects
-          (font
-            (size 1.27 1.27))))
-      (number "4"
-        (effects
-          (font
-            (size 1.27 1.27)))))
-    (pin power_in line
-      (at -5.08 10.16 270)
-      (length 5.08)
-      (name "VCC"
-        (effects
-          (font
-            (size 1.27 1.27))))
-      (number "5"
-        (effects
-          (font
-            (size 1.27 1.27))))))
-  (embedded_fonts no)
-  (property "Reference" "U"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))))
-  (property "Value" "SN74LVC1G06DBVR"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))))
-  (property "Footprint" "common:SOT-23-5"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))
-      (hide yes)))
-  (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))
-      (hide yes)))
-  (property "Description" "Open-drain inverter; HIGH permit sinks active-low OE; Ioff at VCC=0"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))
-      (hide yes)))
-  (property "Manufacturer" "Texas Instruments"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))
-      (hide yes)))
-  (property "PartNumber" "SN74LVC1G06DBVR"
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))
-      (hide yes)))
-  (property "Cost" ""
-    (at 0 0 0)
-    (effects
-      (font
-        (size 1 1))
-      (hide yes))))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(in_pos_files yes)
+	(duplicate_pin_numbers_are_jumpers no)
+	(symbol "SN74LVC1G06DBVR_0_1"
+		(polyline
+			(pts
+				(xy -7.62 6.35)
+				(xy -7.62 -6.35)
+				(xy 5.08 0)
+				(xy -7.62 6.35)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+		(polyline
+			(pts
+				(xy -3.81 -1.27)
+				(xy -1.27 -1.27)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+		(polyline
+			(pts
+				(xy -2.54 1.27)
+				(xy -3.81 0)
+				(xy -2.54 -1.27)
+				(xy -1.27 0)
+				(xy -2.54 1.27)
+			)
+			(stroke (width 0.254) (type default))
+			(fill (type background))
+		)
+	)
+	(symbol "SN74LVC1G06DBVR_1_1"
+		(pin input line
+			(at -15.24 0 0)
+			(length 7.62)
+			(name "A"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -5.08 -10.16 90)
+			(length 5.08)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin open_collector inverted
+			(at 12.7 0 180)
+			(length 7.62)
+			(name "Y"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -5.08 10.16 270)
+			(length 5.08)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin no_connect line
+			(at -15.24 -7.62 0)
+			(hide yes)
+			(length 2.54)
+			(name "NC"
+				(effects (font (size 1 1)))
+			)
+			(number "1"
+				(effects (font (size 1 1)))
+			)
+		)
+	)
+	(embedded_fonts no)
+	(property "Reference" "U"
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+	)
+	(property "Value" "SN74LVC1G06DBVR"
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+	)
+	(property "Footprint" "common:SOT-23-5"
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf"
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "Description" "Single open-drain inverter with Ioff; DBV pins 1 NC, 2 A, 3 GND, 4 Y, 5 VCC."
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "PartNumber" ""
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+	(property "Cost" ""
+		(at 0 0 0)
+		(effects (font (size 1 1)))
+		(hide yes)
+	)
+)
 (symbol "SN74LVC244APWR"
   (exclude_from_sim no)
   (in_bom yes)

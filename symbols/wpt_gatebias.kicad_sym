@@ -2,488 +2,436 @@
   (version 20231120)
   (generator kicad_symbol_editor)
   (symbol "UCC14141QDWNRQ1_RevB"
-    (pin_names
-      (offset 1.016))
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "U"
-      (at -15.24 24.13 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (justify left)))
-    (property "Value" "UCC14141QDWNRQ1"
-      (at -15.24 -24.13 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (justify left)))
-    (property "Footprint" "wpt_gatebias:DWN0036A_TI_9.95mm"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc14141-q1.pdf"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Description" "TI SLUSF10B pin map: 34 FBVDD,35 VEEA; COM is external, not a package pin. Separate validated derivative; original unchanged."
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Manufacturer" "Texas Instruments"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "PartNumber" "UCC14141QDWNRQ1"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (property "Cost" ""
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27))
-        (hide yes)))
-    (symbol "UCC14141QDWNRQ1_RevB_0_1"
-      (rectangle
-        (start -15.24 22.86)
-        (end 15.24 -22.86)
-        (stroke
-          (width 0.254)
-          (type solid))
-        (fill
-          (type background))))
-    (symbol "UCC14141QDWNRQ1_RevB_1_1"
-      (pin power_in line
-        (at -17.78 20.32 0)
-        (length 2.54)
-        (name "VIN_POWER"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "7"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin power_in line
-        (at -17.78 17.78 0)
-        (length 2.54)
-        (name "VIN_ANA"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "6"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin input line
-        (at -17.78 12.7 0)
-        (length 2.54)
-        (name "ENA"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "4"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin open_collector line
-        (at -17.78 10.16 0)
-        (length 2.54)
-        (name "~{PG}"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "3"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin power_in line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "8"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "1"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "2"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "5"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "9"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "10"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "11"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "12"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "13"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "14"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "15"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "16"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "17"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at -17.78 -20.32 0)
-        (length 2.54)
-        (hide yes)
-        (name "GNDP"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "18"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin power_out line
-        (at 17.78 20.32 180)
-        (length 2.54)
-        (name "VDD"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "28"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VDD"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "29"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 12.7 180)
-        (length 2.54)
-        (name "RLIM"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "32"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin input line
-        (at 17.78 10.16 180)
-        (length 2.54)
-        (name "FBVEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "33"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin input line
-        (at 17.78 7.62 180)
-        (length 2.54)
-        (name "FBVDD"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "34"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin power_in line
-        (at 17.78 -7.62 180)
-        (length 2.54)
-        (name "VEEA"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "35"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin power_out line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "19"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "20"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "21"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "22"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "23"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "24"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "25"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "26"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "27"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "30"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "31"
-          (effects
-            (font
-              (size 1.27 1.27)))))
-      (pin passive line
-        (at 17.78 -20.32 180)
-        (length 2.54)
-        (hide yes)
-        (name "VEE"
-          (effects
-            (font
-              (size 1.27 1.27))))
-        (number "36"
-          (effects
-            (font
-              (size 1.27 1.27))))))
-    (embedded_fonts no)))
+	(pin_names (offset 0.508))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "U"
+		(at 0 15.24 0)
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Value" "UCC14141QDWNRQ1"
+		(at 0 -15.24 0)
+		(effects (font (size 1.016 1.016)))
+	)
+	(property "Footprint" "wpt_gatebias:DWN0036A_TI_9.95mm"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (hide yes))
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc14141-q1.pdf"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (hide yes))
+	)
+	(property "Description" "TI SLUSF10B pin map: 34 FBVDD,35 VEEA; COM is external, not a package pin. Separate validated derivative; original unchanged."
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (hide yes))
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (hide yes))
+	)
+	(property "PartNumber" ""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (hide yes))
+	)
+	(property "Cost" ""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (hide yes))
+	)
+	(symbol "UCC14141QDWNRQ1_RevB_0_1"
+		(rectangle
+			(start -10.16 12.7)
+			(end 10.16 -12.7)
+			(stroke (width 0.254) (type solid))
+			(fill (type background))
+		)
+	)
+	(symbol "UCC14141QDWNRQ1_RevB_1_1"
+		(pin power_in line
+			(at -12.7 10.16 0)
+			(length 2.54)
+			(name "VIN_POWER"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "7"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin power_in line
+			(at -12.7 7.62 0)
+			(length 2.54)
+			(name "VIN_ANA"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "6"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin input line
+			(at -12.7 2.54 0)
+			(length 2.54)
+			(name "ENA"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "4"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin open_collector line
+			(at -12.7 0 0)
+			(length 2.54)
+			(name "~{PG}"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "3"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin power_in line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "8"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "1"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "2"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "5"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "9"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "10"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "11"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "12"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "13"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "14"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "15"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "16"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "17"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(hide yes)
+			(name "GNDP"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "18"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin power_out line
+			(at 12.7 10.16 180)
+			(length 2.54)
+			(name "VDD"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "28"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VDD"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "29"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 5.08 180)
+			(length 2.54)
+			(name "RLIM"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "32"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin input line
+			(at 12.7 2.54 180)
+			(length 2.54)
+			(name "FBVEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "33"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin input line
+			(at 12.7 0 180)
+			(length 2.54)
+			(name "FBVDD"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "34"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin power_in line
+			(at 12.7 -5.08 180)
+			(length 2.54)
+			(name "VEEA"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "35"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin power_out line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "19"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "20"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "21"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "22"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "23"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "24"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "25"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "26"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "27"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "30"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "31"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(pin passive line
+			(at 12.7 -10.16 180)
+			(length 2.54)
+			(hide yes)
+			(name "VEE"
+				(effects (font (size 1.016 1.016)))
+			)
+			(number "36"
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+	)
+	(embedded_fonts no)
+))

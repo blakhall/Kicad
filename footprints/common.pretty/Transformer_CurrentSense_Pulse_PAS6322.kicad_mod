@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Pulse Electronics PAS6322 SMT Current Sense Transformer, 50A, 1:100, 12.8x20.5x7.0mm ER11.5, Gull-wing SMT")
+	(descr "Pulse PAS6322 P919.C (05/26) recommended land: inner gap15.9mm, row centres18.1mm; physical6pads, primary1/2, secondary6/5. 3D detached pending qualified model.")
 	(tags "Pulse Current Sense Transformer PAS6322 PAS6322.100NLT SMT SMD ER11")
 	(property "Reference" "REF**"
-		(at 0 -10.5 0)
+		(at 0 -11.5 0)
 		(layer "F.SilkS")
 		(uuid "f7481b01-a12b-4d43-8587-873b22b10001")
 		(effects
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.mouser.com/datasheet/2/336/PAS6322_XXXNLT-3112879.pdf"
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_P919"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "SMT Current Sense Transformer 1:100, 50A, 4.5mH, ER11.5 Surface Mount"
+	(property "Description" "Pulse PAS6322 P919.C (05/26) recommended land: inner gap15.9mm, row centres18.1mm; physical6pads, primary1/2, secondary6/5. 3D detached pending qualified model."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -63,7 +63,7 @@
 			)
 		)
 	)
-	(property "Part Number" "PAS6322.100NLT"
+	(property "PartNumber" "PAS6322.100NLT"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -147,8 +147,8 @@
 		(uuid "d0124a01-1001-4001-8001-000000000007")
 	)
 	(fp_circle
-		(center -5.0 7.95)
-		(end -4.7 7.95)
+		(center -5.0 9.3)
+		(end -4.7 9.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -220,8 +220,8 @@
 		)
 	)
 	(fp_line
-		(start -6.9 -9.6)
-		(end 6.9 -9.6)
+		(start -6.9 -10.9)
+		(end 6.9 -10.9)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -230,8 +230,8 @@
 		(uuid "d0124a01-1001-4001-8001-000000000015")
 	)
 	(fp_line
-		(start 6.9 -9.6)
-		(end 6.9 9.8)
+		(start 6.9 -10.9)
+		(end 6.9 10.9)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -240,8 +240,8 @@
 		(uuid "d0124a01-1001-4001-8001-000000000016")
 	)
 	(fp_line
-		(start 6.9 9.8)
-		(end -6.9 9.8)
+		(start 6.9 10.9)
+		(end -6.9 10.9)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -250,8 +250,8 @@
 		(uuid "d0124a01-1001-4001-8001-000000000017")
 	)
 	(fp_line
-		(start -6.9 9.8)
-		(end -6.9 -9.6)
+		(start -6.9 10.9)
+		(end -6.9 -10.9)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -260,51 +260,40 @@
 		(uuid "d0124a01-1001-4001-8001-000000000018")
 	)
 	(pad "1" smd rect
-		(at -2.75 7.95)
+		(at -2.75 9.3)
 		(size 3.5 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0124a01-1001-4001-8001-000000000021")
 	)
 	(pad "2" smd rect
-		(at 2.75 7.95)
+		(at 2.75 9.3)
 		(size 3.5 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0124a01-1001-4001-8001-000000000022")
 	)
 	(pad "6" smd rect
-		(at -3.75 -7.95)
+		(at -3.75 -8.8)
 		(size 1.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0124a01-1001-4001-8001-000000000026")
 	)
 	(pad "5" smd rect
-		(at -1.25 -7.95)
+		(at -1.25 -8.8)
 		(size 1.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0124a01-1001-4001-8001-000000000025")
 	)
 	(pad "4" smd rect
-		(at 1.25 -7.95)
+		(at 1.25 -8.8)
 		(size 1.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0124a01-1001-4001-8001-000000000024")
 	)
 	(pad "3" smd rect
-		(at 3.75 -7.95)
+		(at 3.75 -8.8)
 		(size 1.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0124a01-1001-4001-8001-000000000023")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_GITHUB}/3dmodels/common/Transformer_CurrentSense_Pulse_PAS6322.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
