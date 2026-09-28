@@ -1,0 +1,20 @@
+(footprint "DSP_F28P550_40x30_Envelope"
+  (version 20241229)
+  (generator "pcbnew")
+  (layer "F.Cu")
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (descr "40x30 DSP module envelope; J1/J2 centers at (0,-10.5)/(0,10.5); not a board cutout; no mounting holes defined")
+  (fp_rect
+    (start -20 -15)
+    (end 20 15)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill none)
+    (layer "Dwgs.User"))
+  (fp_text user "DSP 40x30 / NO BOARD CUTOUT"
+    (at 0 0)
+    (layer "Dwgs.User")
+    (effects
+      (font
+        (size 0.8 0.8)))))

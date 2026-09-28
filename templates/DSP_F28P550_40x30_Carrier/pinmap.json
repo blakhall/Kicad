@@ -1,0 +1,1146 @@
+[
+  {
+    "connector": "J1",
+    "pin": 1,
+    "signal": "+5V_IN",
+    "module_contact_local": [
+      -13.335,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -13.335,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 2,
+    "signal": "GND",
+    "module_contact_local": [
+      -13.335,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -13.335,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 3,
+    "signal": "+5V_IN",
+    "module_contact_local": [
+      -12.065,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -12.065,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 4,
+    "signal": "GND",
+    "module_contact_local": [
+      -12.065,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -12.065,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 5,
+    "signal": "ADC01",
+    "module_contact_local": [
+      -10.795,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -10.795,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 6,
+    "signal": "ADC02",
+    "module_contact_local": [
+      -10.795,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -10.795,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 7,
+    "signal": "ADC03",
+    "module_contact_local": [
+      -9.525,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -9.525,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 8,
+    "signal": "ADC04",
+    "module_contact_local": [
+      -9.525,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -9.525,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 9,
+    "signal": "GND",
+    "module_contact_local": [
+      -8.255,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -8.255,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 10,
+    "signal": "GND",
+    "module_contact_local": [
+      -8.255,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -8.255,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 11,
+    "signal": "ADC05",
+    "module_contact_local": [
+      -6.985,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -6.985,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 12,
+    "signal": "ADC06",
+    "module_contact_local": [
+      -6.985,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -6.985,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 13,
+    "signal": "ADC07",
+    "module_contact_local": [
+      -5.715,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -5.715,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 14,
+    "signal": "ADC08",
+    "module_contact_local": [
+      -5.715,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -5.715,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 15,
+    "signal": "GND",
+    "module_contact_local": [
+      -4.445,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -4.445,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 16,
+    "signal": "GND",
+    "module_contact_local": [
+      -4.445,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -4.445,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 17,
+    "signal": "ADC09",
+    "module_contact_local": [
+      -3.175,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -3.175,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 18,
+    "signal": "ADC10",
+    "module_contact_local": [
+      -3.175,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -3.175,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 19,
+    "signal": "ADC11",
+    "module_contact_local": [
+      -1.905,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -1.905,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 20,
+    "signal": "ADC12",
+    "module_contact_local": [
+      -1.905,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -1.905,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 21,
+    "signal": "SCI1_TX",
+    "module_contact_local": [
+      -0.635,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -0.635,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 22,
+    "signal": "SCI1_RX",
+    "module_contact_local": [
+      -0.635,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -0.635,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 23,
+    "signal": "SCI2_TX",
+    "module_contact_local": [
+      0.635,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      0.635,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 24,
+    "signal": "SCI2_RX",
+    "module_contact_local": [
+      0.635,
+      0.635
+    ],
+    "carrier_contact_local": [
+      0.635,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 25,
+    "signal": "SCI3_TX",
+    "module_contact_local": [
+      1.905,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      1.905,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 26,
+    "signal": "SCI3_RX",
+    "module_contact_local": [
+      1.905,
+      0.635
+    ],
+    "carrier_contact_local": [
+      1.905,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 27,
+    "signal": "CAN1_H",
+    "module_contact_local": [
+      3.175,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      3.175,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 28,
+    "signal": "CAN1_L",
+    "module_contact_local": [
+      3.175,
+      0.635
+    ],
+    "carrier_contact_local": [
+      3.175,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 29,
+    "signal": "CAN2_H",
+    "module_contact_local": [
+      4.445,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      4.445,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 30,
+    "signal": "CAN2_L",
+    "module_contact_local": [
+      4.445,
+      0.635
+    ],
+    "carrier_contact_local": [
+      4.445,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 31,
+    "signal": "COMM_READY",
+    "module_contact_local": [
+      5.715,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      5.715,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 32,
+    "signal": "NC",
+    "module_contact_local": [
+      5.715,
+      0.635
+    ],
+    "carrier_contact_local": [
+      5.715,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 33,
+    "signal": "+3V3_SENSE",
+    "module_contact_local": [
+      6.985,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      6.985,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 34,
+    "signal": "XRSn",
+    "module_contact_local": [
+      6.985,
+      0.635
+    ],
+    "carrier_contact_local": [
+      6.985,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 35,
+    "signal": "BOOT_GPIO24",
+    "module_contact_local": [
+      8.255,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      8.255,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 36,
+    "signal": "BOOT_GPIO32",
+    "module_contact_local": [
+      8.255,
+      0.635
+    ],
+    "carrier_contact_local": [
+      8.255,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 37,
+    "signal": "TCK",
+    "module_contact_local": [
+      9.525,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      9.525,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 38,
+    "signal": "TMS",
+    "module_contact_local": [
+      9.525,
+      0.635
+    ],
+    "carrier_contact_local": [
+      9.525,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 39,
+    "signal": "TDI",
+    "module_contact_local": [
+      10.795,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      10.795,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 40,
+    "signal": "TDO",
+    "module_contact_local": [
+      10.795,
+      0.635
+    ],
+    "carrier_contact_local": [
+      10.795,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 41,
+    "signal": "I2C_SDA",
+    "module_contact_local": [
+      12.065,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      12.065,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 42,
+    "signal": "I2C_SCL",
+    "module_contact_local": [
+      12.065,
+      0.635
+    ],
+    "carrier_contact_local": [
+      12.065,
+      0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 43,
+    "signal": "GND",
+    "module_contact_local": [
+      13.335,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      13.335,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J1",
+    "pin": 44,
+    "signal": "GND",
+    "module_contact_local": [
+      13.335,
+      0.635
+    ],
+    "carrier_contact_local": [
+      13.335,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 1,
+    "signal": "+5V_IN",
+    "module_contact_local": [
+      -13.335,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -13.335,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 2,
+    "signal": "GND",
+    "module_contact_local": [
+      -13.335,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -13.335,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 3,
+    "signal": "+5V_IN",
+    "module_contact_local": [
+      -12.065,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -12.065,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 4,
+    "signal": "GND",
+    "module_contact_local": [
+      -12.065,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -12.065,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 5,
+    "signal": "PWM1_H",
+    "module_contact_local": [
+      -10.795,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -10.795,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 6,
+    "signal": "PWM1_L",
+    "module_contact_local": [
+      -10.795,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -10.795,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 7,
+    "signal": "PWM2_H",
+    "module_contact_local": [
+      -9.525,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -9.525,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 8,
+    "signal": "PWM2_L",
+    "module_contact_local": [
+      -9.525,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -9.525,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 9,
+    "signal": "PWM3_H",
+    "module_contact_local": [
+      -8.255,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -8.255,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 10,
+    "signal": "PWM3_L",
+    "module_contact_local": [
+      -8.255,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -8.255,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 11,
+    "signal": "GND",
+    "module_contact_local": [
+      -6.985,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -6.985,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 12,
+    "signal": "GND",
+    "module_contact_local": [
+      -6.985,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -6.985,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 13,
+    "signal": "PWM4_H",
+    "module_contact_local": [
+      -5.715,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -5.715,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 14,
+    "signal": "PWM4_L",
+    "module_contact_local": [
+      -5.715,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -5.715,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 15,
+    "signal": "PWM5_H",
+    "module_contact_local": [
+      -4.445,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -4.445,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 16,
+    "signal": "PWM5_L",
+    "module_contact_local": [
+      -4.445,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -4.445,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 17,
+    "signal": "PWM6_H",
+    "module_contact_local": [
+      -3.175,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -3.175,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 18,
+    "signal": "PWM6_L",
+    "module_contact_local": [
+      -3.175,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -3.175,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 19,
+    "signal": "PWR_STAGE_EN",
+    "module_contact_local": [
+      -1.905,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -1.905,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 20,
+    "signal": "FAULTn",
+    "module_contact_local": [
+      -1.905,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -1.905,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 21,
+    "signal": "PWM_MODE0",
+    "module_contact_local": [
+      -0.635,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      -0.635,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 22,
+    "signal": "PWM_MODE1",
+    "module_contact_local": [
+      -0.635,
+      0.635
+    ],
+    "carrier_contact_local": [
+      -0.635,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 23,
+    "signal": "DI1",
+    "module_contact_local": [
+      0.635,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      0.635,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 24,
+    "signal": "DI2",
+    "module_contact_local": [
+      0.635,
+      0.635
+    ],
+    "carrier_contact_local": [
+      0.635,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 25,
+    "signal": "DI3",
+    "module_contact_local": [
+      1.905,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      1.905,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 26,
+    "signal": "DI4",
+    "module_contact_local": [
+      1.905,
+      0.635
+    ],
+    "carrier_contact_local": [
+      1.905,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 27,
+    "signal": "NC",
+    "module_contact_local": [
+      3.175,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      3.175,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 28,
+    "signal": "NC",
+    "module_contact_local": [
+      3.175,
+      0.635
+    ],
+    "carrier_contact_local": [
+      3.175,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 29,
+    "signal": "NC",
+    "module_contact_local": [
+      4.445,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      4.445,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 30,
+    "signal": "NC",
+    "module_contact_local": [
+      4.445,
+      0.635
+    ],
+    "carrier_contact_local": [
+      4.445,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 31,
+    "signal": "DO1",
+    "module_contact_local": [
+      5.715,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      5.715,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 32,
+    "signal": "DO2",
+    "module_contact_local": [
+      5.715,
+      0.635
+    ],
+    "carrier_contact_local": [
+      5.715,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 33,
+    "signal": "DO3",
+    "module_contact_local": [
+      6.985,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      6.985,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 34,
+    "signal": "DO4",
+    "module_contact_local": [
+      6.985,
+      0.635
+    ],
+    "carrier_contact_local": [
+      6.985,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 35,
+    "signal": "NC",
+    "module_contact_local": [
+      8.255,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      8.255,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 36,
+    "signal": "NC",
+    "module_contact_local": [
+      8.255,
+      0.635
+    ],
+    "carrier_contact_local": [
+      8.255,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 37,
+    "signal": "NC",
+    "module_contact_local": [
+      9.525,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      9.525,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 38,
+    "signal": "NC",
+    "module_contact_local": [
+      9.525,
+      0.635
+    ],
+    "carrier_contact_local": [
+      9.525,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 39,
+    "signal": "GND",
+    "module_contact_local": [
+      10.795,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      10.795,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 40,
+    "signal": "GND",
+    "module_contact_local": [
+      10.795,
+      0.635
+    ],
+    "carrier_contact_local": [
+      10.795,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 41,
+    "signal": "SPI_EXT_MOSI",
+    "module_contact_local": [
+      12.065,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      12.065,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 42,
+    "signal": "SPI_EXT_MISO",
+    "module_contact_local": [
+      12.065,
+      0.635
+    ],
+    "carrier_contact_local": [
+      12.065,
+      0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 43,
+    "signal": "SPI_EXT_SCK",
+    "module_contact_local": [
+      13.335,
+      -0.635
+    ],
+    "carrier_contact_local": [
+      13.335,
+      -0.635
+    ]
+  },
+  {
+    "connector": "J2",
+    "pin": 44,
+    "signal": "SPI_EXT_CSn",
+    "module_contact_local": [
+      13.335,
+      0.635
+    ],
+    "carrier_contact_local": [
+      13.335,
+      0.635
+    ]
+  }
+]

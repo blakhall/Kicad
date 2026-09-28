@@ -1,0 +1,14 @@
+(fp_lib_table
+  (version 7)
+  (lib
+    (name "dsp_connectors")
+    (type "KiCad")
+    (uri "${KICAD_GITHUB}/footprints/dsp_connectors.pretty")
+    (options "")
+    (descr "DSP module carrier interface"))
+  (lib
+    (name "module_interfaces")
+    (type "KiCad")
+    (uri "${KICAD_GITHUB}/footprints/module_interfaces.pretty")
+    (options "")
+    (descr "DSP module carrier interface")))

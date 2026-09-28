@@ -1,0 +1,30 @@
+{
+  "published": {
+    "D:\\huni\\data\\github\\Kicad\\symbols\\module_interfaces.kicad_sym": "f09a9e5f117c7b2d15504c3cf9e85548f52c082dcf8dcd26b8d743806f3d3fd1",
+    "D:\\huni\\data\\github\\Kicad\\footprints\\module_interfaces.pretty\\DSP_F28P550_40x30_Envelope.kicad_mod": "570f309dcfe6d5a8522f9a0777a4ad309e2f39043e092f79e7c12cd383b2f448",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\bom.json": "1f56521da83158419eb3207faf7c861cc9e9558adfe3073d7bf61c58f4b4c534",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\DSP_F28P550_40x30_Carrier.kicad_pcb": "04d790f84305a840cc51cad71b4e4e9342e3bdee9c806de2893c295c256ea8d5",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\DSP_F28P550_40x30_Carrier.kicad_pro": "113aeae60017b00f4c49014c2704f7157c8322f462ef09795d644aea0d14e67c",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\DSP_F28P550_40x30_Carrier.kicad_sch": "08275ee5ddb941bf9eed815ae4359d96779264850c841e8702511373ef28f15a",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\fp-lib-table": "b55b1e2b0a5f11747e25cb5b58ba3c6dcc81271da113f698977897a36caa865e",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\pinmap.csv": "74fc442563dc30afb2e52ba1fb15d8782c7162cb35eb15704d121f73c155ba62",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\pinmap.json": "bda4dee9e5cae6c4183364fd31ecbb7334e396954b37be8f71efc65ffc67ab0e",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\README.md": "0cc2ddc1ad883d3e27ba56d79174c0b0f73810b9abc3edf12c74a740dcc0104b",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\sym-lib-table": "dc6d1bb5550ff7393ec102463299d8744dd77eb2768b8879d815a89c989df648",
+    "D:\\huni\\data\\github\\Kicad\\templates\\DSP_F28P550_40x30_Carrier\\meta\\info.html": "f60387778a0e015baa183f1f3a3b64143cf666eb96558aa4dce37d859ebf1564"
+  },
+  "global_tables": {
+    "C:\\Users\\owner\\AppData\\Roaming\\kicad\\10.0\\sym-lib-table": "8b3174b53b25df1a4ef4edce965040e92a9c6dd534c8661e26ce8880f30f08d4",
+    "C:\\Users\\owner\\AppData\\Roaming\\kicad\\10.0\\fp-lib-table": "0df7dd2991871b4bef0610ef465aeb5e0e8f2979b9d52c78ee59c425613eeec3"
+  },
+  "pin_mapping_checks": 88,
+  "symbol_pin_pad_checks": 88,
+  "required_fields_checks": 16,
+  "native_ERC_errors": 0,
+  "native_ERC_warnings": {
+    "isolated_pin_label": 61
+  },
+  "warning_explanation": "Unattached template signal labels connect only to their socket pin; complete host circuitry when integrating.",
+  "cost": "unknown / blank",
+  "model": "Existing drawing-derived nominal CLP envelope; top and angled native renders reviewed."
+}

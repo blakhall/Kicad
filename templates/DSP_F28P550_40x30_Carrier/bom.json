@@ -1,0 +1,18 @@
+{
+  "source": "schematic instances",
+  "items": [
+    {
+      "References": [
+        "J1",
+        "J2"
+      ],
+      "Quantity": 2,
+      "Manufacturer": "Samtec",
+      "PartNumber": "CLP-122-02-L-D",
+      "Value": "CLP-122-02-L-D",
+      "Footprint": "dsp_connectors:CLP-122-02-L-D",
+      "Cost": null
+    }
+  ],
+  "excluded": "DSP module envelope is mechanical only; DSP module assembly is procured separately."
+}
